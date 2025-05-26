@@ -37,5 +37,5 @@ function generate_wrappers(sourceDir, destDir, originalPrefix)
         fclose(fid);
     end
 
-    disp(strcat('Generated ', num2str(length(mFiles)), ' wrappers.'));
+    fprintf('Generated %i wrappers.\n', length(mFiles));
 end

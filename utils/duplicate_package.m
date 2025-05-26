@@ -20,5 +20,5 @@ function duplicate_package(sourceDir, destDir, originalPrefix)
         end
     end
 
-    disp(strcat('Copied ', num2str(length(packageDirs)), ' packages to ', destDir));
+    fprintf('Copied %i packages to %s.\n', length(packageDirs), destDir);
 end
