@@ -13,10 +13,12 @@ function signature = extract_function_signature(filepath)
         if startsWith(line, 'function')
             % Remove ... line continuations and merge lines
             sig = line;
-            while i < length(lines) && endsWith(strtrim(lines{i}), '...')
+            while i < length(lines) && (endsWith(strtrim(lines{i}), '...') || endsWith(strtrim(lines{i}), '....'))
                 i = i + 1;
                 nextLine = strtrim(lines{i});
-                sig = [sig(1:end-3) ' ' nextLine];
+                % Remove all trailing dots and spaces
+                sig = regexprep(sig, '[.\s]+$', '');
+                sig = [sig ' ' nextLine];
             end
 
             % Clean up the signature
