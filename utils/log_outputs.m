@@ -7,7 +7,7 @@ function log_outputs(funcName, outputs)
         return;
     end
     loggedFunctions(funcName) = true;
-    
+   
     filename = fullfile('data/outputs', [funcName '.mat']);
-    save(filename, 'outputs');
+    save(filename, '-struct', 'outputs');
 end

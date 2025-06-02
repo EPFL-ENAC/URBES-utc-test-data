@@ -1,15 +1,18 @@
 %FUNCTION_SIGNATURE%
 % Wrapper for logging I/O to %ORIGINAL_FUNC%
-    persistent loggedFunctions
-    if isempty(loggedFunctions)
-        loggedFunctions = containers.Map();
+    w = whos;
+    inputs = struct();
+    for a = 1:length(w)
+        inputs.(w(a).name) = eval(w(a).name);
     end
-    if isKey(loggedFunctions, '%FUNC_NAME%')
-        return;
-    end
-    loggedFunctions('%FUNC_NAME%') = true;
+    log_inputs('%FUNC_NAME%', inputs);
 
-    save('data/inputs/%FUNC_NAME%');
-    %OUTPUTS% = %FUNC_CALL%;
-    save('data/outputs/%FUNC_NAME%');
+    %FUNC_CALL%;
+    
+    w = whos;
+    outputs = struct();
+    for a = 1:length(w)
+        outputs.(w(a).name) = eval(w(a).name);
+    end
+    log_outputs('%FUNC_NAME%', outputs);
 end

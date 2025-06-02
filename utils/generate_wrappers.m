@@ -18,6 +18,16 @@ function generate_wrappers(sourceDir, destDir, originalPrefix)
             continue;
         end
 
+        % Parse signature parts
+        parts = split(sig, '=');
+        outputs = regexprep(string(parts(1)), 'function', '');
+        equality = '=';
+        if strcmp(outputs, '[]')
+            outputs = '';
+            equality = '';
+        end
+        inputs = string(regexp(sig, "(?<=\().*(?=\))", 'match'));
+
         % Extract relative path
         relPath = erase(fullPath, [sourceDir, filesep]);
 
@@ -37,19 +47,16 @@ function generate_wrappers(sourceDir, destDir, originalPrefix)
         end
         wrapperPath = fullfile(wrapperPkgPath, [funcName, '.m']);
 
-        % Parse signature parts
-        parts = split(sig, '=');
-        outputs = regexprep(string(parts(1)), 'function', '');
-        fn = string(parts(2));
-        fn = strcat([originalPrefix, pkgNames{1}], '.', strtrim(fn));
+        fqCall = sprintf('%s %s %s(%s)', outputs, equality, fqOriginalFunc, regexprep(inputs, 'varargin(?!\{)', 'varargin{:}'));
+        signature = sprintf('function %s %s %s(%s)', outputs, equality, funcName, inputs);
 
         % Create wrapper content from template
         content = template;
-        content = strrep(content, '%FUNCTION_SIGNATURE%', sig);
+        content = strrep(content, '%FUNCTION_SIGNATURE%', signature);
         content = strrep(content, '%ORIGINAL_FUNC%', fqOriginalFunc);
         content = strrep(content, '%FUNC_NAME%', fqFuncName);
-        content = strrep(content, '%OUTPUTS%', outputs);
-        content = strrep(content, '%FUNC_CALL%', fn);
+        content = strrep(content, '%FUNC_CALL%', fqCall);
+        content = strrep(content, '%INPUTS%', inputs);
 
         % Write wrapper
         fid = fopen(wrapperPath, 'w');

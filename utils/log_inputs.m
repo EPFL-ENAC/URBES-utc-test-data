@@ -9,5 +9,5 @@ function log_inputs(funcName, inputs)
     loggedFunctions(funcName) = true;
 
     filename = fullfile('data/inputs', [funcName '.mat']);
-    save(filename, 'inputs');
+    save(filename, '-struct', 'inputs');
 end
