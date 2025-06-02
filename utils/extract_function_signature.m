@@ -1,4 +1,17 @@
 function signature = extract_function_signature(filepath)
+    % EXTRACT_FUNCTION_SIGNATURE Extract function signature from a MATLAB file
+    %   signature = extract_function_signature(filepath) extracts the complete
+    %   function signature from a MATLAB file, including multi-line signatures
+    %   with line continuations.
+    %
+    %   Inputs:
+    %       filepath - String containing the path to the MATLAB file
+    %
+    %   Outputs:
+    %       signature - String containing the complete function signature,
+    %                  or empty string if no function declaration is found
+    %
+
     % Read file content
     lines = readlines(filepath);
 

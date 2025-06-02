@@ -1,4 +1,19 @@
 function generate_wrappers(sourceDir, destDir, originalPrefix, excluded_functions)
+% GENERATE_WRAPPERS Generates wrapper functions for a MATLAB package
+%
+% Inputs:
+%   sourceDir         - Source directory containing the original MATLAB package files
+%   destDir          - Destination directory for generated wrapper files
+%   originalPrefix   - Prefix to be added to the original package name
+%   excluded_functions - Optional cell array of function names to exclude (default: {})
+%
+% This function:
+% 1. Finds all .m files in the source directory
+% 2. Extracts function signatures from each file
+% 3. Creates wrapper functions that redirect to the original functions
+% 4. Maintains package structure (+pkg folders)
+% 5. Adds tracing capabilities through the wrapper template
+
     if nargin < 4
         excluded_functions = {};
     end
