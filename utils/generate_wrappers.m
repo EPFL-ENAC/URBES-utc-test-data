@@ -1,4 +1,8 @@
-function generate_wrappers(sourceDir, destDir, originalPrefix)
+function generate_wrappers(sourceDir, destDir, originalPrefix, excluded_functions)
+    if nargin < 4
+        excluded_functions = {};
+    end
+
     % Find all .m files in original simulation package dirs
     mFiles = dir(fullfile(sourceDir, '**', '+*/**/*.m'));
 
@@ -7,9 +11,15 @@ function generate_wrappers(sourceDir, destDir, originalPrefix)
     template = fileread(templatePath);
 
     for k = 1:length(mFiles)
-        fullPath = fullfile(mFiles(k).folder, mFiles(k).name);
         [~, funcName, ext] = fileparts(mFiles(k).name);
         if ~strcmp(ext, '.m'), continue; end
+
+        % Skip excluded functions
+        if ismember(funcName, excluded_functions)
+            continue;
+        end
+
+        fullPath = fullfile(mFiles(k).folder, mFiles(k).name);
 
         % Extract function signature
         sig = extract_function_signature(fullPath);
