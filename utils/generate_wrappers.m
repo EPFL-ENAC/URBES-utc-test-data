@@ -1,14 +1,15 @@
-function generate_wrappers(sourceDir, destDir, originalPrefix, excluded_functions)
-% GENERATE_WRAPPERS Generates wrapper functions for a MATLAB package
+function generate_wrappers(sourceDir, destDir, originalPrefix, excluded_functions, main_functions)
+% GENERATE_WRAPPERS Generates wrapper functions for a MATLAB package and main functions
 %
 % Inputs:
 %   sourceDir         - Source directory containing the original MATLAB package files
 %   destDir          - Destination directory for generated wrapper files
 %   originalPrefix   - Prefix to be added to the original package name
 %   excluded_functions - Optional cell array of function names to exclude (default: {})
+%   main_functions    - Optional cell array of main folder function names to wrap (default: {})
 %
 % This function:
-% 1. Finds all .m files in the source directory
+% 1. Finds all .m files in the source directory (both in packages and main folder)
 % 2. Extracts function signatures from each file
 % 3. Creates wrapper functions that redirect to the original functions
 % 4. Maintains package structure (+pkg folders)
@@ -17,9 +18,24 @@ function generate_wrappers(sourceDir, destDir, originalPrefix, excluded_function
     if nargin < 4
         excluded_functions = {};
     end
+    if nargin < 5
+        main_functions = {};
+    end
 
     % Find all .m files in original simulation package dirs
-    mFiles = dir(fullfile(sourceDir, '**', '+*/**/*.m'));
+    pkgFiles = dir(fullfile(sourceDir, '**', '+*/**/*.m'));
+    
+    % Find specified main folder functions
+    mainFiles = struct('folder', {}, 'name', {}, 'date', {}, 'bytes', {}, 'isdir', {}, 'datenum', {});
+    for i = 1:length(main_functions)
+        file = dir(fullfile(sourceDir, [main_functions{i}, '.m']));
+        if ~isempty(file)
+            mainFiles(end+1,1) = file(1);
+        end
+    end
+    
+    % Combine both sets of files
+    mFiles = [pkgFiles; mainFiles];
 
     % Load template
     templatePath = fullfile(fileparts(mfilename('fullpath')), 'wrapper_template.m');
@@ -58,19 +74,25 @@ function generate_wrappers(sourceDir, destDir, originalPrefix, excluded_function
 
         % Get package folder chain (+a/+b/+c)
         pkgFolders = regexp(relPath, '([+][^\\/]*)', 'match');
-        if isempty(pkgFolders), continue; end
+        
+        if isempty(pkgFolders)
+            % Handle main folder function
+            fqFuncName = funcName;
+            fqOriginalFunc = [originalPrefix, funcName];
+            wrapperPath = fullfile(destDir, [funcName, '.m']);
+        else
+            % Handle package function
+            pkgNames = erase(pkgFolders, '+');
+            fqFuncName = strjoin([pkgNames, {funcName}], '.');
+            fqOriginalFunc = strjoin([{[originalPrefix, pkgNames{1}]}, pkgNames(2:end), {funcName}], '.');
 
-        % Original and wrapper package names
-        pkgNames = erase(pkgFolders, '+');
-        fqFuncName = strjoin([pkgNames, {funcName}], '.');
-        fqOriginalFunc = strjoin([{[originalPrefix, pkgNames{1}]}, pkgNames(2:end), {funcName}], '.');
-
-        % Build wrapper file path under traced/
-        wrapperPkgPath = fullfile(destDir, fullfile(pkgFolders{:}));
-        if ~exist(wrapperPkgPath, 'dir')
-            mkdir(wrapperPkgPath);
+            % Build wrapper file path under traced/
+            wrapperPkgPath = fullfile(destDir, fullfile(pkgFolders{:}));
+            if ~exist(wrapperPkgPath, 'dir')
+                mkdir(wrapperPkgPath);
+            end
+            wrapperPath = fullfile(wrapperPkgPath, [funcName, '.m']);
         end
-        wrapperPath = fullfile(wrapperPkgPath, [funcName, '.m']);
 
         fqCall = sprintf('%s %s %s(%s)', outputs, equality, fqOriginalFunc, regexprep(inputs, 'varargin(?!\{)', 'varargin{:}'));
         signature = sprintf('function %s %s %s(%s)', outputs, equality, funcName, inputs);
