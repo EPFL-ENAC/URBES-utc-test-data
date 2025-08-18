@@ -27,8 +27,8 @@
     "Height_tree": 4.711,
     "Radius_tree": 0.289,
     "Distance_tree": 0.78899999999999992,
-    "Hcan_max": null,
-    "Hcan_std": null
+    "Hcan_max": "NaN",
+    "Hcan_std": "NaN"
   },
   "Int_ittm": {
     "IntRoofImp": 0,
@@ -57,7 +57,7 @@
     "Catm_O2": 210000,
     "Rain": 0,
     "Time": "01-Jan-2010 01:00:00",
-    "SunDSM_MRT": null
+    "SunDSM_MRT": "NaN"
   },
   "Owater_ittm": {
     "OwRoofSoilVeg": [
@@ -166,7 +166,7 @@
     "Kfc": 0.2,
     "Phy": 10000,
     "SPAR": 2,
-    "Kbot": null,
+    "Kbot": "NaN",
     "Pcla": 0.2,
     "Psan": 0.4,
     "Porg": 0.025
@@ -183,8 +183,8 @@
     "d_leaf": 0.8,
     "CASE_ROOT": 1,
     "ZR95": 250,
-    "ZR50": null,
-    "ZRmax": null,
+    "ZR50": "NaN",
+    "ZRmax": "NaN",
     "Rrootl": 3800,
     "PsiL50": -4,
     "PsiX50": -4.5,
@@ -195,7 +195,7 @@
     "CT": 3,
     "DSE": 0.656,
     "Ha": 55,
-    "gmes": null,
+    "gmes": "Inf",
     "rjv": 2.4,
     "Kopt": 0.5,
     "Knit": 0.15,
@@ -213,8 +213,8 @@
     "d_leaf": 4,
     "CASE_ROOT": 1,
     "ZR95": 1000,
-    "ZR50": null,
-    "ZRmax": null,
+    "ZR50": "NaN",
+    "ZRmax": "NaN",
     "Rrootl": 4000,
     "PsiL50": -3,
     "PsiX50": -4.5,
@@ -225,7 +225,7 @@
     "CT": 3,
     "DSE": 0.649,
     "Ha": 76,
-    "gmes": null,
+    "gmes": "Inf",
     "rjv": 2.4,
     "Kopt": 0.5,
     "Knit": 0.35,

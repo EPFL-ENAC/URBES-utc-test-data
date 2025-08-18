@@ -14,8 +14,8 @@
     "Height_tree": 4.711,
     "Radius_tree": 0.289,
     "Distance_tree": 0.78899999999999992,
-    "Hcan_max": null,
-    "Hcan_std": null
+    "Hcan_max": "NaN",
+    "Hcan_std": "NaN"
   },
   "Hwshade": 0,
   "Hwshade1": 0,
@@ -42,7 +42,7 @@
     "Catm_O2": 210000,
     "Rain": 0,
     "Time": "01-Jan-2010 01:00:00",
-    "SunDSM_MRT": null
+    "SunDSM_MRT": "NaN"
   },
   "ParTree": {
     "trees": 1,
@@ -56,8 +56,8 @@
     "d_leaf": 0.8,
     "CASE_ROOT": 1,
     "ZR95": 250,
-    "ZR50": null,
-    "ZRmax": null,
+    "ZR50": "NaN",
+    "ZRmax": "NaN",
     "Rrootl": 3800,
     "PsiL50": -4,
     "PsiX50": -4.5,
@@ -68,7 +68,7 @@
     "CT": 3,
     "DSE": 0.656,
     "Ha": 55,
-    "gmes": null,
+    "gmes": "Inf",
     "rjv": 2.4,
     "Kopt": 0.5,
     "Knit": 0.15,
@@ -86,8 +86,8 @@
     "d_leaf": 4,
     "CASE_ROOT": 1,
     "ZR95": 1000,
-    "ZR50": null,
-    "ZRmax": null,
+    "ZR50": "NaN",
+    "ZRmax": "NaN",
     "Rrootl": 4000,
     "PsiL50": -3,
     "PsiX50": -4.5,
@@ -98,7 +98,7 @@
     "CT": 3,
     "DSE": 0.649,
     "Ha": 76,
-    "gmes": null,
+    "gmes": "Inf",
     "rjv": 2.4,
     "Kopt": 0.5,
     "Knit": 0.35,
@@ -143,8 +143,8 @@
       "Height_tree": 4.711,
       "Radius_tree": 0.289,
       "Distance_tree": 0.78899999999999992,
-      "Hcan_max": null,
-      "Hcan_std": null
+      "Hcan_max": "NaN",
+      "Hcan_std": "NaN"
     },
     "MeteoData": {
       "SW_dir": 0,
@@ -162,7 +162,7 @@
       "Catm_O2": 210000,
       "Rain": 0,
       "Time": "01-Jan-2010 01:00:00",
-      "SunDSM_MRT": null
+      "SunDSM_MRT": "NaN"
     },
     "ParTree": {
       "trees": 1,
@@ -176,8 +176,8 @@
       "d_leaf": 0.8,
       "CASE_ROOT": 1,
       "ZR95": 250,
-      "ZR50": null,
-      "ZRmax": null,
+      "ZR50": "NaN",
+      "ZRmax": "NaN",
       "Rrootl": 3800,
       "PsiL50": -4,
       "PsiX50": -4.5,
@@ -188,7 +188,7 @@
       "CT": 3,
       "DSE": 0.656,
       "Ha": 55,
-      "gmes": null,
+      "gmes": "Inf",
       "rjv": 2.4,
       "Kopt": 0.5,
       "Knit": 0.15,
@@ -206,8 +206,8 @@
       "d_leaf": 4,
       "CASE_ROOT": 1,
       "ZR95": 1000,
-      "ZR50": null,
-      "ZRmax": null,
+      "ZR50": "NaN",
+      "ZRmax": "NaN",
       "Rrootl": 4000,
       "PsiL50": -3,
       "PsiX50": -4.5,
@@ -218,7 +218,7 @@
       "CT": 3,
       "DSE": 0.649,
       "Ha": 76,
-      "gmes": null,
+      "gmes": "Inf",
       "rjv": 2.4,
       "Kopt": 0.5,
       "Knit": 0.35,
@@ -248,534 +248,5 @@
   "rap_Zp1_In": 142.58152858987296,
   "rap_Zp2": 1188.0920789318297,
   "rap_Zp2_In": 0.67434282922408784,
-  "rho_atm": 1.1893660307070875,
-  "w": [
-    {
-      "name": "Ewshade",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_wall",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Ewsun",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_wall",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "FractionsGround",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 704,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_wall",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Gemeotry_m",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1408,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_wall",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Hwshade",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_wall",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Hwshade1",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_wall",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Hwshade2",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_wall",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Hwsun",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_wall",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Hwsun1",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_wall",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Hwsun2",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_wall",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "LEwshade",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_wall",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "LEwsun",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_wall",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "L_heat",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_wall",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "MeteoData",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 2816,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_wall",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParTree",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 352,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_wall",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParVegGround",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 5280,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_wall",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParVegTree",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 5104,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_wall",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "RES_w1",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_wall",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "RES_w2",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_wall",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "TemperatureC",
-      "size": [
-        1,
-        10
-      ],
-      "bytes": 80,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_wall",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Zp1",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_wall",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Zp2",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_wall",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "a",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_wall",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "cp_atm",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_wall",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "inputs",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 16920,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_wall",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "rap_Zp1",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_wall",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "rap_Zp1_In",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_wall",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "rap_Zp2",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_wall",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "rap_Zp2_In",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_wall",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "rho_atm",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_wall",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "w",
-      "size": [
-        7,
-        1
-      ],
-      "bytes": 10148,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_wall",
-        "level": 1
-      },
-      "persistent": false
-    }
-  ]
+  "rho_atm": 1.1893660307070875
 }

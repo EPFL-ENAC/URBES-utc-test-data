@@ -6,8 +6,8 @@
     "Height_tree": 4.711,
     "Radius_tree": 0.289,
     "Distance_tree": 0.78899999999999992,
-    "Hcan_max": null,
-    "Hcan_std": null
+    "Hcan_max": "NaN",
+    "Hcan_std": "NaN"
   },
   "ParTree": {
     "trees": 1,
@@ -30,8 +30,8 @@
       "Height_tree": 4.711,
       "Radius_tree": 0.289,
       "Distance_tree": 0.78899999999999992,
-      "Hcan_max": null,
-      "Hcan_std": null
+      "Hcan_max": "NaN",
+      "Hcan_std": "NaN"
     },
     "ParTree": {
       "trees": 1,
@@ -45,126 +45,5 @@
       "HeightWind": 1.1
     },
     "Zatm": 25
-  },
-  "w": [
-    {
-      "name": "Gemeotry_m",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1408,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "GeometryCheck",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParTree",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 352,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "GeometryCheck",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Person",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 880,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "GeometryCheck",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Zatm",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "GeometryCheck",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "a",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "GeometryCheck",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "inputs",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 3320,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "GeometryCheck",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "w",
-      "size": [
-        4,
-        1
-      ],
-      "bytes": 6014,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "GeometryCheck",
-        "level": 1
-      },
-      "persistent": false
-    }
-  ]
+  }
 }

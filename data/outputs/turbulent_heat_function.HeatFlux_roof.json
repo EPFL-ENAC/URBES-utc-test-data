@@ -159,8 +159,8 @@
     "Height_tree": 4.711,
     "Radius_tree": 0.289,
     "Distance_tree": 0.78899999999999992,
-    "Hcan_max": null,
-    "Hcan_std": null
+    "Hcan_max": "NaN",
+    "Hcan_std": "NaN"
   },
   "Hroof_imp": 0,
   "Hroof_veg": 0,
@@ -204,7 +204,7 @@
     "Catm_O2": 210000,
     "Rain": 0,
     "Time": "01-Jan-2010 01:00:00",
-    "SunDSM_MRT": null
+    "SunDSM_MRT": "NaN"
   },
   "Owater_ittm": {
     "OwRoofSoilVeg": [
@@ -302,7 +302,7 @@
     "Kfc": 0.2,
     "Phy": 10000,
     "SPAR": 2,
-    "Kbot": null,
+    "Kbot": "NaN",
     "Pcla": 0.2,
     "Psan": 0.4,
     "Porg": 0.025
@@ -315,8 +315,8 @@
     "d_leaf": 0.8,
     "CASE_ROOT": 1,
     "ZR95": 70,
-    "ZR50": null,
-    "ZRmax": null,
+    "ZR50": "NaN",
+    "ZRmax": "NaN",
     "Rrootl": 3800,
     "PsiL50": -4,
     "PsiX50": -4.5,
@@ -327,7 +327,7 @@
     "CT": 3,
     "DSE": 0.656,
     "Ha": 55,
-    "gmes": null,
+    "gmes": "Inf",
     "rjv": 2.4,
     "Kopt": 0.5,
     "Knit": 0.15,
@@ -602,8 +602,8 @@
       "Height_tree": 4.711,
       "Radius_tree": 0.289,
       "Distance_tree": 0.78899999999999992,
-      "Hcan_max": null,
-      "Hcan_std": null
+      "Hcan_max": "NaN",
+      "Hcan_std": "NaN"
     },
     "HumidityAtm": {
       "AtmRelative": 0.946,
@@ -640,7 +640,7 @@
       "Catm_O2": 210000,
       "Rain": 0,
       "Time": "01-Jan-2010 01:00:00",
-      "SunDSM_MRT": null
+      "SunDSM_MRT": "NaN"
     },
     "Owater_ittm": {
       "OwRoofSoilVeg": [
@@ -738,7 +738,7 @@
       "Kfc": 0.2,
       "Phy": 10000,
       "SPAR": 2,
-      "Kbot": null,
+      "Kbot": "NaN",
       "Pcla": 0.2,
       "Psan": 0.4,
       "Porg": 0.025
@@ -751,8 +751,8 @@
       "d_leaf": 0.8,
       "CASE_ROOT": 1,
       "ZR95": 70,
-      "ZR50": null,
-      "ZRmax": null,
+      "ZR50": "NaN",
+      "ZRmax": "NaN",
       "Rrootl": 3800,
       "PsiL50": -4,
       "PsiX50": -4.5,
@@ -763,7 +763,7 @@
       "CT": 3,
       "DSE": 0.656,
       "Ha": 55,
-      "gmes": null,
+      "gmes": "Inf",
       "rjv": 2.4,
       "Kopt": 0.5,
       "Knit": 0.15,
@@ -899,721 +899,5 @@
     "Ci_shd": 423.38147582594638
   },
   "rs_shd": 2512.8935830039468,
-  "rs_sun": 2512.8935830039468,
-  "w": [
-    {
-      "name": "CiCO2Leaf_ittm",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1056,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_roof",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Ci_shd_roof",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_roof",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Ci_sun_roof",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_roof",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Eroof_ground",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_roof",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Eroof_imp",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_roof",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Eroof_soil",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_roof",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Eroof_veg",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_roof",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ExWater_ittm",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 2576,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_roof",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "FractionsRoof",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 528,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_roof",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Gemeotry_m",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1408,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_roof",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Hroof_imp",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_roof",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Hroof_veg",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_roof",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "HumidityAtm",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1056,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_roof",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Int_ittm",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1584,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_roof",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "LEroof_ground",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_roof",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "LEroof_imp",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_roof",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "LEroof_soil",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_roof",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "LEroof_veg",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_roof",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "LTEroof_veg",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_roof",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "MeteoData",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 2816,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_roof",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Owater_ittm",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1288,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_roof",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParCalculation",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 880,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_roof",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParSoilRoof",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 3200,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_roof",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParVegRoof",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 5280,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_roof",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "RESPreCalc",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_roof",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "SWRabs_diff",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_roof",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "SWRabs_dir",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_roof",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "SoilPotW_ittm",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1760,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_roof",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "TEroof_veg",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_roof",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "TempVec_ittm",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 2640,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_roof",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "TemperatureR",
-      "size": [
-        1,
-        4
-      ],
-      "bytes": 32,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_roof",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Vwater_ittm",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1288,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_roof",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "a",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_roof",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "inputs",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 31312,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_roof",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "r_soil",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_roof",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ra",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_roof",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "rap_L",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_roof",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "rb",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_roof",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "rsRoofPreCalc",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 704,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_roof",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "rs_shd",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_roof",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "rs_sun",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_roof",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "w",
-      "size": [
-        19,
-        1
-      ],
-      "bytes": 26580,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "HeatFlux_roof",
-        "level": 1
-      },
-      "persistent": false
-    }
-  ]
+  "rs_sun": 2512.8935830039468
 }

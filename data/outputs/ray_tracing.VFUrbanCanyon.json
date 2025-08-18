@@ -6,8 +6,8 @@
     "Height_tree": 4.711,
     "Radius_tree": 0.289,
     "Distance_tree": 0.78899999999999992,
-    "Hcan_max": null,
-    "Hcan_std": null
+    "Hcan_max": "NaN",
+    "Hcan_std": "NaN"
   },
   "Name_Ray": "ZH",
   "OPTION_RAY": 1,
@@ -72,8 +72,8 @@
       "Height_tree": 4.711,
       "Radius_tree": 0.289,
       "Distance_tree": 0.78899999999999992,
-      "Hcan_max": null,
-      "Hcan_std": null
+      "Hcan_max": "NaN",
+      "Hcan_std": "NaN"
     },
     "Name_Ray": "ZH",
     "OPTION_RAY": 1,
@@ -99,194 +99,5 @@
       "wcanyon_norm": 0.54995242626070406,
       "wroof_norm": 0.45004757373929588
     }
-  },
-  "w": [
-    {
-      "name": "Gemeotry_m",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1408,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "VFUrbanCanyon",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Name_Ray",
-      "size": [
-        1,
-        2
-      ],
-      "bytes": 4,
-      "class": "char",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "VFUrbanCanyon",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "OPTION_RAY",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "VFUrbanCanyon",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParTree",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 352,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "VFUrbanCanyon",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Person",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 880,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "VFUrbanCanyon",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ViewFactor",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 3696,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "VFUrbanCanyon",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ViewFactorPoint",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 880,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "VFUrbanCanyon",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "a",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "VFUrbanCanyon",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "geometry",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1584,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "VFUrbanCanyon",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "inputs",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 5244,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "VFUrbanCanyon",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "w",
-      "size": [
-        6,
-        1
-      ],
-      "bytes": 8746,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "VFUrbanCanyon",
-        "level": 1
-      },
-      "persistent": false
-    }
-  ]
+  }
 }

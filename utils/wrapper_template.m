@@ -9,6 +9,7 @@
 
     %FUNC_CALL%;
     
+    clear w
     w = whos;
     outputs = struct();
     for a = 1:length(w)

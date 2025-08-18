@@ -6,8 +6,8 @@
     "d_leaf": 4,
     "CASE_ROOT": 1,
     "ZR95": 1000,
-    "ZR50": null,
-    "ZRmax": null,
+    "ZR50": "NaN",
+    "ZRmax": "NaN",
     "Rrootl": 4000,
     "PsiL50": -3,
     "PsiX50": -4.5,
@@ -18,7 +18,7 @@
     "CT": 3,
     "DSE": 0.649,
     "Ha": 76,
-    "gmes": null,
+    "gmes": "Inf",
     "rjv": 2.4,
     "Kopt": 0.5,
     "Knit": 0.35,
@@ -41,15 +41,15 @@
   "h_can": 1.1245674740484428,
   "h_tree": "NaN",
   "inputs": {
-    "LAIt": null,
+    "LAIt": "NaN",
     "ParVegTree": {
       "LAI": 5,
       "SAI": 0.2,
       "d_leaf": 4,
       "CASE_ROOT": 1,
       "ZR95": 1000,
-      "ZR50": null,
-      "ZRmax": null,
+      "ZR50": "NaN",
+      "ZRmax": "NaN",
       "Rrootl": 4000,
       "PsiL50": -3,
       "PsiX50": -4.5,
@@ -60,7 +60,7 @@
       "CT": 3,
       "DSE": 0.649,
       "Ha": 76,
-      "gmes": null,
+      "gmes": "Inf",
       "rjv": 2.4,
       "Kopt": 0.5,
       "Knit": 0.35,
@@ -74,10 +74,10 @@
       "SPARTREE": 2
     },
     "SWR_dir": 0,
-    "d_tree": null,
+    "d_tree": "NaN",
     "h_can": 1.1245674740484428,
-    "h_tree": null,
-    "r_tree": null,
+    "h_tree": "NaN",
+    "r_tree": "NaN",
     "theta_Z": 1.5707963267948966,
     "theta_n": -2.8205538881820811,
     "trees": 0,
@@ -87,313 +87,5 @@
   "theta_Z": 1.5707963267948966,
   "theta_n": -2.8205538881820811,
   "trees": 0,
-  "w": [
-    {
-      "name": "LAIt",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "DirectSWRSurfaces",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParVegTree",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 5104,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "DirectSWRSurfaces",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "SWR_dir",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "DirectSWRSurfaces",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "SWRdir_g",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "DirectSWRSurfaces",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "SWRdir_t",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "DirectSWRSurfaces",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "SWRdir_wshd",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "DirectSWRSurfaces",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "SWRdir_wsun",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "DirectSWRSurfaces",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "a",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "DirectSWRSurfaces",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "d_tree",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "DirectSWRSurfaces",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "h_can",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "DirectSWRSurfaces",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "h_tree",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "DirectSWRSurfaces",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "inputs",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 7032,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "DirectSWRSurfaces",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "r_tree",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "DirectSWRSurfaces",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "theta_Z",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "DirectSWRSurfaces",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "theta_n",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "DirectSWRSurfaces",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "trees",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "DirectSWRSurfaces",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "w",
-      "size": [
-        11,
-        1
-      ],
-      "bytes": 15606,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "DirectSWRSurfaces",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "w_can",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "DirectSWRSurfaces",
-        "level": 1
-      },
-      "persistent": false
-    }
-  ],
   "w_can": 1
 }

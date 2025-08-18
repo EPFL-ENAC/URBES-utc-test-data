@@ -23,8 +23,8 @@
     "Height_tree": 4.711,
     "Radius_tree": 0.289,
     "Distance_tree": 0.78899999999999992,
-    "Hcan_max": null,
-    "Hcan_std": null
+    "Hcan_max": "NaN",
+    "Hcan_std": "NaN"
   },
   "HVACSchedule": {
     "Hequip": 0,
@@ -97,7 +97,7 @@
     "Catm_O2": 210000,
     "Rain": 0,
     "Time": "01-Jan-2010 01:00:00",
-    "SunDSM_MRT": null
+    "SunDSM_MRT": "NaN"
   },
   "ParACHeat": {
     "AC_on": 0,
@@ -118,7 +118,7 @@
     "TsetpointCooling": 298.15,
     "TsetpointHeating": 293.15,
     "RHsetpointCooling": 60,
-    "RHsetpointHeating": null,
+    "RHsetpointHeating": "NaN",
     "ACH": 0.5,
     "COPAC": 3.26,
     "COPHeat": 0.9,
@@ -144,7 +144,7 @@
     "WindowsOn": 1,
     "GlazingRatio": 0.15,
     "Uvalue": 4.95,
-    "lan_windows": null,
+    "lan_windows": "NaN",
     "cv_glass": 2.1E+6,
     "dztot": 0.02,
     "SHGC": 0.8,
@@ -279,8 +279,8 @@
       "Height_tree": 4.711,
       "Radius_tree": 0.289,
       "Distance_tree": 0.78899999999999992,
-      "Hcan_max": null,
-      "Hcan_std": null
+      "Hcan_max": "NaN",
+      "Hcan_std": "NaN"
     },
     "HVACSchedule": {
       "Hequip": 0,
@@ -320,7 +320,7 @@
       "Catm_O2": 210000,
       "Rain": 0,
       "Time": "01-Jan-2010 01:00:00",
-      "SunDSM_MRT": null
+      "SunDSM_MRT": "NaN"
     },
     "ParCalculation": {
       "dts": 3600,
@@ -335,7 +335,7 @@
       "TsetpointCooling": 298.15,
       "TsetpointHeating": 293.15,
       "RHsetpointCooling": 60,
-      "RHsetpointHeating": null,
+      "RHsetpointHeating": "NaN",
       "ACH": 0.5,
       "COPAC": 3.26,
       "COPHeat": 0.9,
@@ -361,7 +361,7 @@
       "WindowsOn": 1,
       "GlazingRatio": 0.15,
       "Uvalue": 4.95,
-      "lan_windows": null,
+      "lan_windows": "NaN",
       "cv_glass": 2.1E+6,
       "dztot": 0.02,
       "SHGC": 0.8,
@@ -455,602 +455,5 @@
       277.77406051949447,
       0.0050221687631773317
     ]
-  },
-  "w": [
-    {
-      "name": "BEM_on",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_BuildingOUTPUT",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "EnergyUse",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 704,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_BuildingOUTPUT",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "G2Roof",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_BuildingOUTPUT",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "G2WallShade",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_BuildingOUTPUT",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "G2WallSun",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_BuildingOUTPUT",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "GbuildInt",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 880,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_BuildingOUTPUT",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Gemeotry_m",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1408,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_BuildingOUTPUT",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "HVACSchedule",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 880,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_BuildingOUTPUT",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "HbuildInt",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1936,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_BuildingOUTPUT",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "HumidityBuilding",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 704,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_BuildingOUTPUT",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Humidity_ittm",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 2288,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_BuildingOUTPUT",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "LEbuildInt",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 880,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_BuildingOUTPUT",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "LWRabsB",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 880,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_BuildingOUTPUT",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "MeteoData",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 2816,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_BuildingOUTPUT",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParACHeat",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 704,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_BuildingOUTPUT",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParCalculation",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 880,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_BuildingOUTPUT",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParHVAC",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 2464,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_BuildingOUTPUT",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParThermalBulidingInt",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1760,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_BuildingOUTPUT",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParWindows",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1760,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_BuildingOUTPUT",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "PropOpticalIndoors",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1408,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_BuildingOUTPUT",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "SWRabsB",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 880,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_BuildingOUTPUT",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "SWRabs_t",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 2816,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_BuildingOUTPUT",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "SWRinWshd",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_BuildingOUTPUT",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "SWRinWsun",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_BuildingOUTPUT",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Tdpfloor",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_BuildingOUTPUT",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "TempDamp_ittm",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 880,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_BuildingOUTPUT",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "TempVecB_ittm",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1408,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_BuildingOUTPUT",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "TempVec_ittm",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 2640,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_BuildingOUTPUT",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "TemperatureB",
-      "size": [
-        1,
-        8
-      ],
-      "bytes": 64,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_BuildingOUTPUT",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "TemperatureC",
-      "size": [
-        1,
-        10
-      ],
-      "bytes": 80,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_BuildingOUTPUT",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "WasteHeat",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1408,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_BuildingOUTPUT",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "YBuildInt",
-      "size": [
-        1,
-        8
-      ],
-      "bytes": 64,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_BuildingOUTPUT",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "a",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_BuildingOUTPUT",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "inputs",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 27128,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_BuildingOUTPUT",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "w",
-      "size": [
-        21,
-        1
-      ],
-      "bytes": 29730,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_BuildingOUTPUT",
-        "level": 1
-      },
-      "persistent": false
-    }
-  ]
+  }
 }

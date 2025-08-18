@@ -49,7 +49,7 @@
     "Catm_O2": 210000,
     "Rain": 0,
     "Time": "01-Jan-2010 01:00:00",
-    "SunDSM_MRT": null
+    "SunDSM_MRT": "NaN"
   },
   "ParTree": {
     "trees": 1,
@@ -63,8 +63,8 @@
     "d_leaf": 0.8,
     "CASE_ROOT": 1,
     "ZR95": 250,
-    "ZR50": null,
-    "ZRmax": null,
+    "ZR50": "NaN",
+    "ZRmax": "NaN",
     "Rrootl": 3800,
     "PsiL50": -4,
     "PsiX50": -4.5,
@@ -75,7 +75,7 @@
     "CT": 3,
     "DSE": 0.656,
     "Ha": 55,
-    "gmes": null,
+    "gmes": "Inf",
     "rjv": 2.4,
     "Kopt": 0.5,
     "Knit": 0.15,
@@ -93,8 +93,8 @@
     "d_leaf": 4,
     "CASE_ROOT": 1,
     "ZR95": 1000,
-    "ZR50": null,
-    "ZRmax": null,
+    "ZR50": "NaN",
+    "ZRmax": "NaN",
     "Rrootl": 4000,
     "PsiL50": -3,
     "PsiX50": -4.5,
@@ -105,7 +105,7 @@
     "CT": 3,
     "DSE": 0.649,
     "Ha": 76,
-    "gmes": null,
+    "gmes": "Inf",
     "rjv": 2.4,
     "Kopt": 0.5,
     "Knit": 0.35,
@@ -122,7 +122,7 @@
     "WindowsOn": 1,
     "GlazingRatio": 0.15,
     "Uvalue": 4.95,
-    "lan_windows": null,
+    "lan_windows": "NaN",
     "cv_glass": 2.1E+6,
     "dztot": 0.02,
     "SHGC": 0.8,
@@ -275,7 +275,7 @@
       "Catm_O2": 210000,
       "Rain": 0,
       "Time": "01-Jan-2010 01:00:00",
-      "SunDSM_MRT": null
+      "SunDSM_MRT": "NaN"
     },
     "ParTree": {
       "trees": 1,
@@ -289,8 +289,8 @@
       "d_leaf": 0.8,
       "CASE_ROOT": 1,
       "ZR95": 250,
-      "ZR50": null,
-      "ZRmax": null,
+      "ZR50": "NaN",
+      "ZRmax": "NaN",
       "Rrootl": 3800,
       "PsiL50": -4,
       "PsiX50": -4.5,
@@ -301,7 +301,7 @@
       "CT": 3,
       "DSE": 0.656,
       "Ha": 55,
-      "gmes": null,
+      "gmes": "Inf",
       "rjv": 2.4,
       "Kopt": 0.5,
       "Knit": 0.15,
@@ -319,8 +319,8 @@
       "d_leaf": 4,
       "CASE_ROOT": 1,
       "ZR95": 1000,
-      "ZR50": null,
-      "ZRmax": null,
+      "ZR50": "NaN",
+      "ZRmax": "NaN",
       "Rrootl": 4000,
       "PsiL50": -3,
       "PsiX50": -4.5,
@@ -331,7 +331,7 @@
       "CT": 3,
       "DSE": 0.649,
       "Ha": 76,
-      "gmes": null,
+      "gmes": "Inf",
       "rjv": 2.4,
       "Kopt": 0.5,
       "Knit": 0.35,
@@ -348,7 +348,7 @@
       "WindowsOn": 1,
       "GlazingRatio": 0.15,
       "Uvalue": 4.95,
-      "lan_windows": null,
+      "lan_windows": "NaN",
       "cv_glass": 2.1E+6,
       "dztot": 0.02,
       "SHGC": 0.8,
@@ -465,551 +465,5 @@
   "rs_shd_H": 2512.8935830039468,
   "rs_shd_L": 2512.8935830039468,
   "rs_sun_H": 2512.8935830039468,
-  "rs_sun_L": 2512.8935830039468,
-  "w": [
-    {
-      "name": "BEM_on",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "PrecalculateStomatalResistanceGroundTree",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "CiCO2Leaf_ittm",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1056,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "PrecalculateStomatalResistanceGroundTree",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Ci_shd_H",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "PrecalculateStomatalResistanceGroundTree",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Ci_shd_L",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "PrecalculateStomatalResistanceGroundTree",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Ci_sun_H",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "PrecalculateStomatalResistanceGroundTree",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Ci_sun_L",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "PrecalculateStomatalResistanceGroundTree",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "FractionsGround",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 704,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "PrecalculateStomatalResistanceGroundTree",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Humidity_ittm",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 2288,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "PrecalculateStomatalResistanceGroundTree",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "MeteoData",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 2816,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "PrecalculateStomatalResistanceGroundTree",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParTree",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 352,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "PrecalculateStomatalResistanceGroundTree",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParVegGround",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 5280,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "PrecalculateStomatalResistanceGroundTree",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParVegTree",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 5104,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "PrecalculateStomatalResistanceGroundTree",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParWindows",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1760,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "PrecalculateStomatalResistanceGroundTree",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "PropOpticalGround",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1408,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "PrecalculateStomatalResistanceGroundTree",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "PropOpticalTree",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 352,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "PrecalculateStomatalResistanceGroundTree",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "PropOpticalWall",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 352,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "PrecalculateStomatalResistanceGroundTree",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "SoilPotW_ittm",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1760,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "PrecalculateStomatalResistanceGroundTree",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "SunPosition",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1272,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "PrecalculateStomatalResistanceGroundTree",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "TempVec_ittm",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 2640,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "PrecalculateStomatalResistanceGroundTree",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ViewFactor",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 3696,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "PrecalculateStomatalResistanceGroundTree",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "a",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "PrecalculateStomatalResistanceGroundTree",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "geometry",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1584,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "PrecalculateStomatalResistanceGroundTree",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "inputs",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 35992,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "PrecalculateStomatalResistanceGroundTree",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "rap_Htree_In",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "PrecalculateStomatalResistanceGroundTree",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "rap_can",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "PrecalculateStomatalResistanceGroundTree",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "rb_H",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "PrecalculateStomatalResistanceGroundTree",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "rb_L",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "PrecalculateStomatalResistanceGroundTree",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "rs_shd_H",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "PrecalculateStomatalResistanceGroundTree",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "rs_shd_L",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "PrecalculateStomatalResistanceGroundTree",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "rs_sun_H",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "PrecalculateStomatalResistanceGroundTree",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "rs_sun_L",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "PrecalculateStomatalResistanceGroundTree",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "w",
-      "size": [
-        21,
-        1
-      ],
-      "bytes": 30424,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "PrecalculateStomatalResistanceGroundTree",
-        "level": 1
-      },
-      "persistent": false
-    }
-  ]
+  "rs_sun_L": 2512.8935830039468
 }

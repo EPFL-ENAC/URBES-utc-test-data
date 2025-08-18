@@ -22,7 +22,7 @@
     "Catm_O2": 210000,
     "Rain": 0,
     "Time": "01-Jan-2010 01:00:00",
-    "SunDSM_MRT": null
+    "SunDSM_MRT": "NaN"
   },
   "ParTree": {
     "trees": 1,
@@ -34,8 +34,8 @@
     "d_leaf": 4,
     "CASE_ROOT": 1,
     "ZR95": 1000,
-    "ZR50": null,
-    "ZRmax": null,
+    "ZR50": "NaN",
+    "ZRmax": "NaN",
     "Rrootl": 4000,
     "PsiL50": -3,
     "PsiX50": -4.5,
@@ -46,7 +46,7 @@
     "CT": 3,
     "DSE": 0.649,
     "Ha": 76,
-    "gmes": null,
+    "gmes": "Inf",
     "rjv": 2.4,
     "Kopt": 0.5,
     "Knit": 0.35,
@@ -63,7 +63,7 @@
     "WindowsOn": 1,
     "GlazingRatio": 0.15,
     "Uvalue": 4.95,
-    "lan_windows": null,
+    "lan_windows": "NaN",
     "cv_glass": 2.1E+6,
     "dztot": 0.02,
     "SHGC": 0.8,
@@ -225,7 +225,7 @@
       "Catm_O2": 210000,
       "Rain": 0,
       "Time": "01-Jan-2010 01:00:00",
-      "SunDSM_MRT": null
+      "SunDSM_MRT": "NaN"
     },
     "ParTree": {
       "trees": 1,
@@ -237,8 +237,8 @@
       "d_leaf": 4,
       "CASE_ROOT": 1,
       "ZR95": 1000,
-      "ZR50": null,
-      "ZRmax": null,
+      "ZR50": "NaN",
+      "ZRmax": "NaN",
       "Rrootl": 4000,
       "PsiL50": -3,
       "PsiX50": -4.5,
@@ -249,7 +249,7 @@
       "CT": 3,
       "DSE": 0.649,
       "Ha": 76,
-      "gmes": null,
+      "gmes": "Inf",
       "rjv": 2.4,
       "Kopt": 0.5,
       "Knit": 0.35,
@@ -266,7 +266,7 @@
       "WindowsOn": 1,
       "GlazingRatio": 0.15,
       "Uvalue": 4.95,
-      "lan_windows": null,
+      "lan_windows": "NaN",
       "cv_glass": 2.1E+6,
       "dztot": 0.02,
       "SHGC": 0.8,
@@ -342,381 +342,5 @@
       "wcanyon_norm": 0.54995242626070406,
       "wroof_norm": 0.45004757373929588
     }
-  },
-  "w": [
-    {
-      "name": "BEM_on",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "TotalSWRabsorbed",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "FractionsGround",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 704,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "TotalSWRabsorbed",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "MeteoData",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 2816,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "TotalSWRabsorbed",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParTree",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 352,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "TotalSWRabsorbed",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParVegTree",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 5104,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "TotalSWRabsorbed",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParWindows",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1760,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "TotalSWRabsorbed",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "PropOpticalGround",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1408,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "TotalSWRabsorbed",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "PropOpticalTree",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 352,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "TotalSWRabsorbed",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "PropOpticalWall",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 352,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "TotalSWRabsorbed",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "SWREB_t",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1408,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "TotalSWRabsorbed",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "SWRabsDiff_t",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1408,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "TotalSWRabsorbed",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "SWRabsDir_t",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1408,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "TotalSWRabsorbed",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "SWRabs_t",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1408,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "TotalSWRabsorbed",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "SWRin_t",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1408,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "TotalSWRabsorbed",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "SWRout_t",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1408,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "TotalSWRabsorbed",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "SunPosition",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1272,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "TotalSWRabsorbed",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ViewFactor",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 3696,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "TotalSWRabsorbed",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "a",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "TotalSWRabsorbed",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "albedo_canyon",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "TotalSWRabsorbed",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "geometry",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1584,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "TotalSWRabsorbed",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "inputs",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 21424,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "TotalSWRabsorbed",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "w",
-      "size": [
-        12,
-        1
-      ],
-      "bytes": 17066,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "TotalSWRabsorbed",
-        "level": 1
-      },
-      "persistent": false
-    }
-  ]
+  }
 }

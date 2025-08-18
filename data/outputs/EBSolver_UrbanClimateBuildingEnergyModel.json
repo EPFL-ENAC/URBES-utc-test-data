@@ -168,8 +168,8 @@
     "Height_tree": 4.711,
     "Radius_tree": 0.289,
     "Distance_tree": 0.78899999999999992,
-    "Hcan_max": null,
-    "Hcan_std": null
+    "Hcan_max": "NaN",
+    "Hcan_std": "NaN"
   },
   "HVACSchedule": {
     "Hequip": 0,
@@ -228,7 +228,7 @@
     "Catm_O2": 210000,
     "Rain": 0,
     "Time": "01-Jan-2010 01:00:00",
-    "SunDSM_MRT": null
+    "SunDSM_MRT": "NaN"
   },
   "Owater_ittm": {
     "OwRoofSoilVeg": [
@@ -311,7 +311,7 @@
     "TsetpointCooling": 298.15,
     "TsetpointHeating": 293.15,
     "RHsetpointCooling": 60,
-    "RHsetpointHeating": null,
+    "RHsetpointHeating": "NaN",
     "ACH": 0.5,
     "COPAC": 3.26,
     "COPHeat": 0.9,
@@ -353,7 +353,7 @@
     "Kfc": 0.2,
     "Phy": 10000,
     "SPAR": 2,
-    "Kbot": null,
+    "Kbot": "NaN",
     "Pcla": 0.2,
     "Psan": 0.4,
     "Porg": 0.025
@@ -379,7 +379,7 @@
     "Kfc": 0.2,
     "Phy": 10000,
     "SPAR": 2,
-    "Kbot": null,
+    "Kbot": "NaN",
     "Pcla": 0.2,
     "Psan": 0.4,
     "Porg": 0.025
@@ -420,8 +420,8 @@
     "d_leaf": 0.8,
     "CASE_ROOT": 1,
     "ZR95": 250,
-    "ZR50": null,
-    "ZRmax": null,
+    "ZR50": "NaN",
+    "ZRmax": "NaN",
     "Rrootl": 3800,
     "PsiL50": -4,
     "PsiX50": -4.5,
@@ -432,7 +432,7 @@
     "CT": 3,
     "DSE": 0.656,
     "Ha": 55,
-    "gmes": null,
+    "gmes": "Inf",
     "rjv": 2.4,
     "Kopt": 0.5,
     "Knit": 0.15,
@@ -452,8 +452,8 @@
     "d_leaf": 0.8,
     "CASE_ROOT": 1,
     "ZR95": 70,
-    "ZR50": null,
-    "ZRmax": null,
+    "ZR50": "NaN",
+    "ZRmax": "NaN",
     "Rrootl": 3800,
     "PsiL50": -4,
     "PsiX50": -4.5,
@@ -464,7 +464,7 @@
     "CT": 3,
     "DSE": 0.656,
     "Ha": 55,
-    "gmes": null,
+    "gmes": "Inf",
     "rjv": 2.4,
     "Kopt": 0.5,
     "Knit": 0.15,
@@ -482,8 +482,8 @@
     "d_leaf": 4,
     "CASE_ROOT": 1,
     "ZR95": 1000,
-    "ZR50": null,
-    "ZRmax": null,
+    "ZR50": "NaN",
+    "ZRmax": "NaN",
     "Rrootl": 4000,
     "PsiL50": -3,
     "PsiX50": -4.5,
@@ -494,7 +494,7 @@
     "CT": 3,
     "DSE": 0.649,
     "Ha": 76,
-    "gmes": null,
+    "gmes": "Inf",
     "rjv": 2.4,
     "Kopt": 0.5,
     "Knit": 0.35,
@@ -511,7 +511,7 @@
     "WindowsOn": 1,
     "GlazingRatio": 0.15,
     "Uvalue": 4.95,
-    "lan_windows": null,
+    "lan_windows": "NaN",
     "cv_glass": 2.1E+6,
     "dztot": 0.02,
     "SHGC": 0.8,
@@ -945,8 +945,8 @@
       "Height_tree": 4.711,
       "Radius_tree": 0.289,
       "Distance_tree": 0.78899999999999992,
-      "Hcan_max": null,
-      "Hcan_std": null
+      "Hcan_max": "NaN",
+      "Hcan_std": "NaN"
     },
     "HVACSchedule": {
       "Hequip": 0,
@@ -1005,7 +1005,7 @@
       "Catm_O2": 210000,
       "Rain": 0,
       "Time": "01-Jan-2010 01:00:00",
-      "SunDSM_MRT": null
+      "SunDSM_MRT": "NaN"
     },
     "Owater_ittm": {
       "OwRoofSoilVeg": [
@@ -1088,7 +1088,7 @@
       "TsetpointCooling": 298.15,
       "TsetpointHeating": 293.15,
       "RHsetpointCooling": 60,
-      "RHsetpointHeating": null,
+      "RHsetpointHeating": "NaN",
       "ACH": 0.5,
       "COPAC": 3.26,
       "COPHeat": 0.9,
@@ -1130,7 +1130,7 @@
       "Kfc": 0.2,
       "Phy": 10000,
       "SPAR": 2,
-      "Kbot": null,
+      "Kbot": "NaN",
       "Pcla": 0.2,
       "Psan": 0.4,
       "Porg": 0.025
@@ -1156,7 +1156,7 @@
       "Kfc": 0.2,
       "Phy": 10000,
       "SPAR": 2,
-      "Kbot": null,
+      "Kbot": "NaN",
       "Pcla": 0.2,
       "Psan": 0.4,
       "Porg": 0.025
@@ -1197,8 +1197,8 @@
       "d_leaf": 0.8,
       "CASE_ROOT": 1,
       "ZR95": 250,
-      "ZR50": null,
-      "ZRmax": null,
+      "ZR50": "NaN",
+      "ZRmax": "NaN",
       "Rrootl": 3800,
       "PsiL50": -4,
       "PsiX50": -4.5,
@@ -1209,7 +1209,7 @@
       "CT": 3,
       "DSE": 0.656,
       "Ha": 55,
-      "gmes": null,
+      "gmes": "Inf",
       "rjv": 2.4,
       "Kopt": 0.5,
       "Knit": 0.15,
@@ -1229,8 +1229,8 @@
       "d_leaf": 0.8,
       "CASE_ROOT": 1,
       "ZR95": 70,
-      "ZR50": null,
-      "ZRmax": null,
+      "ZR50": "NaN",
+      "ZRmax": "NaN",
       "Rrootl": 3800,
       "PsiL50": -4,
       "PsiX50": -4.5,
@@ -1241,7 +1241,7 @@
       "CT": 3,
       "DSE": 0.656,
       "Ha": 55,
-      "gmes": null,
+      "gmes": "Inf",
       "rjv": 2.4,
       "Kopt": 0.5,
       "Knit": 0.15,
@@ -1259,8 +1259,8 @@
       "d_leaf": 4,
       "CASE_ROOT": 1,
       "ZR95": 1000,
-      "ZR50": null,
-      "ZRmax": null,
+      "ZR50": "NaN",
+      "ZRmax": "NaN",
       "Rrootl": 4000,
       "PsiL50": -3,
       "PsiX50": -4.5,
@@ -1271,7 +1271,7 @@
       "CT": 3,
       "DSE": 0.649,
       "Ha": 76,
-      "gmes": null,
+      "gmes": "Inf",
       "rjv": 2.4,
       "Kopt": 0.5,
       "Knit": 0.35,
@@ -1288,7 +1288,7 @@
       "WindowsOn": 1,
       "GlazingRatio": 0.15,
       "Uvalue": 4.95,
-      "lan_windows": null,
+      "lan_windows": "NaN",
       "cv_glass": 2.1E+6,
       "dztot": 0.02,
       "SHGC": 0.8,
@@ -1563,891 +1563,5 @@
     "rs_shd_H": 2512.8935830039468,
     "Ci_sun_H": 418.11342870364638,
     "Ci_shd_H": 410.88326228281915
-  },
-  "w": [
-    {
-      "name": "Anthropogenic",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1056,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "BEM_on",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "CiCO2Leaf_ittm",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1056,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ExWater_ittm",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 2576,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "FractionsGround",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 704,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "FractionsRoof",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 528,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Gemeotry_m",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1408,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "HVACSchedule",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 880,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "HumidityAtm",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1056,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Humidity_ittm",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 2288,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Int_ittm",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1584,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "MeteoData",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 2816,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Owater_ittm",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1288,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParCalculation",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 880,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParHVAC",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 2464,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParInterceptionTree",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 176,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParSoilGround",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 3096,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParSoilRoof",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 3200,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParThermalBulidFloor",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1760,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParThermalGround",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 352,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParThermalRoof",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 352,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParThermalWall",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 352,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParTree",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 352,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParVegGround",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 5280,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParVegRoof",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 5280,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParVegTree",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 5104,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParWindows",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1760,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "PropOpticalGround",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1408,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "PropOpticalIndoors",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1408,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "PropOpticalRoof",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1056,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "PropOpticalTree",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 352,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "PropOpticalWall",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 352,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "RESPreCalc",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "SoilPotW_ittm",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1760,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "SunPosition",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1272,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "TempDamp_ittm",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 880,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "TempVecB_ittm",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1408,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "TempVec_ittm",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 2640,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "TemperatureTot",
-      "size": [
-        1,
-        22
-      ],
-      "bytes": 176,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ViewFactor",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 3696,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Vwater_ittm",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1288,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "WallLayers",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 352,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Ytot",
-      "size": [
-        1,
-        22
-      ],
-      "bytes": 176,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "a",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "fconv",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "fconvPreCalc",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "geometry",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1584,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "inputs",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 77488,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "rsGroundPreCalc",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 704,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "rsRoofPreCalc",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 704,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "rsTreePreCalc",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 704,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "w",
-      "size": [
-        48,
-        1
-      ],
-      "bytes": 68950,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "EBSolver_UrbanClimateBuildingEnergyModel",
-        "level": 1
-      },
-      "persistent": false
-    }
-  ]
+  }
 }

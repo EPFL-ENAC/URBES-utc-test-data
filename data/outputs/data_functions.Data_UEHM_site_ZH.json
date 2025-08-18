@@ -18,8 +18,8 @@
     "Height_tree": 4.711,
     "Radius_tree": 0.289,
     "Distance_tree": 0.78899999999999992,
-    "Hcan_max": null,
-    "Hcan_std": null
+    "Hcan_max": "NaN",
+    "Hcan_std": "NaN"
   },
   "MeteoData": {
     "SW_dir": 0,
@@ -37,7 +37,7 @@
     "Catm_O2": 210000,
     "Rain": 0,
     "Time": "01-Jan-2010 01:00:00",
-    "SunDSM_MRT": null
+    "SunDSM_MRT": "NaN"
   },
   "ParHVAC": {
     "ACon": 1,
@@ -45,7 +45,7 @@
     "TsetpointCooling": 298.15,
     "TsetpointHeating": 293.15,
     "RHsetpointCooling": 60,
-    "RHsetpointHeating": null,
+    "RHsetpointHeating": "NaN",
     "ACH": 0.5,
     "COPAC": 3.26,
     "COPHeat": 0.9,
@@ -83,7 +83,7 @@
     "Kfc": 0.2,
     "Phy": 10000,
     "SPAR": 2,
-    "Kbot": null,
+    "Kbot": "NaN",
     "Pcla": 0.2,
     "Psan": 0.4,
     "Porg": 0.025
@@ -109,7 +109,7 @@
     "Kfc": 0.2,
     "Phy": 10000,
     "SPAR": 2,
-    "Kbot": null,
+    "Kbot": "NaN",
     "Pcla": 0.2,
     "Psan": 0.4,
     "Porg": 0.025
@@ -153,8 +153,8 @@
     "d_leaf": 0.8,
     "CASE_ROOT": 1,
     "ZR95": 250,
-    "ZR50": null,
-    "ZRmax": null,
+    "ZR50": "NaN",
+    "ZRmax": "NaN",
     "Rrootl": 3800,
     "PsiL50": -4,
     "PsiX50": -4.5,
@@ -165,7 +165,7 @@
     "CT": 3,
     "DSE": 0.656,
     "Ha": 55,
-    "gmes": null,
+    "gmes": "Inf",
     "rjv": 2.4,
     "Kopt": 0.5,
     "Knit": 0.15,
@@ -185,8 +185,8 @@
     "d_leaf": 0.8,
     "CASE_ROOT": 1,
     "ZR95": 70,
-    "ZR50": null,
-    "ZRmax": null,
+    "ZR50": "NaN",
+    "ZRmax": "NaN",
     "Rrootl": 3800,
     "PsiL50": -4,
     "PsiX50": -4.5,
@@ -197,7 +197,7 @@
     "CT": 3,
     "DSE": 0.656,
     "Ha": 55,
-    "gmes": null,
+    "gmes": "Inf",
     "rjv": 2.4,
     "Kopt": 0.5,
     "Knit": 0.15,
@@ -215,8 +215,8 @@
     "d_leaf": 4,
     "CASE_ROOT": 1,
     "ZR95": 1000,
-    "ZR50": null,
-    "ZRmax": null,
+    "ZR50": "NaN",
+    "ZRmax": "NaN",
     "Rrootl": 4000,
     "PsiL50": -3,
     "PsiX50": -4.5,
@@ -227,7 +227,7 @@
     "CT": 3,
     "DSE": 0.649,
     "Ha": 76,
-    "gmes": null,
+    "gmes": "Inf",
     "rjv": 2.4,
     "Kopt": 0.5,
     "Knit": 0.35,
@@ -244,7 +244,7 @@
     "WindowsOn": 1,
     "GlazingRatio": 0.15,
     "Uvalue": 4.95,
-    "lan_windows": null,
+    "lan_windows": "NaN",
     "cv_glass": 2.1E+6,
     "dztot": 0.02,
     "SHGC": 0.8,
@@ -328,7 +328,7 @@
       "Catm_O2": 210000,
       "Rain": 0,
       "Time": "01-Jan-2010 01:00:00",
-      "SunDSM_MRT": null
+      "SunDSM_MRT": "NaN"
     },
     "varargin": [
       1,
@@ -338,534 +338,5 @@
   "varargin": [
     1,
     null
-  ],
-  "w": [
-    {
-      "name": "BEM_on",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "Data_UEHM_site_ZH",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "FractionsGround",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 704,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "Data_UEHM_site_ZH",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "FractionsRoof",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 528,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "Data_UEHM_site_ZH",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Gemeotry_m",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1408,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "Data_UEHM_site_ZH",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "MeteoData",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 2816,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "Data_UEHM_site_ZH",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParHVAC",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1760,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "Data_UEHM_site_ZH",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParInterceptionTree",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 176,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "Data_UEHM_site_ZH",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParSoilGround",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 3096,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "Data_UEHM_site_ZH",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParSoilRoof",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 3200,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "Data_UEHM_site_ZH",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParThermalBulidingInt",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1760,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "Data_UEHM_site_ZH",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParThermalGround",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 352,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "Data_UEHM_site_ZH",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParThermalRoof",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 352,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "Data_UEHM_site_ZH",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParThermalTree",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 176,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "Data_UEHM_site_ZH",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParThermalWall",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 352,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "Data_UEHM_site_ZH",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParTree",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 352,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "Data_UEHM_site_ZH",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParVegGround",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 5280,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "Data_UEHM_site_ZH",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParVegRoof",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 5280,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "Data_UEHM_site_ZH",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParVegTree",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 5104,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "Data_UEHM_site_ZH",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParWindows",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1760,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "Data_UEHM_site_ZH",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Person",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 880,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "Data_UEHM_site_ZH",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "PropOpticalGround",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1408,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "Data_UEHM_site_ZH",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "PropOpticalIndoors",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1408,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "Data_UEHM_site_ZH",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "PropOpticalRoof",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1056,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "Data_UEHM_site_ZH",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "PropOpticalTree",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 352,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "Data_UEHM_site_ZH",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "PropOpticalWall",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 352,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "Data_UEHM_site_ZH",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "WallLayers",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 352,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "Data_UEHM_site_ZH",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "a",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "Data_UEHM_site_ZH",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "geometry",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1584,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "Data_UEHM_site_ZH",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "inputs",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 3376,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "Data_UEHM_site_ZH",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "varargin",
-      "size": [
-        1,
-        2
-      ],
-      "bytes": 224,
-      "class": "cell",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "Data_UEHM_site_ZH",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "w",
-      "size": [
-        2,
-        1
-      ],
-      "bytes": 3314,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "Data_UEHM_site_ZH",
-        "level": 1
-      },
-      "persistent": false
-    }
   ]
 }

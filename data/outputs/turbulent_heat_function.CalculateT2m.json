@@ -13,8 +13,8 @@
     "Height_tree": 4.711,
     "Radius_tree": 0.289,
     "Distance_tree": 0.78899999999999992,
-    "Hcan_max": null,
-    "Hcan_std": null
+    "Hcan_max": "NaN",
+    "Hcan_std": "NaN"
   },
   "Hbare_2m": -0,
   "Hcan_2m": -0.10097594255759031,
@@ -38,7 +38,7 @@
     "Catm_O2": 210000,
     "Rain": 0,
     "Time": "01-Jan-2010 01:00:00",
-    "SunDSM_MRT": null
+    "SunDSM_MRT": "NaN"
   },
   "ParCalculation": {
     "dts": 3600,
@@ -55,8 +55,8 @@
     "d_leaf": 0.8,
     "CASE_ROOT": 1,
     "ZR95": 250,
-    "ZR50": null,
-    "ZRmax": null,
+    "ZR50": "NaN",
+    "ZRmax": "NaN",
     "Rrootl": 3800,
     "PsiL50": -4,
     "PsiX50": -4.5,
@@ -67,7 +67,7 @@
     "CT": 3,
     "DSE": 0.656,
     "Ha": 55,
-    "gmes": null,
+    "gmes": "Inf",
     "rjv": 2.4,
     "Kopt": 0.5,
     "Knit": 0.15,
@@ -133,8 +133,8 @@
       "Height_tree": 4.711,
       "Radius_tree": 0.289,
       "Distance_tree": 0.78899999999999992,
-      "Hcan_max": null,
-      "Hcan_std": null
+      "Hcan_max": "NaN",
+      "Hcan_std": "NaN"
     },
     "MeteoData": {
       "SW_dir": 0,
@@ -152,7 +152,7 @@
       "Catm_O2": 210000,
       "Rain": 0,
       "Time": "01-Jan-2010 01:00:00",
-      "SunDSM_MRT": null
+      "SunDSM_MRT": "NaN"
     },
     "ParCalculation": {
       "dts": 3600,
@@ -169,8 +169,8 @@
       "d_leaf": 0.8,
       "CASE_ROOT": 1,
       "ZR95": 250,
-      "ZR50": null,
-      "ZRmax": null,
+      "ZR50": "NaN",
+      "ZRmax": "NaN",
       "Rrootl": 3800,
       "PsiL50": -4,
       "PsiX50": -4.5,
@@ -181,7 +181,7 @@
       "CT": 3,
       "DSE": 0.656,
       "Ha": 55,
-      "gmes": null,
+      "gmes": "Inf",
       "rjv": 2.4,
       "Kopt": 0.5,
       "Knit": 0.15,
@@ -239,551 +239,5 @@
   "rap_can2m": 26154.622329302547,
   "rap_can2m_Inv": 3564.5382147499622,
   "rb_L": 84.202532941218735,
-  "rho_atm": 1.1893660307070875,
-  "w": [
-    {
-      "name": "DHi",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "CalculateT2m",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "FractionsGround",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 704,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "CalculateT2m",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Gemeotry_m",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1408,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "CalculateT2m",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Hbare_2m",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "CalculateT2m",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Hcan_2m",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "CalculateT2m",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Himp_2m",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "CalculateT2m",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Hveg_2m",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "CalculateT2m",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Hwshade_2m",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "CalculateT2m",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Hwsun_2m",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "CalculateT2m",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "MeteoData",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 2816,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "CalculateT2m",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParCalculation",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 880,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "CalculateT2m",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParVegGround",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 5280,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "CalculateT2m",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "RES_w1",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "CalculateT2m",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "T2m",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "CalculateT2m",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Tbare",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "CalculateT2m",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Tcan",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "CalculateT2m",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "TempVec_ittm",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 2640,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "CalculateT2m",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Timp",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "CalculateT2m",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Tveg",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "CalculateT2m",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Twshade",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "CalculateT2m",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Twsun",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "CalculateT2m",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Zp1",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "CalculateT2m",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "a",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "CalculateT2m",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "cp_atm",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "CalculateT2m",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "fconv",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "CalculateT2m",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "geometry",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1584,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "CalculateT2m",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "inputs",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 18952,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "CalculateT2m",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "rap_can2m",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "CalculateT2m",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "rap_can2m_Inv",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "CalculateT2m",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "rb_L",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "CalculateT2m",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "rho_atm",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "CalculateT2m",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "w",
-      "size": [
-        21,
-        1
-      ],
-      "bytes": 29124,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "CalculateT2m",
-        "level": 1
-      },
-      "persistent": false
-    }
-  ]
+  "rho_atm": 1.1893660307070875
 }

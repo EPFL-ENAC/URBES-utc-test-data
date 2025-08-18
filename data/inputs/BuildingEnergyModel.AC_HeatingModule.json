@@ -16,7 +16,7 @@
     "TsetpointCooling": 298.15,
     "TsetpointHeating": 293.15,
     "RHsetpointCooling": 60,
-    "RHsetpointHeating": null,
+    "RHsetpointHeating": "NaN",
     "ACH": 0.5,
     "COPAC": 3.26,
     "COPHeat": 0.9,

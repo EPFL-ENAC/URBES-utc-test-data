@@ -251,7 +251,7 @@
     "Kfc": 0.2,
     "Phy": 10000,
     "SPAR": 2,
-    "Kbot": null,
+    "Kbot": "NaN",
     "Pcla": 0.2,
     "Psan": 0.4,
     "Porg": 0.025,
@@ -295,7 +295,7 @@
     "Kfc": 0.2,
     "Phy": 10000,
     "SPAR": 2,
-    "Kbot": null,
+    "Kbot": "NaN",
     "Pcla": 0.2,
     "Psan": 0.4,
     "Porg": 0.025,
@@ -586,7 +586,7 @@
       "Kfc": 0.2,
       "Phy": 10000,
       "SPAR": 2,
-      "Kbot": null,
+      "Kbot": "NaN",
       "Pcla": 0.2,
       "Psan": 0.4,
       "Porg": 0.025,
@@ -630,7 +630,7 @@
       "Kfc": 0.2,
       "Phy": 10000,
       "SPAR": 2,
-      "Kbot": null,
+      "Kbot": "NaN",
       "Pcla": 0.2,
       "Psan": 0.4,
       "Porg": 0.025,
@@ -657,245 +657,5 @@
     },
     "ittm": 1
   },
-  "ittm": 1,
-  "w": [
-    {
-      "name": "FractionsGround_Out",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 704,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "PostCalculateSoilMoistureChange",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "FractionsRoof_Out",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 528,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "PostCalculateSoilMoistureChange",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Owater",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1736,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "PostCalculateSoilMoistureChange",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "OwaterInitial",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1288,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "PostCalculateSoilMoistureChange",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParSoilGround_Out",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 3896,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "PostCalculateSoilMoistureChange",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParSoilRoof_Out",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 3928,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "PostCalculateSoilMoistureChange",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "a",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "PostCalculateSoilMoistureChange",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "dVdtCanCalc",
-      "size": [
-        2,
-        1
-      ],
-      "bytes": 16,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "PostCalculateSoilMoistureChange",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "dVdtRoofCalc",
-      "size": [
-        2,
-        1
-      ],
-      "bytes": 16,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "PostCalculateSoilMoistureChange",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "dVdtUrbCalc",
-      "size": [
-        2,
-        1
-      ],
-      "bytes": 16,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "PostCalculateSoilMoistureChange",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "geometry_Out",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1584,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "PostCalculateSoilMoistureChange",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "inputs",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 15016,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "PostCalculateSoilMoistureChange",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ittm",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "PostCalculateSoilMoistureChange",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "w",
-      "size": [
-        8,
-        1
-      ],
-      "bytes": 11838,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "PostCalculateSoilMoistureChange",
-        "level": 1
-      },
-      "persistent": false
-    }
-  ]
+  "ittm": 1
 }

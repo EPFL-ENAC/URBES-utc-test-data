@@ -78,8 +78,8 @@
     "Height_tree": 4.711,
     "Radius_tree": 0.289,
     "Distance_tree": 0.78899999999999992,
-    "Hcan_max": null,
-    "Hcan_std": null
+    "Hcan_max": "NaN",
+    "Hcan_std": "NaN"
   },
   "Int": {
     "IntRoofImp": [
@@ -548,7 +548,7 @@
     "TsetpointCooling": 298.15,
     "TsetpointHeating": 293.15,
     "RHsetpointCooling": 60,
-    "RHsetpointHeating": null,
+    "RHsetpointHeating": "NaN",
     "ACH": 0.5,
     "COPAC": 3.26,
     "COPHeat": 0.9,
@@ -588,7 +588,7 @@
     "Kfc": 0.2,
     "Phy": 10000,
     "SPAR": 2,
-    "Kbot": null,
+    "Kbot": "NaN",
     "Pcla": 0.2,
     "Psan": 0.4,
     "Porg": 0.025,
@@ -632,7 +632,7 @@
     "Kfc": 0.2,
     "Phy": 10000,
     "SPAR": 2,
-    "Kbot": null,
+    "Kbot": "NaN",
     "Pcla": 0.2,
     "Psan": 0.4,
     "Porg": 0.025,
@@ -1026,8 +1026,8 @@
       "Height_tree": 4.711,
       "Radius_tree": 0.289,
       "Distance_tree": 0.78899999999999992,
-      "Hcan_max": null,
-      "Hcan_std": null
+      "Hcan_max": "NaN",
+      "Hcan_std": "NaN"
     },
     "Int": {
       "IntRoofImp": [
@@ -1496,7 +1496,7 @@
       "TsetpointCooling": 298.15,
       "TsetpointHeating": 293.15,
       "RHsetpointCooling": 60,
-      "RHsetpointHeating": null,
+      "RHsetpointHeating": "NaN",
       "ACH": 0.5,
       "COPAC": 3.26,
       "COPHeat": 0.9,
@@ -1536,7 +1536,7 @@
       "Kfc": 0.2,
       "Phy": 10000,
       "SPAR": 2,
-      "Kbot": null,
+      "Kbot": "NaN",
       "Pcla": 0.2,
       "Psan": 0.4,
       "Porg": 0.025,
@@ -1580,7 +1580,7 @@
       "Kfc": 0.2,
       "Phy": 10000,
       "SPAR": 2,
-      "Kbot": null,
+      "Kbot": "NaN",
       "Pcla": 0.2,
       "Psan": 0.4,
       "Porg": 0.025,
@@ -1693,500 +1693,5 @@
     },
     "ittmTot": 1
   },
-  "ittmTot": 1,
-  "w": [
-    {
-      "name": "Anthropo",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1104,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "WaterBalanceComponents",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "BEMWasteHeat",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1472,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "WaterBalanceComponents",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Figure",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "WaterBalanceComponents",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "FractionsGround_Out",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 704,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "WaterBalanceComponents",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "FractionsRoof_Out",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 528,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "WaterBalanceComponents",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Gemeotry_m_Out",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1408,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "WaterBalanceComponents",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Int",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1656,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "WaterBalanceComponents",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "LEbuildInt",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 920,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "WaterBalanceComponents",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "LEflux",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 4600,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "WaterBalanceComponents",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Leakage",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1472,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "WaterBalanceComponents",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "MeteoDataRaw",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 2024,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "WaterBalanceComponents",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Owater",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1736,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "WaterBalanceComponents",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "OwaterInitial",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1288,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "WaterBalanceComponents",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParCalculation_Out",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 880,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "WaterBalanceComponents",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParHVAC",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 2640,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "WaterBalanceComponents",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParSoilGround_Out",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 3896,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "WaterBalanceComponents",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ParSoilRoof_Out",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 3928,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "WaterBalanceComponents",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "Runon",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1104,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "WaterBalanceComponents",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "WaterFluxBuild",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 920,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "WaterBalanceComponents",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "WaterFluxCan",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 2744,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "WaterBalanceComponents",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "WaterFluxRoof",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 2552,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "WaterBalanceComponents",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "WaterFluxUrban",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 3488,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "WaterBalanceComponents",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "a",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "WaterBalanceComponents",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "dInt_dt",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1656,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "WaterBalanceComponents",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "dVwater_dt",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 920,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "WaterBalanceComponents",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "geometry_Out",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 1584,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "WaterBalanceComponents",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "inputs",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 39232,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "WaterBalanceComponents",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "ittmTot",
-      "size": [
-        1,
-        1
-      ],
-      "bytes": 8,
-      "class": "double",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "WaterBalanceComponents",
-        "level": 1
-      },
-      "persistent": false
-    },
-    {
-      "name": "w",
-      "size": [
-        22,
-        1
-      ],
-      "bytes": 31046,
-      "class": "struct",
-      "global": false,
-      "sparse": false,
-      "complex": false,
-      "nesting": {
-        "function": "WaterBalanceComponents",
-        "level": 1
-      },
-      "persistent": false
-    }
-  ]
+  "ittmTot": 1
 }

@@ -12,6 +12,7 @@ function [Ofc,Oss,Owp,Ohy] = Soil_parametersII(ms,Osat,L,Pe,Ks,O33,nVG,alpVG,Kfc
         [Ofc,Oss,Owp,Ohy] = utc_soil_functions.Soil_parametersII(ms,Osat,L,Pe,Ks,O33,nVG,alpVG,Kfc,Pss,Pwp,Phy);
     end
 
+    clear w
     w = whos;
     outputs = struct();
     for a = 1:length(w)

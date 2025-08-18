@@ -17,20 +17,7 @@ function log_outputs(funcName, outputs)
     loggedFunctions(funcName) = true;
 
     % Convert NaN and Inf to strings in top-level fields
-    fields = fieldnames(outputs);
-    for i = 1:numel(fields)
-        val = outputs.(fields{i});
-        if isnumeric(val) && isscalar(val)
-            if isnan(val)
-                outputs.(fields{i}) = 'NaN';
-            elseif isinf(val)
-                outputs.(fields{i}) = 'Inf';
-                if val < 0
-                    outputs.(fields{i}) = '-Inf';
-                end
-            end
-        end
-    end
+    outputs = convert_fields(outputs);
 
     % Encode to JSON
     if verLessThan('matlab', '9.11')
