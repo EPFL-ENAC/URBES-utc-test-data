@@ -1,0 +1,360 @@
+{
+  "Dz": 10,
+  "Ks_Zs": 15.475656399419266,
+  "L": 0.18687368524040304,
+  "O": 0.27961016494080004,
+  "O33": 0.27961016494080004,
+  "Ohy": 0.096123264288628857,
+  "Osat": 0.45947824494080003,
+  "Pe": 3.9121210762443326,
+  "Pond": 0,
+  "SPAR": 2,
+  "WIS": 0,
+  "a": 12,
+  "alpVG": -9.634329919190001E-5,
+  "cosalp": 1,
+  "f": 0,
+  "fpot": 2304.6496992099151,
+  "inputs": {
+    "Dz": 10,
+    "Ks_Zs": 15.475656399419266,
+    "L": 0.18687368524040304,
+    "O": 0.27961016494080004,
+    "O33": 0.27961016494080004,
+    "Ohy": 0.096123264288628857,
+    "Osat": 0.45947824494080003,
+    "Pe": 3.9121210762443326,
+    "Pond": 0,
+    "SPAR": 2,
+    "WIS": 0,
+    "alpVG": -9.634329919190001E-5,
+    "cosalp": 1,
+    "nVG": 1.1868736852404029
+  },
+  "nVG": 1.1868736852404029,
+  "w": [
+    {
+      "name": "Dz",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Infiltration_2",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Ks_Zs",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Infiltration_2",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "L",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Infiltration_2",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "O",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Infiltration_2",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "O33",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Infiltration_2",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Ohy",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Infiltration_2",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Osat",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Infiltration_2",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Pe",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Infiltration_2",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Pond",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Infiltration_2",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "SPAR",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Infiltration_2",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "WIS",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Infiltration_2",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "a",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Infiltration_2",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "alpVG",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Infiltration_2",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "cosalp",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Infiltration_2",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "f",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Infiltration_2",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "fpot",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Infiltration_2",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "inputs",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 2464,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Infiltration_2",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "nVG",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Infiltration_2",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "w",
+      "size": [
+        14,
+        1
+      ],
+      "bytes": 19540,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Infiltration_2",
+        "level": 1
+      },
+      "persistent": false
+    }
+  ]
+}

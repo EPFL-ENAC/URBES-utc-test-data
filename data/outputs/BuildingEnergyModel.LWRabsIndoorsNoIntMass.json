@@ -1,0 +1,321 @@
+{
+  "Hbuild": 6.5,
+  "LWREBB": {
+    "LWREBCeiling": 1.1937117960769673E-12,
+    "LWREBWallsun": 0,
+    "LWREBWallshd": -1.1937117960769673E-12,
+    "LWREBGround": 1.1937117960769673E-12
+  },
+  "LWRabsB": {
+    "LWRabsCeiling": -1.1368683772161593E-12,
+    "LWRabsWallsun": 0,
+    "LWRabsWallshd": 1.1368683772161593E-12,
+    "LWRabsGround": -1.1368683772161593E-12
+  },
+  "LWRinB": {
+    "LWRinCeiling": 334.05323117078751,
+    "LWRinWallsun": 334.05323117078751,
+    "LWRinWallshd": 334.05323117078751,
+    "LWRinGround": 334.05323117078751
+  },
+  "LWRoutB": {
+    "LWRoutCeiling": 334.05323117078746,
+    "LWRoutWallsun": 334.05323117078751,
+    "LWRoutWallshd": 334.05323117078757,
+    "LWRoutGround": 334.05323117078746
+  },
+  "Tceiling": 277.04999999999995,
+  "Tground": 277.04999999999995,
+  "Tinwallshd": 277.04999999999995,
+  "Tinwallsun": 277.04999999999995,
+  "Wroof": 4.73,
+  "a": 11,
+  "ec": 0.95,
+  "eg": 0.95,
+  "ew": 0.95,
+  "inputs": {
+    "Hbuild": 6.5,
+    "Tceiling": 277.04999999999995,
+    "Tground": 277.04999999999995,
+    "Tinwallshd": 277.04999999999995,
+    "Tinwallsun": 277.04999999999995,
+    "Wroof": 4.73,
+    "ec": 0.95,
+    "eg": 0.95,
+    "ew": 0.95
+  },
+  "w": [
+    {
+      "name": "Hbuild",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsIndoorsNoIntMass",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "LWREBB",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 704,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsIndoorsNoIntMass",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "LWRabsB",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 704,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsIndoorsNoIntMass",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "LWRinB",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 704,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsIndoorsNoIntMass",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "LWRoutB",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 704,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsIndoorsNoIntMass",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Tceiling",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsIndoorsNoIntMass",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Tground",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsIndoorsNoIntMass",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Tinwallshd",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsIndoorsNoIntMass",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Tinwallsun",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsIndoorsNoIntMass",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Wroof",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsIndoorsNoIntMass",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "a",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsIndoorsNoIntMass",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ec",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsIndoorsNoIntMass",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "eg",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsIndoorsNoIntMass",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ew",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsIndoorsNoIntMass",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "inputs",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1584,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsIndoorsNoIntMass",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "w",
+      "size": [
+        9,
+        1
+      ],
+      "bytes": 12956,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsIndoorsNoIntMass",
+        "level": 1
+      },
+      "persistent": false
+    }
+  ]
+}

@@ -1,0 +1,1166 @@
+{
+  "Anthropogenic": {
+    "Tb": 291.15,
+    "Qf_canyon": 10,
+    "Qf_roof": 0,
+    "Waterf_canyonVeg": 0,
+    "Waterf_canyonBare": 0,
+    "Waterf_roof": 0
+  },
+  "Eroof_ground": 0,
+  "Eroof_imp": -2.3176265118454546E-10,
+  "Eroof_soil": 5.545272531209145E-10,
+  "Eroof_veg": 0,
+  "Exwat": [
+    47128.030234698745,
+    32966.657571375952,
+    42612.574748180377,
+    9532.7300269975749
+  ],
+  "FractionsRoof": {
+    "fveg": 0.5,
+    "fimp": 0.5,
+    "Per_runoff": 1
+  },
+  "In_ground": 0,
+  "In_imp": 8.3434554426436368E-7,
+  "In_veg": 0,
+  "Int_ittm": {
+    "IntRoofImp": 0,
+    "IntRoofVegPlant": 0,
+    "IntRoofVegGround": 0,
+    "IntRooftot": 0,
+    "IntGroundImp": 0,
+    "IntGroundBare": 0,
+    "IntGroundVegPlant": 0,
+    "IntGroundVegGround": 0,
+    "IntTree": 0
+  },
+  "Lk": 0.017134579640331167,
+  "Lk_imp": 0,
+  "MeteoData": {
+    "SW_dir": 0,
+    "SW_diff": 0,
+    "LWR": 320.44956203280935,
+    "Zatm": 25,
+    "Tatm": 277.04999999999995,
+    "Uatm": 0.4,
+    "esat_Tatm": 807.25031297942337,
+    "rel_hum": 0.946,
+    "ea": 763.65879607853446,
+    "Pre": 94872.321056993358,
+    "q_atm": 0.0050219644814304557,
+    "Catm_CO2": 400,
+    "Catm_O2": 210000,
+    "Rain": 0,
+    "Time": "01-Jan-2010 01:00:00",
+    "SunDSM_MRT": null
+  },
+  "O": [
+    0.27869768569932285,
+    0.28014655433447389,
+    0.27922692832508994,
+    0.27957259336101792
+  ],
+  "OS": 0.27869768569932285,
+  "Owater_ittm": {
+    "OwRoofSoilVeg": [
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004
+    ],
+    "OwGroundSoilImp": [
+      null,
+      null,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004
+    ],
+    "OwGroundSoilBare": [
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004
+    ],
+    "OwGroundSoilVeg": [
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004
+    ],
+    "OwGroundSoilTot": [
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004
+    ]
+  },
+  "ParCalculation": {
+    "dts": 3600,
+    "dth": 1,
+    "row": 1000,
+    "cp_atm": 1005.2175096611177,
+    "rho_atm": 1.1893660307070875
+  },
+  "ParSoilRoof": {
+    "Zs": [
+      0,
+      10,
+      20,
+      50,
+      100
+    ],
+    "ms": 4,
+    "dz1": 0.1,
+    "dz2": 0.1,
+    "FixSM_R": 1,
+    "FixSM_LayerStart_R": 1,
+    "FixSM_LayerEnd_R": 4,
+    "In_max_imp": 0.25,
+    "In_max_ground": 10,
+    "Sp_In": 0.2,
+    "Kimp": 0,
+    "Kfc": 0.2,
+    "Phy": 10000,
+    "SPAR": 2,
+    "Kbot": null,
+    "Pcla": 0.2,
+    "Psan": 0.4,
+    "Porg": 0.025
+  },
+  "ParVegRoof": {
+    "LAI": 2.5,
+    "SAI": 0.001,
+    "hc": 0.15,
+    "h_disp": 0.099999999999999992,
+    "d_leaf": 0.8,
+    "CASE_ROOT": 1,
+    "ZR95": 70,
+    "ZR50": null,
+    "ZRmax": null,
+    "Rrootl": 3800,
+    "PsiL50": -4,
+    "PsiX50": -4.5,
+    "FI": 0.081,
+    "Do": 1000,
+    "a1": 6,
+    "go": 0.01,
+    "CT": 3,
+    "DSE": 0.656,
+    "Ha": 55,
+    "gmes": null,
+    "rjv": 2.4,
+    "Kopt": 0.5,
+    "Knit": 0.15,
+    "Vmax": 68,
+    "mSl": 0,
+    "e_rel": 1,
+    "e_relN": 1,
+    "Psi_sto_00": -0.5,
+    "Psi_sto_50": -3,
+    "Sl": 0.035
+  },
+  "Psi_s": -0.033211136464945841,
+  "Rd": -0,
+  "Runoff": -0,
+  "Runon_ittm": -0,
+  "TEroof_veg": 0,
+  "V": [
+    1.8257442141069398,
+    1.84023290045845,
+    5.4931099210938328,
+    9.1724664536194549
+  ],
+  "WBalance_In_ground": 0,
+  "WBalance_In_imp": 0,
+  "WBalance_In_veg": 0,
+  "WBalance_imp_tot": 0,
+  "WBalance_soil": 1.9081958235744878E-15,
+  "WBalance_tot": 9.54097911787244E-16,
+  "WBalance_veg_tot": 1.9081958235744878E-15,
+  "a": 34,
+  "dIn_ground_dt": 0,
+  "dIn_imp_dt": 8.3434554426436368E-7,
+  "dIn_veg_dt": 0,
+  "dV_dt": -0.017136575938444309,
+  "f_ground": 0,
+  "inputs": {
+    "Anthropogenic": {
+      "Tb": 291.15,
+      "Qf_canyon": 10,
+      "Qf_roof": 0,
+      "Waterf_canyonVeg": 0,
+      "Waterf_canyonBare": 0,
+      "Waterf_roof": 0
+    },
+    "Eroof_ground": 0,
+    "Eroof_imp": -2.3176265118454546E-10,
+    "Eroof_soil": 5.545272531209145E-10,
+    "Eroof_veg": 0,
+    "FractionsRoof": {
+      "fveg": 0.5,
+      "fimp": 0.5,
+      "Per_runoff": 1
+    },
+    "Int_ittm": {
+      "IntRoofImp": 0,
+      "IntRoofVegPlant": 0,
+      "IntRoofVegGround": 0,
+      "IntRooftot": 0,
+      "IntGroundImp": 0,
+      "IntGroundBare": 0,
+      "IntGroundVegPlant": 0,
+      "IntGroundVegGround": 0,
+      "IntTree": 0
+    },
+    "MeteoData": {
+      "SW_dir": 0,
+      "SW_diff": 0,
+      "LWR": 320.44956203280935,
+      "Zatm": 25,
+      "Tatm": 277.04999999999995,
+      "Uatm": 0.4,
+      "esat_Tatm": 807.25031297942337,
+      "rel_hum": 0.946,
+      "ea": 763.65879607853446,
+      "Pre": 94872.321056993358,
+      "q_atm": 0.0050219644814304557,
+      "Catm_CO2": 400,
+      "Catm_O2": 210000,
+      "Rain": 0,
+      "Time": "01-Jan-2010 01:00:00",
+      "SunDSM_MRT": null
+    },
+    "Owater_ittm": {
+      "OwRoofSoilVeg": [
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004
+      ],
+      "OwGroundSoilImp": [
+        null,
+        null,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004
+      ],
+      "OwGroundSoilBare": [
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004
+      ],
+      "OwGroundSoilVeg": [
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004
+      ],
+      "OwGroundSoilTot": [
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004
+      ]
+    },
+    "ParCalculation": {
+      "dts": 3600,
+      "dth": 1,
+      "row": 1000,
+      "cp_atm": 1005.2175096611177,
+      "rho_atm": 1.1893660307070875
+    },
+    "ParSoilRoof": {
+      "Zs": [
+        0,
+        10,
+        20,
+        50,
+        100
+      ],
+      "ms": 4,
+      "dz1": 0.1,
+      "dz2": 0.1,
+      "FixSM_R": 1,
+      "FixSM_LayerStart_R": 1,
+      "FixSM_LayerEnd_R": 4,
+      "In_max_imp": 0.25,
+      "In_max_ground": 10,
+      "Sp_In": 0.2,
+      "Kimp": 0,
+      "Kfc": 0.2,
+      "Phy": 10000,
+      "SPAR": 2,
+      "Kbot": null,
+      "Pcla": 0.2,
+      "Psan": 0.4,
+      "Porg": 0.025
+    },
+    "ParVegRoof": {
+      "LAI": 2.5,
+      "SAI": 0.001,
+      "hc": 0.15,
+      "h_disp": 0.099999999999999992,
+      "d_leaf": 0.8,
+      "CASE_ROOT": 1,
+      "ZR95": 70,
+      "ZR50": null,
+      "ZRmax": null,
+      "Rrootl": 3800,
+      "PsiL50": -4,
+      "PsiX50": -4.5,
+      "FI": 0.081,
+      "Do": 1000,
+      "a1": 6,
+      "go": 0.01,
+      "CT": 3,
+      "DSE": 0.656,
+      "Ha": 55,
+      "gmes": null,
+      "rjv": 2.4,
+      "Kopt": 0.5,
+      "Knit": 0.15,
+      "Vmax": 68,
+      "mSl": 0,
+      "e_rel": 1,
+      "e_relN": 1,
+      "Psi_sto_00": -0.5,
+      "Psi_sto_50": -3,
+      "Sl": 0.035
+    },
+    "Runon_ittm": {
+      "RunonRoofTot": 0,
+      "RunoffRoofTot": 0,
+      "RunonGroundTot": 0,
+      "RunoffGroundTot": 0,
+      "RunonUrban": 0,
+      "RunoffUrban": 0
+    },
+    "TEroof_veg": 0
+  },
+  "q_runon_ground": -0,
+  "q_runon_imp": -0,
+  "q_runon_veg": 0,
+  "w": [
+    {
+      "name": "Anthropogenic",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1056,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Eroof_ground",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Eroof_imp",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Eroof_soil",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Eroof_veg",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Exwat",
+      "size": [
+        1,
+        4
+      ],
+      "bytes": 32,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "FractionsRoof",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 528,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "In_ground",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "In_imp",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "In_veg",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Int_ittm",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1584,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Lk",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Lk_imp",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "MeteoData",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 2816,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "O",
+      "size": [
+        1,
+        4
+      ],
+      "bytes": 32,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "OS",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Owater_ittm",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1288,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ParCalculation",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 880,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ParSoilRoof",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 3200,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ParVegRoof",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 5280,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Psi_s",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Rd",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Runoff",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Runon_ittm",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "TEroof_veg",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "V",
+      "size": [
+        1,
+        4
+      ],
+      "bytes": 32,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "WBalance_In_ground",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "WBalance_In_imp",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "WBalance_In_veg",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "WBalance_imp_tot",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "WBalance_soil",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "WBalance_tot",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "WBalance_veg_tot",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "a",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "dIn_ground_dt",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "dIn_imp_dt",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "dIn_veg_dt",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "dV_dt",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "f_ground",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "inputs",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 20080,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "q_runon_ground",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "q_runon_imp",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "q_runon_veg",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "w",
+      "size": [
+        14,
+        1
+      ],
+      "bytes": 19606,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterRoof",
+        "level": 1
+      },
+      "persistent": false
+    }
+  ]
+}

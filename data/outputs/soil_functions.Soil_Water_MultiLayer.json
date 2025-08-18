@@ -1,0 +1,942 @@
+{
+  "EvL_Zs": [
+    1,
+    0,
+    0,
+    0
+  ],
+  "Exwat_H": [
+    -0,
+    -0,
+    -0,
+    -0
+  ],
+  "Exwat_L": [
+    47128.030234698745,
+    32966.657571375952,
+    42612.574748180377,
+    9532.7300269975749
+  ],
+  "Inf_Zs": [
+    1,
+    0,
+    0,
+    0
+  ],
+  "Ks_Zs": [
+    15.475656399419266,
+    15.475656399419266,
+    15.475656399419266,
+    15.475656399419266
+  ],
+  "L": [
+    0.18687368524040304,
+    0.18687368524040304,
+    0.18687368524040304,
+    0.18687368524040304
+  ],
+  "O": [
+    0.27869768569932285,
+    0.28014655433447389,
+    0.27922692832508994,
+    0.27957259336101792
+  ],
+  "O33": [
+    0.27961016494080004,
+    0.27961016494080004,
+    0.27961016494080004,
+    0.27961016494080004
+  ],
+  "OF": 0.27869768569932285,
+  "OH": 0,
+  "OL": 0.27928091383419085,
+  "OS": 0.27869768569932285,
+  "Ohy": [
+    0.096123264288628857,
+    0.096123264288628857,
+    0.096123264288628857,
+    0.096123264288628857
+  ],
+  "Osat": [
+    0.45947824494080003,
+    0.45947824494080003,
+    0.45947824494080003,
+    0.45947824494080003
+  ],
+  "POT": [
+    -3423.272505661701,
+    -3355.0719940122408,
+    -3388.6944890319783,
+    -3366.3342240704578
+  ],
+  "Pe": [
+    3.9121210762443326,
+    3.9121210762443326,
+    3.9121210762443326,
+    3.9121210762443326
+  ],
+  "PsiL50_H": 0,
+  "PsiL50_L": -4,
+  "PsiX50_H": 0,
+  "PsiX50_L": -4.5,
+  "Psi_s_H": "NaN",
+  "Psi_s_L": -0.033211136464945841,
+  "Rd": -0,
+  "RfH_Zs": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "RfL_Zs": [
+    0.36682902806666429,
+    0.23896675631878092,
+    0.323146368746263,
+    0.071071456247512974
+  ],
+  "Rrootl_H": 0,
+  "Rrootl_L": 3800,
+  "SPAR": 2,
+  "V": [
+    1.8257442141069398,
+    1.84023290045845,
+    5.4931099210938328,
+    9.1724664536194549
+  ],
+  "WTR": [
+    -0,
+    -0,
+    -0,
+    -0
+  ],
+  "ZWT": 100,
+  "Zs": [
+    0,
+    10,
+    20,
+    50,
+    100
+  ],
+  "a": 33,
+  "alpVG": [
+    -9.634329919190001E-5,
+    -9.634329919190001E-5,
+    -9.634329919190001E-5,
+    -9.634329919190001E-5
+  ],
+  "dz": [
+    10,
+    10,
+    30,
+    50
+  ],
+  "gsr_H": 0,
+  "gsr_L": 456875.33373537887,
+  "inputs": {
+    "EvL_Zs": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "Inf_Zs": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "Ks_Zs": [
+      15.475656399419266,
+      15.475656399419266,
+      15.475656399419266,
+      15.475656399419266
+    ],
+    "L": [
+      0.18687368524040304,
+      0.18687368524040304,
+      0.18687368524040304,
+      0.18687368524040304
+    ],
+    "O33": [
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004
+    ],
+    "Ohy": [
+      0.096123264288628857,
+      0.096123264288628857,
+      0.096123264288628857,
+      0.096123264288628857
+    ],
+    "Osat": [
+      0.45947824494080003,
+      0.45947824494080003,
+      0.45947824494080003,
+      0.45947824494080003
+    ],
+    "Pe": [
+      3.9121210762443326,
+      3.9121210762443326,
+      3.9121210762443326,
+      3.9121210762443326
+    ],
+    "PsiL50_H": 0,
+    "PsiL50_L": -4,
+    "PsiX50_H": 0,
+    "PsiX50_L": -4.5,
+    "RfH_Zs": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "RfL_Zs": [
+      0.36682902806666429,
+      0.23896675631878092,
+      0.323146368746263,
+      0.071071456247512974
+    ],
+    "Rrootl_H": 0,
+    "Rrootl_L": 3800,
+    "SPAR": 2,
+    "V": [
+      1.8257442141069398,
+      1.84023290045845,
+      5.4931099210938328,
+      9.1724664536194549
+    ],
+    "Zs": [
+      0,
+      10,
+      20,
+      50,
+      100
+    ],
+    "alpVG": [
+      -9.634329919190001E-5,
+      -9.634329919190001E-5,
+      -9.634329919190001E-5,
+      -9.634329919190001E-5
+    ],
+    "dz": [
+      10,
+      10,
+      30,
+      50
+    ],
+    "n": 4,
+    "nVG": [
+      1.1868736852404029,
+      1.1868736852404029,
+      1.1868736852404029,
+      1.1868736852404029
+    ]
+  },
+  "n": 4,
+  "nVG": [
+    1.1868736852404029,
+    1.1868736852404029,
+    1.1868736852404029,
+    1.1868736852404029
+  ],
+  "w": [
+    {
+      "name": "EvL_Zs",
+      "size": [
+        1,
+        4
+      ],
+      "bytes": 32,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Water_MultiLayer",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Exwat_H",
+      "size": [
+        1,
+        4
+      ],
+      "bytes": 32,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Water_MultiLayer",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Exwat_L",
+      "size": [
+        1,
+        4
+      ],
+      "bytes": 32,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Water_MultiLayer",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Inf_Zs",
+      "size": [
+        1,
+        4
+      ],
+      "bytes": 32,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Water_MultiLayer",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Ks_Zs",
+      "size": [
+        1,
+        4
+      ],
+      "bytes": 32,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Water_MultiLayer",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "L",
+      "size": [
+        1,
+        4
+      ],
+      "bytes": 32,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Water_MultiLayer",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "O",
+      "size": [
+        1,
+        4
+      ],
+      "bytes": 32,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Water_MultiLayer",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "O33",
+      "size": [
+        1,
+        4
+      ],
+      "bytes": 32,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Water_MultiLayer",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "OF",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Water_MultiLayer",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "OH",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Water_MultiLayer",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "OL",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Water_MultiLayer",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "OS",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Water_MultiLayer",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Ohy",
+      "size": [
+        1,
+        4
+      ],
+      "bytes": 32,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Water_MultiLayer",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Osat",
+      "size": [
+        1,
+        4
+      ],
+      "bytes": 32,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Water_MultiLayer",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "POT",
+      "size": [
+        1,
+        4
+      ],
+      "bytes": 32,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Water_MultiLayer",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Pe",
+      "size": [
+        1,
+        4
+      ],
+      "bytes": 32,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Water_MultiLayer",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "PsiL50_H",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Water_MultiLayer",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "PsiL50_L",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Water_MultiLayer",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "PsiX50_H",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Water_MultiLayer",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "PsiX50_L",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Water_MultiLayer",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Psi_s_H",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Water_MultiLayer",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Psi_s_L",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Water_MultiLayer",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Rd",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Water_MultiLayer",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "RfH_Zs",
+      "size": [
+        1,
+        4
+      ],
+      "bytes": 32,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Water_MultiLayer",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "RfL_Zs",
+      "size": [
+        1,
+        4
+      ],
+      "bytes": 32,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Water_MultiLayer",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Rrootl_H",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Water_MultiLayer",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Rrootl_L",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Water_MultiLayer",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "SPAR",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Water_MultiLayer",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "V",
+      "size": [
+        1,
+        4
+      ],
+      "bytes": 32,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Water_MultiLayer",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "WTR",
+      "size": [
+        1,
+        4
+      ],
+      "bytes": 32,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Water_MultiLayer",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ZWT",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Water_MultiLayer",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Zs",
+      "size": [
+        1,
+        5
+      ],
+      "bytes": 40,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Water_MultiLayer",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "a",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Water_MultiLayer",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "alpVG",
+      "size": [
+        1,
+        4
+      ],
+      "bytes": 32,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Water_MultiLayer",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "dz",
+      "size": [
+        1,
+        4
+      ],
+      "bytes": 32,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Water_MultiLayer",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "gsr_H",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Water_MultiLayer",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "gsr_L",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Water_MultiLayer",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "inputs",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 4416,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Water_MultiLayer",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "n",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Water_MultiLayer",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "nVG",
+      "size": [
+        1,
+        4
+      ],
+      "bytes": 32,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Water_MultiLayer",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "w",
+      "size": [
+        23,
+        1
+      ],
+      "bytes": 32118,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Water_MultiLayer",
+        "level": 1
+      },
+      "persistent": false
+    }
+  ]
+}

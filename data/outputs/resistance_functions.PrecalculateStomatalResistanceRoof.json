@@ -1,0 +1,493 @@
+{
+  "CiCO2Leaf_ittm": {
+    "CiCO2LeafRoofVegSun": 400,
+    "CiCO2LeafRoofVegShd": 400,
+    "CiCO2LeafGroundVegSun": 400,
+    "CiCO2LeafGroundVegShd": 400,
+    "CiCO2LeafTreeSun": 400,
+    "CiCO2LeafTreeShd": 400
+  },
+  "Ci_shd": 423.38147582594638,
+  "Ci_sun": 425.57910941947597,
+  "HumidityAtm": {
+    "AtmRelative": 0.946,
+    "AtmSpecific": 0.0050219644814304557,
+    "AtmVapourPre": 763.65879607853446,
+    "AtmRelativeSat": 1,
+    "AtmSpecificSat": 0.0053095555175058365,
+    "AtmVapourPreSat": 807.25031297942337
+  },
+  "MeteoData": {
+    "SW_dir": 0,
+    "SW_diff": 0,
+    "LWR": 320.44956203280935,
+    "Zatm": 25,
+    "Tatm": 277.04999999999995,
+    "Uatm": 0.4,
+    "esat_Tatm": 807.25031297942337,
+    "rel_hum": 0.946,
+    "ea": 763.65879607853446,
+    "Pre": 94872.321056993358,
+    "q_atm": 0.0050219644814304557,
+    "Catm_CO2": 400,
+    "Catm_O2": 210000,
+    "Rain": 0,
+    "Time": "01-Jan-2010 01:00:00",
+    "SunDSM_MRT": null
+  },
+  "ParVegRoof": {
+    "LAI": 2.5,
+    "SAI": 0.001,
+    "hc": 0.15,
+    "h_disp": 0.099999999999999992,
+    "d_leaf": 0.8,
+    "CASE_ROOT": 1,
+    "ZR95": 70,
+    "ZR50": null,
+    "ZRmax": null,
+    "Rrootl": 3800,
+    "PsiL50": -4,
+    "PsiX50": -4.5,
+    "FI": 0.081,
+    "Do": 1000,
+    "a1": 6,
+    "go": 0.01,
+    "CT": 3,
+    "DSE": 0.656,
+    "Ha": 55,
+    "gmes": null,
+    "rjv": 2.4,
+    "Kopt": 0.5,
+    "Knit": 0.15,
+    "Vmax": 68,
+    "mSl": 0,
+    "e_rel": 1,
+    "e_relN": 1,
+    "Psi_sto_00": -0.5,
+    "Psi_sto_50": -3,
+    "Sl": 0.035
+  },
+  "PropOpticalRoof": {
+    "aveg": 0.2,
+    "aimp": 0.15,
+    "albedo": 0.175,
+    "eveg": 0.91799704534590321,
+    "eimp": 0.95,
+    "emissivity": 0.93399852267295158
+  },
+  "SoilPotW_ittm": {
+    "SoilPotWRoofVeg_H": 0,
+    "SoilPotWRoofVeg_L": 0,
+    "SoilPotWGroundImp_H": 0,
+    "SoilPotWGroundImp_L": 0,
+    "SoilPotWGroundBare_H": 0,
+    "SoilPotWGroundBare_L": 0,
+    "SoilPotWGroundVeg_H": 0,
+    "SoilPotWGroundVeg_L": 0,
+    "SoilPotWGroundTot_H": 0,
+    "SoilPotWGroundTot_L": 0
+  },
+  "TempVec_ittm": {
+    "TRoofImp": 277.04999999999995,
+    "TRoofVeg": 277.04999999999995,
+    "TRoofIntImp": 277.04999999999995,
+    "TRoofIntVeg": 277.04999999999995,
+    "TGroundImp": 277.04999999999995,
+    "TGroundBare": 277.04999999999995,
+    "TGroundVeg": 277.04999999999995,
+    "TTree": 277.04999999999995,
+    "TWallSun": 277.04999999999995,
+    "TWallShade": 277.04999999999995,
+    "TWallIntSun": 277.04999999999995,
+    "TWallIntShade": 277.04999999999995,
+    "TCanyon": 277.04999999999995,
+    "Tatm": 277.04999999999995,
+    "T2m": 277.04999999999995
+  },
+  "a": 10,
+  "inputs": {
+    "CiCO2Leaf_ittm": {
+      "CiCO2LeafRoofVegSun": 400,
+      "CiCO2LeafRoofVegShd": 400,
+      "CiCO2LeafGroundVegSun": 400,
+      "CiCO2LeafGroundVegShd": 400,
+      "CiCO2LeafTreeSun": 400,
+      "CiCO2LeafTreeShd": 400
+    },
+    "HumidityAtm": {
+      "AtmRelative": 0.946,
+      "AtmSpecific": 0.0050219644814304557,
+      "AtmVapourPre": 763.65879607853446,
+      "AtmRelativeSat": 1,
+      "AtmSpecificSat": 0.0053095555175058365,
+      "AtmVapourPreSat": 807.25031297942337
+    },
+    "MeteoData": {
+      "SW_dir": 0,
+      "SW_diff": 0,
+      "LWR": 320.44956203280935,
+      "Zatm": 25,
+      "Tatm": 277.04999999999995,
+      "Uatm": 0.4,
+      "esat_Tatm": 807.25031297942337,
+      "rel_hum": 0.946,
+      "ea": 763.65879607853446,
+      "Pre": 94872.321056993358,
+      "q_atm": 0.0050219644814304557,
+      "Catm_CO2": 400,
+      "Catm_O2": 210000,
+      "Rain": 0,
+      "Time": "01-Jan-2010 01:00:00",
+      "SunDSM_MRT": null
+    },
+    "ParVegRoof": {
+      "LAI": 2.5,
+      "SAI": 0.001,
+      "hc": 0.15,
+      "h_disp": 0.099999999999999992,
+      "d_leaf": 0.8,
+      "CASE_ROOT": 1,
+      "ZR95": 70,
+      "ZR50": null,
+      "ZRmax": null,
+      "Rrootl": 3800,
+      "PsiL50": -4,
+      "PsiX50": -4.5,
+      "FI": 0.081,
+      "Do": 1000,
+      "a1": 6,
+      "go": 0.01,
+      "CT": 3,
+      "DSE": 0.656,
+      "Ha": 55,
+      "gmes": null,
+      "rjv": 2.4,
+      "Kopt": 0.5,
+      "Knit": 0.15,
+      "Vmax": 68,
+      "mSl": 0,
+      "e_rel": 1,
+      "e_relN": 1,
+      "Psi_sto_00": -0.5,
+      "Psi_sto_50": -3,
+      "Sl": 0.035
+    },
+    "PropOpticalRoof": {
+      "aveg": 0.2,
+      "aimp": 0.15,
+      "albedo": 0.175,
+      "eveg": 0.91799704534590321,
+      "eimp": 0.95,
+      "emissivity": 0.93399852267295158
+    },
+    "SoilPotW_ittm": {
+      "SoilPotWRoofVeg_H": 0,
+      "SoilPotWRoofVeg_L": 0,
+      "SoilPotWGroundImp_H": 0,
+      "SoilPotWGroundImp_L": 0,
+      "SoilPotWGroundBare_H": 0,
+      "SoilPotWGroundBare_L": 0,
+      "SoilPotWGroundVeg_H": 0,
+      "SoilPotWGroundVeg_L": 0,
+      "SoilPotWGroundTot_H": 0,
+      "SoilPotWGroundTot_L": 0
+    },
+    "TempVec_ittm": {
+      "TRoofImp": 277.04999999999995,
+      "TRoofVeg": 277.04999999999995,
+      "TRoofIntImp": 277.04999999999995,
+      "TRoofIntVeg": 277.04999999999995,
+      "TGroundImp": 277.04999999999995,
+      "TGroundBare": 277.04999999999995,
+      "TGroundVeg": 277.04999999999995,
+      "TTree": 277.04999999999995,
+      "TWallSun": 277.04999999999995,
+      "TWallShade": 277.04999999999995,
+      "TWallIntSun": 277.04999999999995,
+      "TWallIntShade": 277.04999999999995,
+      "TCanyon": 277.04999999999995,
+      "Tatm": 277.04999999999995,
+      "T2m": 277.04999999999995
+    },
+    "ra": 100,
+    "rb": 50
+  },
+  "ra": 100,
+  "rb": 50,
+  "rs_shd": 2512.8935830039468,
+  "rs_sun": 2512.8935830039468,
+  "w": [
+    {
+      "name": "CiCO2Leaf_ittm",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1056,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "PrecalculateStomatalResistanceRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Ci_shd",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "PrecalculateStomatalResistanceRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Ci_sun",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "PrecalculateStomatalResistanceRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "HumidityAtm",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1056,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "PrecalculateStomatalResistanceRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "MeteoData",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 2816,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "PrecalculateStomatalResistanceRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ParVegRoof",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 5280,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "PrecalculateStomatalResistanceRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "PropOpticalRoof",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1056,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "PrecalculateStomatalResistanceRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "SoilPotW_ittm",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1760,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "PrecalculateStomatalResistanceRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "TempVec_ittm",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 2640,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "PrecalculateStomatalResistanceRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "a",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "PrecalculateStomatalResistanceRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "inputs",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 17192,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "PrecalculateStomatalResistanceRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ra",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "PrecalculateStomatalResistanceRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "rb",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "PrecalculateStomatalResistanceRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "rs_shd",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "PrecalculateStomatalResistanceRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "rs_sun",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "PrecalculateStomatalResistanceRoof",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "w",
+      "size": [
+        9,
+        1
+      ],
+      "bytes": 13244,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "PrecalculateStomatalResistanceRoof",
+        "level": 1
+      },
+      "persistent": false
+    }
+  ]
+}

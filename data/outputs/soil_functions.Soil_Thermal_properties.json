@@ -1,0 +1,359 @@
+{
+  "CTt": [
+    7.1364457895054525E-6,
+    7.1364457895054525E-6,
+    7.1364457895054525E-6,
+    7.1364457895054525E-6
+  ],
+  "O": [
+    0.27961016494080004,
+    0.27961016494080004,
+    0.27961016494080004,
+    0.27961016494080004
+  ],
+  "Ohy": [
+    0.096123264288628857,
+    0.096123264288628857,
+    0.096123264288628857,
+    0.096123264288628857
+  ],
+  "Osat": [
+    0.45947824494080003,
+    0.45947824494080003,
+    0.45947824494080003,
+    0.45947824494080003
+  ],
+  "Tdp": [
+    3.8999999999999773,
+    3.8999999999999773,
+    3.8999999999999773,
+    3.8999999999999773
+  ],
+  "a": 6,
+  "cv_Soil": [
+    2.3669831422249046E+6,
+    2.3669831422249046E+6,
+    2.3669831422249046E+6,
+    2.3669831422249046E+6
+  ],
+  "cv_s": [
+    2.2136666666666665E+6,
+    2.2136666666666665E+6,
+    2.2136666666666665E+6,
+    2.2136666666666665E+6
+  ],
+  "inputs": {
+    "O": [
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004
+    ],
+    "Ohy": [
+      0.096123264288628857,
+      0.096123264288628857,
+      0.096123264288628857,
+      0.096123264288628857
+    ],
+    "Osat": [
+      0.45947824494080003,
+      0.45947824494080003,
+      0.45947824494080003,
+      0.45947824494080003
+    ],
+    "Tdp": [
+      3.8999999999999773,
+      3.8999999999999773,
+      3.8999999999999773,
+      3.8999999999999773
+    ],
+    "cv_s": [
+      2.2136666666666665E+6,
+      2.2136666666666665E+6,
+      2.2136666666666665E+6,
+      2.2136666666666665E+6
+    ],
+    "lan_dry": [
+      0.19858278428019246,
+      0.19858278428019246,
+      0.19858278428019246,
+      0.19858278428019246
+    ],
+    "lan_s": [
+      6.839999999999999,
+      6.839999999999999,
+      6.839999999999999,
+      6.839999999999999
+    ],
+    "rsd": [
+      1432.38265090688,
+      1432.38265090688,
+      1432.38265090688,
+      1432.38265090688
+    ]
+  },
+  "lanS": [
+    1.2065269147749662,
+    1.2065269147749662,
+    1.2065269147749662,
+    1.2065269147749662
+  ],
+  "lan_dry": [
+    0.19858278428019246,
+    0.19858278428019246,
+    0.19858278428019246,
+    0.19858278428019246
+  ],
+  "lan_s": [
+    6.839999999999999,
+    6.839999999999999,
+    6.839999999999999,
+    6.839999999999999
+  ],
+  "rsd": [
+    1432.38265090688,
+    1432.38265090688,
+    1432.38265090688,
+    1432.38265090688
+  ],
+  "w": [
+    {
+      "name": "CTt",
+      "size": [
+        1,
+        4
+      ],
+      "bytes": 32,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Thermal_properties",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "O",
+      "size": [
+        1,
+        4
+      ],
+      "bytes": 32,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Thermal_properties",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Ohy",
+      "size": [
+        1,
+        4
+      ],
+      "bytes": 32,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Thermal_properties",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Osat",
+      "size": [
+        1,
+        4
+      ],
+      "bytes": 32,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Thermal_properties",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Tdp",
+      "size": [
+        1,
+        4
+      ],
+      "bytes": 32,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Thermal_properties",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "a",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Thermal_properties",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "cv_Soil",
+      "size": [
+        1,
+        4
+      ],
+      "bytes": 32,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Thermal_properties",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "cv_s",
+      "size": [
+        1,
+        4
+      ],
+      "bytes": 32,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Thermal_properties",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "inputs",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1600,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Thermal_properties",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "lanS",
+      "size": [
+        1,
+        4
+      ],
+      "bytes": 32,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Thermal_properties",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "lan_dry",
+      "size": [
+        1,
+        4
+      ],
+      "bytes": 32,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Thermal_properties",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "lan_s",
+      "size": [
+        1,
+        4
+      ],
+      "bytes": 32,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Thermal_properties",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "rsd",
+      "size": [
+        1,
+        4
+      ],
+      "bytes": 32,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Thermal_properties",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "w",
+      "size": [
+        8,
+        1
+      ],
+      "bytes": 11564,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Thermal_properties",
+        "level": 1
+      },
+      "persistent": false
+    }
+  ]
+}

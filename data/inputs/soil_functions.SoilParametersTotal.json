@@ -1,0 +1,24 @@
+{
+  "CASE_ROOT_H": 1,
+  "CASE_ROOT_L": 1,
+  "Kbot": "NaN",
+  "Kfc": 0.2,
+  "Pcla": 0.2,
+  "Phy": 10000,
+  "Porg": 0.025,
+  "Psan": 0.4,
+  "SPAR": 2,
+  "ZR50_H": "NaN",
+  "ZR50_L": "NaN",
+  "ZR95_H": 70,
+  "ZR95_L": 70,
+  "ZRmax_H": "NaN",
+  "ZRmax_L": "NaN",
+  "Zs": [
+    0,
+    10,
+    20,
+    50,
+    100
+  ]
+}

@@ -1,0 +1,292 @@
+{
+  "Gemeotry_m": {
+    "Height_canyon": 6.5,
+    "Width_canyon": 5.78,
+    "Width_roof": 4.73,
+    "Height_tree": 4.711,
+    "Radius_tree": 0.289,
+    "Distance_tree": 0.78899999999999992,
+    "Hcan_max": null,
+    "Hcan_std": null
+  },
+  "Name_Ray": "ZH",
+  "OPTION_RAY": 1,
+  "ParTree": {
+    "trees": 1,
+    "ftree": 1
+  },
+  "Person": {
+    "PositionPx": 2.89,
+    "PositionPz": 1.1,
+    "PersonWidth": 0.03,
+    "PersonHeight": 0.11,
+    "HeightWind": 1.1
+  },
+  "ViewFactor": {
+    "F_gs_nT": 0.38030860180886683,
+    "F_gw_nT": 0.30984569909556658,
+    "F_ww_nT": 0.44895134130080772,
+    "F_wg_nT": 0.27552432934959614,
+    "F_ws_nT": 0.27552432934959614,
+    "F_sg_nT": 0.38030860180886683,
+    "F_sw_nT": 0.30984569909556658,
+    "F_gs_T": 0.32036815920398021,
+    "F_gt_T": 0.097393034825870653,
+    "F_gw_T": 0.29111940298507455,
+    "F_ww_T": 0.36136505931879059,
+    "F_wt_T": 0.1503432835820897,
+    "F_wg_T": 0.25887233065442017,
+    "F_ws_T": 0.22941932644469951,
+    "F_sg_T": 0.32036815920398021,
+    "F_sw_T": 0.25799751243781083,
+    "F_st_T": 0.16363681592039817,
+    "F_tg_T": 0.15500582915258426,
+    "F_tw_T": 0.26908511907943788,
+    "F_ts_T": 0.26043608125549922,
+    "F_tt_T": 0.04638785143304075
+  },
+  "ViewFactorPoint": {
+    "F_pg": 0.38348258706467636,
+    "F_ps": 0.15139303482587063,
+    "F_pt": 0.045338308457711474,
+    "F_pwLeft": 0.21121890547263672,
+    "F_pwRight": 0.2085671641791044
+  },
+  "a": 8,
+  "geometry": {
+    "hcanyon": 1.1245674740484428,
+    "wcanyon": 1,
+    "wroof": 0.81833910034602075,
+    "htree": 0.81505190311418685,
+    "radius_tree": 0.049999999999999996,
+    "distance_tree": 0.13650519031141867,
+    "ratio": 1.1245674740484428,
+    "wcanyon_norm": 0.54995242626070406,
+    "wroof_norm": 0.45004757373929588
+  },
+  "inputs": {
+    "Gemeotry_m": {
+      "Height_canyon": 6.5,
+      "Width_canyon": 5.78,
+      "Width_roof": 4.73,
+      "Height_tree": 4.711,
+      "Radius_tree": 0.289,
+      "Distance_tree": 0.78899999999999992,
+      "Hcan_max": null,
+      "Hcan_std": null
+    },
+    "Name_Ray": "ZH",
+    "OPTION_RAY": 1,
+    "ParTree": {
+      "trees": 1,
+      "ftree": 1
+    },
+    "Person": {
+      "PositionPx": 2.89,
+      "PositionPz": 1.1,
+      "PersonWidth": 0.03,
+      "PersonHeight": 0.11,
+      "HeightWind": 1.1
+    },
+    "geometry": {
+      "hcanyon": 1.1245674740484428,
+      "wcanyon": 1,
+      "wroof": 0.81833910034602075,
+      "htree": 0.81505190311418685,
+      "radius_tree": 0.049999999999999996,
+      "distance_tree": 0.13650519031141867,
+      "ratio": 1.1245674740484428,
+      "wcanyon_norm": 0.54995242626070406,
+      "wroof_norm": 0.45004757373929588
+    }
+  },
+  "w": [
+    {
+      "name": "Gemeotry_m",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1408,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "VFUrbanCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Name_Ray",
+      "size": [
+        1,
+        2
+      ],
+      "bytes": 4,
+      "class": "char",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "VFUrbanCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "OPTION_RAY",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "VFUrbanCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ParTree",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 352,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "VFUrbanCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Person",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 880,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "VFUrbanCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ViewFactor",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 3696,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "VFUrbanCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ViewFactorPoint",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 880,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "VFUrbanCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "a",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "VFUrbanCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "geometry",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1584,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "VFUrbanCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "inputs",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 5244,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "VFUrbanCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "w",
+      "size": [
+        6,
+        1
+      ],
+      "bytes": 8746,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "VFUrbanCanyon",
+        "level": 1
+      },
+      "persistent": false
+    }
+  ]
+}

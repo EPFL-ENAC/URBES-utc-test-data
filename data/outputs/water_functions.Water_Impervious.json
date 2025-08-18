@@ -1,0 +1,300 @@
+{
+  "E_imp": -2.3176265118454546E-10,
+  "In_imp": 8.3434554426436368E-7,
+  "In_imp_tm1": 0,
+  "In_max_imp": 0.25,
+  "K_imp": 0,
+  "Lk_imp": 0,
+  "Rain": 0,
+  "Runon_tm1": 0,
+  "WBalance_In_imp": 0,
+  "a": 10,
+  "dIn_imp_dt": 8.3434554426436368E-7,
+  "dth": 1,
+  "inputs": {
+    "E_imp": -2.3176265118454546E-10,
+    "In_imp_tm1": 0,
+    "In_max_imp": 0.25,
+    "K_imp": 0,
+    "Rain": 0,
+    "Runon_tm1": 0,
+    "dth": 1,
+    "row": 1000
+  },
+  "q_runon_imp": -0,
+  "row": 1000,
+  "w": [
+    {
+      "name": "E_imp",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Water_Impervious",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "In_imp",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Water_Impervious",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "In_imp_tm1",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Water_Impervious",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "In_max_imp",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Water_Impervious",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "K_imp",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Water_Impervious",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Lk_imp",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Water_Impervious",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Rain",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Water_Impervious",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Runon_tm1",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Water_Impervious",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "WBalance_In_imp",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Water_Impervious",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "a",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Water_Impervious",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "dIn_imp_dt",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Water_Impervious",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "dth",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Water_Impervious",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "inputs",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1408,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Water_Impervious",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "q_runon_imp",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Water_Impervious",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "row",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Water_Impervious",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "w",
+      "size": [
+        8,
+        1
+      ],
+      "bytes": 11490,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Water_Impervious",
+        "level": 1
+      },
+      "persistent": false
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "BoleanInSun": 0,
+  "SWR_dir": 0,
+  "SWRdir_Person": 0,
+  "SWRdir_in_bottom": 0,
+  "SWRdir_in_east": 0,
+  "SWRdir_in_north": 0,
+  "SWRdir_in_south": 0,
+  "SWRdir_in_top": 0,
+  "SWRdir_in_west": 0,
+  "a": 10,
+  "inputs": {
+    "BoleanInSun": 0,
+    "SWR_dir": 0,
+    "theta_Z": 1.5707963267948966,
+    "zeta_S": 0.32103876540771181
+  },
+  "theta_Z": 1.5707963267948966,
+  "w": [
+    {
+      "name": "BoleanInSun",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SWRDirPerson",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "SWR_dir",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SWRDirPerson",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "SWRdir_Person",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SWRDirPerson",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "SWRdir_in_bottom",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SWRDirPerson",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "SWRdir_in_east",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SWRDirPerson",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "SWRdir_in_north",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SWRDirPerson",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "SWRdir_in_south",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SWRDirPerson",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "SWRdir_in_top",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SWRDirPerson",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "SWRdir_in_west",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SWRDirPerson",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "a",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SWRDirPerson",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "inputs",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 704,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SWRDirPerson",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "theta_Z",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SWRDirPerson",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "w",
+      "size": [
+        4,
+        1
+      ],
+      "bytes": 6014,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SWRDirPerson",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "zeta_S",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SWRDirPerson",
+        "level": 1
+      },
+      "persistent": false
+    }
+  ],
+  "zeta_S": 0.32103876540771181
+}

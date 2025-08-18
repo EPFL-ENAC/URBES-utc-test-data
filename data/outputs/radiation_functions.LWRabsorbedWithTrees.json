@@ -1,0 +1,571 @@
+{
+  "LWR": 320.44956203280935,
+  "LWREB_T": {
+    "LWREBGroundImp": 7.9225515037251171E-13,
+    "LWREBGroundBare": 0,
+    "LWREBGroundVeg": -9.57456336436735E-13,
+    "LWREBTree": -8.6259888121276163E-12,
+    "LWREBWallSun": -3.4372504842394846E-13,
+    "LWREBWallShade": -1.6511236822225328E-12,
+    "LWREBTotalGround": -1.9451107391432743E-13,
+    "LWREBTotalCanyon": -7.744915819785092E-12
+  },
+  "LWRabs_T": {
+    "LWRabsGroundImp": -4.2323294561083422,
+    "LWRabsGroundBare": 0,
+    "LWRabsGroundVeg": -4.0897536164593564,
+    "LWRabsTree": -3.6578498942559605,
+    "LWRabsWallSun": -3.0976559058080939,
+    "LWRabsWallShade": -3.097655905806957,
+    "LWRabsTotalGround": -4.154625623499645,
+    "LWRabsTotalCanyon": -13.419966649575812
+  },
+  "LWRin_T": {
+    "LWRinGroundImp": 329.59814753277954,
+    "LWRinGroundBare": 0,
+    "LWRinGroundVeg": 329.59814753277954,
+    "LWRinTree": 330.37509057698873,
+    "LWRinWallSun": 330.79254074362075,
+    "LWRinWallShade": 330.79254074362063,
+    "LWRinTotalGround": 329.59814753277954,
+    "LWRinTotalCanyon": 1281.1760029861659
+  },
+  "LWRout_T": {
+    "LWRoutGroundImp": 333.83047698888709,
+    "LWRoutGroundBare": 0,
+    "LWRoutGroundVeg": 333.68790114923985,
+    "LWRoutTree": 334.03294047125331,
+    "LWRoutWallSun": 333.89019664942919,
+    "LWRoutWallShade": 333.89019664942924,
+    "LWRoutTotalGround": 333.75277315627937,
+    "LWRoutTotalCanyon": 1294.5959696357495
+  },
+  "Tgbare": 277.04999999999995,
+  "Tgimp": 277.04999999999995,
+  "Tgveg": 277.04999999999995,
+  "Ttree": 277.04999999999995,
+  "Twshade": 277.04999999999995,
+  "Twsun": 277.04999999999995,
+  "ViewFactor": {
+    "F_gs_nT": 0.38030860180886683,
+    "F_gw_nT": 0.30984569909556658,
+    "F_ww_nT": 0.44895134130080772,
+    "F_wg_nT": 0.27552432934959614,
+    "F_ws_nT": 0.27552432934959614,
+    "F_sg_nT": 0.38030860180886683,
+    "F_sw_nT": 0.30984569909556658,
+    "F_gs_T": 0.32036815920398021,
+    "F_gt_T": 0.097393034825870653,
+    "F_gw_T": 0.29111940298507455,
+    "F_ww_T": 0.36136505931879059,
+    "F_wt_T": 0.1503432835820897,
+    "F_wg_T": 0.25887233065442017,
+    "F_ws_T": 0.22941932644469951,
+    "F_sg_T": 0.32036815920398021,
+    "F_sw_T": 0.25799751243781083,
+    "F_st_T": 0.16363681592039817,
+    "F_tg_T": 0.15500582915258426,
+    "F_tw_T": 0.26908511907943788,
+    "F_ts_T": 0.26043608125549922,
+    "F_tt_T": 0.04638785143304075
+  },
+  "a": 13,
+  "egbare": 0.95,
+  "egimp": 0.95,
+  "egveg": 0.91799704534590321,
+  "et": 0.99448343557923924,
+  "ew": 0.95,
+  "fgbare": 0,
+  "fgimp": 0.455,
+  "fgveg": 0.545,
+  "h_can": 1.1245674740484428,
+  "inputs": {
+    "LWR": 320.44956203280935,
+    "Tgbare": 277.04999999999995,
+    "Tgimp": 277.04999999999995,
+    "Tgveg": 277.04999999999995,
+    "Ttree": 277.04999999999995,
+    "Twshade": 277.04999999999995,
+    "Twsun": 277.04999999999995,
+    "ViewFactor": {
+      "F_gs_nT": 0.38030860180886683,
+      "F_gw_nT": 0.30984569909556658,
+      "F_ww_nT": 0.44895134130080772,
+      "F_wg_nT": 0.27552432934959614,
+      "F_ws_nT": 0.27552432934959614,
+      "F_sg_nT": 0.38030860180886683,
+      "F_sw_nT": 0.30984569909556658,
+      "F_gs_T": 0.32036815920398021,
+      "F_gt_T": 0.097393034825870653,
+      "F_gw_T": 0.29111940298507455,
+      "F_ww_T": 0.36136505931879059,
+      "F_wt_T": 0.1503432835820897,
+      "F_wg_T": 0.25887233065442017,
+      "F_ws_T": 0.22941932644469951,
+      "F_sg_T": 0.32036815920398021,
+      "F_sw_T": 0.25799751243781083,
+      "F_st_T": 0.16363681592039817,
+      "F_tg_T": 0.15500582915258426,
+      "F_tw_T": 0.26908511907943788,
+      "F_ts_T": 0.26043608125549922,
+      "F_tt_T": 0.04638785143304075
+    },
+    "egbare": 0.95,
+    "egimp": 0.95,
+    "egveg": 0.91799704534590321,
+    "et": 0.99448343557923924,
+    "ew": 0.95,
+    "fgbare": 0,
+    "fgimp": 0.455,
+    "fgveg": 0.545,
+    "h_can": 1.1245674740484428,
+    "r_tree": 0.049999999999999996,
+    "w_can": 1
+  },
+  "r_tree": 0.049999999999999996,
+  "w": [
+    {
+      "name": "LWR",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsorbedWithTrees",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "LWREB_T",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1408,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsorbedWithTrees",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "LWRabs_T",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1408,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsorbedWithTrees",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "LWRin_T",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1408,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsorbedWithTrees",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "LWRout_T",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1408,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsorbedWithTrees",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Tgbare",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsorbedWithTrees",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Tgimp",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsorbedWithTrees",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Tgveg",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsorbedWithTrees",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Ttree",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsorbedWithTrees",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Twshade",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsorbedWithTrees",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Twsun",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsorbedWithTrees",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ViewFactor",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 3696,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsorbedWithTrees",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "a",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsorbedWithTrees",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "egbare",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsorbedWithTrees",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "egimp",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsorbedWithTrees",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "egveg",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsorbedWithTrees",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "et",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsorbedWithTrees",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ew",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsorbedWithTrees",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "fgbare",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsorbedWithTrees",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "fgimp",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsorbedWithTrees",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "fgveg",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsorbedWithTrees",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "h_can",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsorbedWithTrees",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "inputs",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 7032,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsorbedWithTrees",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "r_tree",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsorbedWithTrees",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "w",
+      "size": [
+        19,
+        1
+      ],
+      "bytes": 26612,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsorbedWithTrees",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "w_can",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsorbedWithTrees",
+        "level": 1
+      },
+      "persistent": false
+    }
+  ],
+  "w_can": 1
+}

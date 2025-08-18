@@ -1,0 +1,16 @@
+{
+  "CASE_ROOT": 1,
+  "ZR50_H": "NaN",
+  "ZR50_L": "NaN",
+  "ZR95_H": 70,
+  "ZR95_L": 70,
+  "ZRmax_H": "NaN",
+  "ZRmax_L": "NaN",
+  "Zs": [
+    0,
+    10,
+    20,
+    50,
+    100
+  ]
+}

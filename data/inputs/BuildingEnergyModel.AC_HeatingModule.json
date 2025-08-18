@@ -1,0 +1,31 @@
+{
+  "AC_on": 0,
+  "AC_onCool": 0,
+  "AC_onDehum": 0,
+  "HbuildIn": 0,
+  "Heat_on": 1,
+  "Hequip": 0,
+  "Hpeople": 0,
+  "Hvent": 0,
+  "LEequip": 0,
+  "LEpeople": 0,
+  "LEvent": 0,
+  "ParHVAC": {
+    "ACon": 0,
+    "Heatingon": 1,
+    "TsetpointCooling": 298.15,
+    "TsetpointHeating": 293.15,
+    "RHsetpointCooling": 60,
+    "RHsetpointHeating": null,
+    "ACH": 0.5,
+    "COPAC": 3.26,
+    "COPHeat": 0.9,
+    "f_ACLatentToQ": 1,
+    "AC_onCool": 0,
+    "AC_onDehum": 0,
+    "q_RHspCooling": 0.012552804283250864,
+    "MasterOn": 0
+  },
+  "dSH_air": 0,
+  "dSLE_air": 0
+}

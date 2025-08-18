@@ -1,0 +1,449 @@
+{
+  "Cbare": false,
+  "Cimp": true,
+  "Cveg": true,
+  "Ks": 15.475656399419266,
+  "L": 0.18687368524040304,
+  "O33": 0.27961016494080004,
+  "Ohy": 0.096123264288628857,
+  "Osat": 0.45947824494080003,
+  "Pe": 3.9121210762443326,
+  "SPAR": 2,
+  "Vlat": [
+    5.4924352282070394,
+    5.4931154952268768,
+    5.493089812890398
+  ],
+  "Wcan": 5.78,
+  "a": 13,
+  "alpVG": -9.634329919190001E-5,
+  "dVlat": [
+    4.0759045439613945E-6,
+    0,
+    -3.4028193899127239E-6
+  ],
+  "dz": 30,
+  "fbare": 0,
+  "fimp": 0.455,
+  "fveg": 0.545,
+  "inputs": {
+    "Cbare": false,
+    "Cimp": true,
+    "Cveg": true,
+    "Ks": 15.475656399419266,
+    "L": 0.18687368524040304,
+    "O33": 0.27961016494080004,
+    "Ohy": 0.096123264288628857,
+    "Osat": 0.45947824494080003,
+    "Pe": 3.9121210762443326,
+    "SPAR": 2,
+    "Vlat": [
+      5.4924352282070394,
+      5.4931154952268768,
+      5.493089812890398
+    ],
+    "Wcan": 5.78,
+    "alpVG": -9.634329919190001E-5,
+    "dz": 30,
+    "fbare": 0,
+    "fimp": 0.455,
+    "fveg": 0.545,
+    "nVG": 1.1868736852404029,
+    "t": 0
+  },
+  "nVG": 1.1868736852404029,
+  "t": 0,
+  "w": [
+    {
+      "name": "Cbare",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1,
+      "class": "logical",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SOIL_MOISTURES_RICH_COMP_LAT3",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Cimp",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1,
+      "class": "logical",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SOIL_MOISTURES_RICH_COMP_LAT3",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Cveg",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1,
+      "class": "logical",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SOIL_MOISTURES_RICH_COMP_LAT3",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Ks",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SOIL_MOISTURES_RICH_COMP_LAT3",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "L",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SOIL_MOISTURES_RICH_COMP_LAT3",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "O33",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SOIL_MOISTURES_RICH_COMP_LAT3",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Ohy",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SOIL_MOISTURES_RICH_COMP_LAT3",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Osat",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SOIL_MOISTURES_RICH_COMP_LAT3",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Pe",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SOIL_MOISTURES_RICH_COMP_LAT3",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "SPAR",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SOIL_MOISTURES_RICH_COMP_LAT3",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Vlat",
+      "size": [
+        3,
+        1
+      ],
+      "bytes": 24,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SOIL_MOISTURES_RICH_COMP_LAT3",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Wcan",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SOIL_MOISTURES_RICH_COMP_LAT3",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "a",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SOIL_MOISTURES_RICH_COMP_LAT3",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "alpVG",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SOIL_MOISTURES_RICH_COMP_LAT3",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "dVlat",
+      "size": [
+        3,
+        1
+      ],
+      "bytes": 24,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SOIL_MOISTURES_RICH_COMP_LAT3",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "dz",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SOIL_MOISTURES_RICH_COMP_LAT3",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "fbare",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SOIL_MOISTURES_RICH_COMP_LAT3",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "fimp",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SOIL_MOISTURES_RICH_COMP_LAT3",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "fveg",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SOIL_MOISTURES_RICH_COMP_LAT3",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "inputs",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 3339,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SOIL_MOISTURES_RICH_COMP_LAT3",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "nVG",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SOIL_MOISTURES_RICH_COMP_LAT3",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "t",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SOIL_MOISTURES_RICH_COMP_LAT3",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "w",
+      "size": [
+        19,
+        1
+      ],
+      "bytes": 26892,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SOIL_MOISTURES_RICH_COMP_LAT3",
+        "level": 1
+      },
+      "persistent": false
+    }
+  ]
+}

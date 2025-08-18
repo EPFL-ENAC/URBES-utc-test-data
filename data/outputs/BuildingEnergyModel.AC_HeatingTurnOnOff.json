@@ -1,0 +1,376 @@
+{
+  "BEM_on": 1,
+  "Gemeotry_m": {
+    "Height_canyon": 6.5,
+    "Width_canyon": 5.78,
+    "Width_roof": 4.73,
+    "Height_tree": 4.711,
+    "Radius_tree": 0.289,
+    "Distance_tree": 0.78899999999999992,
+    "Hcan_max": null,
+    "Hcan_std": null
+  },
+  "Humidity_ittm": {
+    "CanyonRelative": 0,
+    "CanyonSpecific": 0.0050219644814304557,
+    "CanyonVapourPre": 0,
+    "CanyonRelativeSat": 0,
+    "CanyonSpecificSat": 0,
+    "CanyonVapourPreSat": 0,
+    "AtmRelative": 0,
+    "AtmSpecific": 0,
+    "AtmVapourPre": 0,
+    "AtmRelativeSat": 0,
+    "AtmSpecificSat": 0,
+    "AtmVapourPreSat": 0,
+    "q2m": 0.0050219644814304557
+  },
+  "MeteoData": {
+    "SW_dir": 0,
+    "SW_diff": 0,
+    "LWR": 320.44956203280935,
+    "Zatm": 25,
+    "Tatm": 277.04999999999995,
+    "Uatm": 0.4,
+    "esat_Tatm": 807.25031297942337,
+    "rel_hum": 0.946,
+    "ea": 763.65879607853446,
+    "Pre": 94872.321056993358,
+    "q_atm": 0.0050219644814304557,
+    "Catm_CO2": 400,
+    "Catm_O2": 210000,
+    "Rain": 0,
+    "Time": "01-Jan-2010 01:00:00",
+    "SunDSM_MRT": null
+  },
+  "ParHVAC": {
+    "ACon": 0,
+    "Heatingon": 1,
+    "TsetpointCooling": 298.15,
+    "TsetpointHeating": 293.15,
+    "RHsetpointCooling": 60,
+    "RHsetpointHeating": null,
+    "ACH": 0.5,
+    "COPAC": 3.26,
+    "COPHeat": 0.9,
+    "f_ACLatentToQ": 1,
+    "AC_onCool": 0,
+    "AC_onDehum": 0,
+    "q_RHspCooling": 0.012552804283250864,
+    "MasterOn": 0
+  },
+  "ParHVACorig": {
+    "ACon": 1,
+    "Heatingon": 1,
+    "TsetpointCooling": 298.15,
+    "TsetpointHeating": 293.15,
+    "RHsetpointCooling": 60,
+    "RHsetpointHeating": null,
+    "ACH": 0.5,
+    "COPAC": 3.26,
+    "COPHeat": 0.9,
+    "f_ACLatentToQ": 1
+  },
+  "TempVecB_ittm": {
+    "Tceiling": 277.04999999999995,
+    "Tinwallsun": 277.04999999999995,
+    "Tinwallshd": 277.04999999999995,
+    "Twindows": 277.04999999999995,
+    "Tinground": 277.04999999999995,
+    "Tintmass": 277.04999999999995,
+    "Tbin": 277.04999999999995,
+    "qbin": 0.0050219644814304557
+  },
+  "TempVec_ittm": {
+    "TRoofImp": 277.04999999999995,
+    "TRoofVeg": 277.04999999999995,
+    "TRoofIntImp": 277.04999999999995,
+    "TRoofIntVeg": 277.04999999999995,
+    "TGroundImp": 277.04999999999995,
+    "TGroundBare": 277.04999999999995,
+    "TGroundVeg": 277.04999999999995,
+    "TTree": 277.04999999999995,
+    "TWallSun": 277.04999999999995,
+    "TWallShade": 277.04999999999995,
+    "TWallIntSun": 277.04999999999995,
+    "TWallIntShade": 277.04999999999995,
+    "TCanyon": 277.04999999999995,
+    "Tatm": 277.04999999999995,
+    "T2m": 277.04999999999995
+  },
+  "a": 9,
+  "inputs": {
+    "BEM_on": 1,
+    "Gemeotry_m": {
+      "Height_canyon": 6.5,
+      "Width_canyon": 5.78,
+      "Width_roof": 4.73,
+      "Height_tree": 4.711,
+      "Radius_tree": 0.289,
+      "Distance_tree": 0.78899999999999992,
+      "Hcan_max": null,
+      "Hcan_std": null
+    },
+    "Humidity_ittm": {
+      "CanyonRelative": 0,
+      "CanyonSpecific": 0.0050219644814304557,
+      "CanyonVapourPre": 0,
+      "CanyonRelativeSat": 0,
+      "CanyonSpecificSat": 0,
+      "CanyonVapourPreSat": 0,
+      "AtmRelative": 0,
+      "AtmSpecific": 0,
+      "AtmVapourPre": 0,
+      "AtmRelativeSat": 0,
+      "AtmSpecificSat": 0,
+      "AtmVapourPreSat": 0,
+      "q2m": 0.0050219644814304557
+    },
+    "MeteoData": {
+      "SW_dir": 0,
+      "SW_diff": 0,
+      "LWR": 320.44956203280935,
+      "Zatm": 25,
+      "Tatm": 277.04999999999995,
+      "Uatm": 0.4,
+      "esat_Tatm": 807.25031297942337,
+      "rel_hum": 0.946,
+      "ea": 763.65879607853446,
+      "Pre": 94872.321056993358,
+      "q_atm": 0.0050219644814304557,
+      "Catm_CO2": 400,
+      "Catm_O2": 210000,
+      "Rain": 0,
+      "Time": "01-Jan-2010 01:00:00",
+      "SunDSM_MRT": null
+    },
+    "ParHVAC": {
+      "ACon": 1,
+      "Heatingon": 1,
+      "TsetpointCooling": 298.15,
+      "TsetpointHeating": 293.15,
+      "RHsetpointCooling": 60,
+      "RHsetpointHeating": null,
+      "ACH": 0.5,
+      "COPAC": 3.26,
+      "COPHeat": 0.9,
+      "f_ACLatentToQ": 1
+    },
+    "TempVecB_ittm": {
+      "Tceiling": 277.04999999999995,
+      "Tinwallsun": 277.04999999999995,
+      "Tinwallshd": 277.04999999999995,
+      "Twindows": 277.04999999999995,
+      "Tinground": 277.04999999999995,
+      "Tintmass": 277.04999999999995,
+      "Tbin": 277.04999999999995,
+      "qbin": 0.0050219644814304557
+    },
+    "TempVec_ittm": {
+      "TRoofImp": 277.04999999999995,
+      "TRoofVeg": 277.04999999999995,
+      "TRoofIntImp": 277.04999999999995,
+      "TRoofIntVeg": 277.04999999999995,
+      "TGroundImp": 277.04999999999995,
+      "TGroundBare": 277.04999999999995,
+      "TGroundVeg": 277.04999999999995,
+      "TTree": 277.04999999999995,
+      "TWallSun": 277.04999999999995,
+      "TWallShade": 277.04999999999995,
+      "TWallIntSun": 277.04999999999995,
+      "TWallIntShade": 277.04999999999995,
+      "TCanyon": 277.04999999999995,
+      "Tatm": 277.04999999999995,
+      "T2m": 277.04999999999995
+    }
+  },
+  "w": [
+    {
+      "name": "BEM_on",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "AC_HeatingTurnOnOff",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Gemeotry_m",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1408,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "AC_HeatingTurnOnOff",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Humidity_ittm",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 2288,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "AC_HeatingTurnOnOff",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "MeteoData",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 2816,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "AC_HeatingTurnOnOff",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ParHVAC",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 2464,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "AC_HeatingTurnOnOff",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ParHVACorig",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1760,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "AC_HeatingTurnOnOff",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "TempVecB_ittm",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1408,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "AC_HeatingTurnOnOff",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "TempVec_ittm",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 2640,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "AC_HeatingTurnOnOff",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "a",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "AC_HeatingTurnOnOff",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "inputs",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 13504,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "AC_HeatingTurnOnOff",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "w",
+      "size": [
+        7,
+        1
+      ],
+      "bytes": 10222,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "AC_HeatingTurnOnOff",
+        "level": 1
+      },
+      "persistent": false
+    }
+  ]
+}

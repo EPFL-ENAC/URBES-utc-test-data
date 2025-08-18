@@ -1,0 +1,36 @@
+{
+  "Gemeotry_m": {
+    "Height_canyon": 6.5,
+    "Width_canyon": 5.78,
+    "Width_roof": 4.73,
+    "Height_tree": 4.711,
+    "Radius_tree": 0.289,
+    "Distance_tree": 0.78899999999999992,
+    "Hcan_max": null,
+    "Hcan_std": null
+  },
+  "Name_Ray": "ZH",
+  "OPTION_RAY": 1,
+  "ParTree": {
+    "trees": 1,
+    "ftree": 1
+  },
+  "Person": {
+    "PositionPx": 2.89,
+    "PositionPz": 1.1,
+    "PersonWidth": 0.03,
+    "PersonHeight": 0.11,
+    "HeightWind": 1.1
+  },
+  "geometry": {
+    "hcanyon": 1.1245674740484428,
+    "wcanyon": 1,
+    "wroof": 0.81833910034602075,
+    "htree": 0.81505190311418685,
+    "radius_tree": 0.049999999999999996,
+    "distance_tree": 0.13650519031141867,
+    "ratio": 1.1245674740484428,
+    "wcanyon_norm": 0.54995242626070406,
+    "wroof_norm": 0.45004757373929588
+  }
+}

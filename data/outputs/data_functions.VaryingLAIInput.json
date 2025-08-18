@@ -1,0 +1,114 @@
+{
+  "LAIVarying": 0,
+  "LAI_TimeSeries": "NaN",
+  "Name": "LAI_Zurich_Area",
+  "a": 4,
+  "inputs": {
+    "LAIVarying": 0,
+    "Name": "LAI_Zurich_Area"
+  },
+  "w": [
+    {
+      "name": "LAIVarying",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "VaryingLAIInput",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "LAI_TimeSeries",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "VaryingLAIInput",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Name",
+      "size": [
+        1,
+        15
+      ],
+      "bytes": 30,
+      "class": "char",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "VaryingLAIInput",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "a",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "VaryingLAIInput",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "inputs",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 374,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "VaryingLAIInput",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "w",
+      "size": [
+        2,
+        1
+      ],
+      "bytes": 3300,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "VaryingLAIInput",
+        "level": 1
+      },
+      "persistent": false
+    }
+  ]
+}

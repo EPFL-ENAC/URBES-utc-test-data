@@ -1,0 +1,749 @@
+{
+  "CASE_ROOT_H": 1,
+  "CASE_ROOT_L": 1,
+  "Exwat_H": [
+    12559.37014603529,
+    18872.828414279982,
+    16299.630321025334,
+    14038.423053666525,
+    22483.843904534922,
+    16656.4534748593,
+    21480.659903654381,
+    11788.836106542496,
+    6469.8504312766509,
+    458.29721607944794,
+    0
+  ],
+  "Exwat_L": [
+    41910.013399292366,
+    44333.572553720122,
+    24414.114440569305,
+    13407.537811484728,
+    9268.3463166499914,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Kbot": "NaN",
+  "Kfc": 0.2,
+  "Ko": [
+    0.016797129647599832,
+    0.017064376008749965,
+    0.017122653638785269,
+    0.01713385140320486,
+    0.017134566930478157,
+    0.017134579485008308,
+    0.017134579639693621,
+    0.017134579640329241,
+    0.017134579640331167,
+    0.017134579640331167,
+    0.017134579640331167
+  ],
+  "O": [
+    0.27920457365322848,
+    0.27952639888394293,
+    0.27959595745112464,
+    0.27960929765205467,
+    0.27961014980438537,
+    0.279610164755823,
+    0.27961016494004076,
+    0.27961016494079771,
+    0.27961016494080004,
+    0.27961016494080004,
+    0.27961016494080004
+  ],
+  "OS": 0.27920457365322848,
+  "Pcla": 0.2,
+  "Phy": 10000,
+  "Porg": 0.025,
+  "Psan": 0.4,
+  "PsiL50_H": -3,
+  "PsiL50_L": -4,
+  "PsiX50_H": -4.5,
+  "PsiX50_L": -4.5,
+  "Psi_s_H": -0.03303139751944504,
+  "Psi_s_L": -0.033100892560003051,
+  "Psi_soil": [
+    3390.1466196671745,
+    3369.3122772916818,
+    3364.8291838310133,
+    3363.9702087693977,
+    3363.915347555198,
+    3363.9143849973125,
+    3363.9143731375693,
+    3363.9143730888372,
+    3363.9143730886849,
+    3363.9143730886849,
+    3363.9143730886849
+  ],
+  "Rrootl_H": 4000,
+  "Rrootl_L": 3800,
+  "SPAR": 2,
+  "V": [
+    5.4924392809379876,
+    9.1701567297657043,
+    9.17363465812479,
+    9.17430166817129,
+    18.348688551575648,
+    18.348690046719419,
+    36.697380130282383,
+    36.697380130433764,
+    36.69738013043424,
+    91.7434503260856,
+    91.7434503260856
+  ],
+  "ZR50_H": "NaN",
+  "ZR50_L": "NaN",
+  "ZR95_H": 1000,
+  "ZR95_L": 250,
+  "ZRmax_H": "NaN",
+  "ZRmax_L": "NaN",
+  "Zs": [
+    0,
+    30,
+    80,
+    130,
+    180,
+    280,
+    380,
+    580,
+    780,
+    980,
+    1480,
+    1980
+  ],
+  "a": 32,
+  "inputs": {
+    "CASE_ROOT_H": 1,
+    "CASE_ROOT_L": 1,
+    "Kbot": null,
+    "Kfc": 0.2,
+    "Pcla": 0.2,
+    "Phy": 10000,
+    "Porg": 0.025,
+    "Psan": 0.4,
+    "PsiL50_H": -3,
+    "PsiL50_L": -4,
+    "PsiX50_H": -4.5,
+    "PsiX50_L": -4.5,
+    "Rrootl_H": 4000,
+    "Rrootl_L": 3800,
+    "SPAR": 2,
+    "V": [
+      5.4924392809379876,
+      9.1701567297657043,
+      9.17363465812479,
+      9.17430166817129,
+      18.348688551575648,
+      18.348690046719419,
+      36.697380130282383,
+      36.697380130433764,
+      36.69738013043424,
+      91.7434503260856,
+      91.7434503260856
+    ],
+    "ZR50_H": null,
+    "ZR50_L": null,
+    "ZR95_H": 1000,
+    "ZR95_L": 250,
+    "ZRmax_H": null,
+    "ZRmax_L": null,
+    "Zs": [
+      0,
+      30,
+      80,
+      130,
+      180,
+      280,
+      380,
+      580,
+      780,
+      980,
+      1480,
+      1980
+    ]
+  },
+  "w": [
+    {
+      "name": "CASE_ROOT_H",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SoilMoistureConductivityUpdate",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "CASE_ROOT_L",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SoilMoistureConductivityUpdate",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Exwat_H",
+      "size": [
+        1,
+        11
+      ],
+      "bytes": 88,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SoilMoistureConductivityUpdate",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Exwat_L",
+      "size": [
+        1,
+        11
+      ],
+      "bytes": 88,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SoilMoistureConductivityUpdate",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Kbot",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SoilMoistureConductivityUpdate",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Kfc",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SoilMoistureConductivityUpdate",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Ko",
+      "size": [
+        1,
+        11
+      ],
+      "bytes": 88,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SoilMoistureConductivityUpdate",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "O",
+      "size": [
+        1,
+        11
+      ],
+      "bytes": 88,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SoilMoistureConductivityUpdate",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "OS",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SoilMoistureConductivityUpdate",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Pcla",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SoilMoistureConductivityUpdate",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Phy",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SoilMoistureConductivityUpdate",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Porg",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SoilMoistureConductivityUpdate",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Psan",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SoilMoistureConductivityUpdate",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "PsiL50_H",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SoilMoistureConductivityUpdate",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "PsiL50_L",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SoilMoistureConductivityUpdate",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "PsiX50_H",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SoilMoistureConductivityUpdate",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "PsiX50_L",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SoilMoistureConductivityUpdate",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Psi_s_H",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SoilMoistureConductivityUpdate",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Psi_s_L",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SoilMoistureConductivityUpdate",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Psi_soil",
+      "size": [
+        1,
+        11
+      ],
+      "bytes": 88,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SoilMoistureConductivityUpdate",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Rrootl_H",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SoilMoistureConductivityUpdate",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Rrootl_L",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SoilMoistureConductivityUpdate",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "SPAR",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SoilMoistureConductivityUpdate",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "V",
+      "size": [
+        1,
+        11
+      ],
+      "bytes": 88,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SoilMoistureConductivityUpdate",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ZR50_H",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SoilMoistureConductivityUpdate",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ZR50_L",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SoilMoistureConductivityUpdate",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ZR95_H",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SoilMoistureConductivityUpdate",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ZR95_L",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SoilMoistureConductivityUpdate",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ZRmax_H",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SoilMoistureConductivityUpdate",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ZRmax_L",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SoilMoistureConductivityUpdate",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Zs",
+      "size": [
+        1,
+        12
+      ],
+      "bytes": 96,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SoilMoistureConductivityUpdate",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "a",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SoilMoistureConductivityUpdate",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "inputs",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 4216,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SoilMoistureConductivityUpdate",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "w",
+      "size": [
+        23,
+        1
+      ],
+      "bytes": 32590,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SoilMoistureConductivityUpdate",
+        "level": 1
+      },
+      "persistent": false
+    }
+  ]
+}

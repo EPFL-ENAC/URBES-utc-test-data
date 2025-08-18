@@ -1,0 +1,263 @@
+{
+  "X_Shadow": 1,
+  "X_Tree": 0,
+  "a": 3,
+  "d_tree": 0.13650519031141867,
+  "h_can": 1.1245674740484428,
+  "h_tree": 0.81505190311418685,
+  "inputs": {
+    "d_tree": 0.13650519031141867,
+    "h_can": 1.1245674740484428,
+    "h_tree": 0.81505190311418685,
+    "r_tree": 0.049999999999999996,
+    "theta_Z": 1.5707963267948966,
+    "theta_n": -2.8205538881820811,
+    "w_can": 1
+  },
+  "n_Shadow": 0.99999999999999978,
+  "n_Tree": 0,
+  "r_tree": 0.049999999999999996,
+  "theta_Z": 1.5707963267948966,
+  "theta_n": -2.8205538881820811,
+  "w": [
+    {
+      "name": "X_Shadow",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ShadowLengthWithTrees",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "X_Tree",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ShadowLengthWithTrees",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "a",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ShadowLengthWithTrees",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "d_tree",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ShadowLengthWithTrees",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "h_can",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ShadowLengthWithTrees",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "h_tree",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ShadowLengthWithTrees",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "inputs",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1232,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ShadowLengthWithTrees",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "n_Shadow",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ShadowLengthWithTrees",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "n_Tree",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ShadowLengthWithTrees",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "r_tree",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ShadowLengthWithTrees",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "theta_Z",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ShadowLengthWithTrees",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "theta_n",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ShadowLengthWithTrees",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "w",
+      "size": [
+        7,
+        1
+      ],
+      "bytes": 10194,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ShadowLengthWithTrees",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "w_can",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ShadowLengthWithTrees",
+        "level": 1
+      },
+      "persistent": false
+    }
+  ],
+  "w_can": 1
+}
