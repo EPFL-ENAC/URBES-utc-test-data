@@ -1,0 +1,152 @@
+{
+  "RH": 91.874439847765629,
+  "Ta": 4.3230056782613815,
+  "Tmrt": 3.4838680767591654,
+  "UTCI_approx": 6.4859785967766932,
+  "a": 5,
+  "inputs": {
+    "RH": 91.874439847765629,
+    "Ta": 4.3230056782613815,
+    "Tmrt": 3.4838680767591654,
+    "va": 0.104649649571975
+  },
+  "va": 0.104649649571975,
+  "w": [
+    {
+      "name": "RH",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "UTCI_approx",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Ta",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "UTCI_approx",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Tmrt",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "UTCI_approx",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "UTCI_approx",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "UTCI_approx",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "a",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "UTCI_approx",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "inputs",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 704,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "UTCI_approx",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "va",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "UTCI_approx",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "w",
+      "size": [
+        4,
+        1
+      ],
+      "bytes": 5964,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "UTCI_approx",
+        "level": 1
+      },
+      "persistent": false
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "Gemeotry_m": {
+    "Height_canyon": 6.5,
+    "Width_canyon": 5.78,
+    "Width_roof": 4.73,
+    "Height_tree": 4.711,
+    "Radius_tree": 0.289,
+    "Distance_tree": 0.78899999999999992,
+    "Hcan_max": null,
+    "Hcan_std": null
+  },
+  "ParTree": {
+    "trees": 1,
+    "ftree": 1
+  },
+  "Person": {
+    "PositionPx": 2.89,
+    "PositionPz": 1.1,
+    "PersonWidth": 0.03,
+    "PersonHeight": 0.11,
+    "HeightWind": 1.1
+  },
+  "Zatm": 25
+}

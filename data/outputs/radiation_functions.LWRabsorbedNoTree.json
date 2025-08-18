@@ -1,0 +1,514 @@
+{
+  "LWR": 320.44956203280935,
+  "LWREB_nT": {
+    "LWREBGroundImp": 1.1324274851176597E-12,
+    "LWREBGroundBare": 0,
+    "LWREBGroundVeg": -3.7037040101495222E-13,
+    "LWREBTree": 0,
+    "LWREBWallSun": 7.9269923958236177E-13,
+    "LWREBWallShade": 7.9269923958236177E-13,
+    "LWREBTotalGround": 2.8599345114344032E-13,
+    "LWREBTotalCanyon": 2.0339285811132868E-12
+  },
+  "LWRabs_nT": {
+    "LWRabsGroundImp": -5.0307370194082024,
+    "LWRabsGroundBare": 0,
+    "LWRabsGroundVeg": -4.8612649681344058,
+    "LWRabsTree": 0,
+    "LWRabsWallSun": -3.7381267475075188,
+    "LWRabsWallShade": -3.7381267475075188,
+    "LWRabsTotalGround": -4.938374751463984,
+    "LWRabsTotalCanyon": -13.345926259698887
+  },
+  "LWRin_nT": {
+    "LWRinGroundImp": 328.75771851878005,
+    "LWRinGroundBare": 0,
+    "LWRinGroundVeg": 328.75771851878005,
+    "LWRinTree": 0,
+    "LWRinWallSun": 330.11836091025407,
+    "LWRinWallShade": 330.11836091025407,
+    "LWRinTotalGround": 328.75771851878005,
+    "LWRinTotalCanyon": 1071.2384610504932
+  },
+  "LWRout_nT": {
+    "LWRoutGroundImp": 333.78845553818712,
+    "LWRoutGroundBare": 0,
+    "LWRoutGroundVeg": 333.61898348691483,
+    "LWRoutTree": 0,
+    "LWRoutWallSun": 333.85648765776079,
+    "LWRoutWallShade": 333.85648765776079,
+    "LWRoutTotalGround": 333.69609327024375,
+    "LWRoutTotalCanyon": 1084.58438731019
+  },
+  "Tgbare": 277.04999999999995,
+  "Tgimp": 277.04999999999995,
+  "Tgveg": 277.04999999999995,
+  "Twshade": 277.04999999999995,
+  "Twsun": 277.04999999999995,
+  "ViewFactor": {
+    "F_gs_nT": 0.38030860180886683,
+    "F_gw_nT": 0.30984569909556658,
+    "F_ww_nT": 0.44895134130080772,
+    "F_wg_nT": 0.27552432934959614,
+    "F_ws_nT": 0.27552432934959614,
+    "F_sg_nT": 0.38030860180886683,
+    "F_sw_nT": 0.30984569909556658,
+    "F_gs_T": 0.32036815920398021,
+    "F_gt_T": 0.097393034825870653,
+    "F_gw_T": 0.29111940298507455,
+    "F_ww_T": 0.36136505931879059,
+    "F_wt_T": 0.1503432835820897,
+    "F_wg_T": 0.25887233065442017,
+    "F_ws_T": 0.22941932644469951,
+    "F_sg_T": 0.32036815920398021,
+    "F_sw_T": 0.25799751243781083,
+    "F_st_T": 0.16363681592039817,
+    "F_tg_T": 0.15500582915258426,
+    "F_tw_T": 0.26908511907943788,
+    "F_ts_T": 0.26043608125549922,
+    "F_tt_T": 0.04638785143304075
+  },
+  "a": 12,
+  "egbare": 0.95,
+  "egimp": 0.95,
+  "egveg": 0.91799704534590321,
+  "ew": 0.95,
+  "fgbare": 0,
+  "fgimp": 0.455,
+  "fgveg": 0.545,
+  "h_can": 1.1245674740484428,
+  "inputs": {
+    "LWR": 320.44956203280935,
+    "Tgbare": 277.04999999999995,
+    "Tgimp": 277.04999999999995,
+    "Tgveg": 277.04999999999995,
+    "Twshade": 277.04999999999995,
+    "Twsun": 277.04999999999995,
+    "ViewFactor": {
+      "F_gs_nT": 0.38030860180886683,
+      "F_gw_nT": 0.30984569909556658,
+      "F_ww_nT": 0.44895134130080772,
+      "F_wg_nT": 0.27552432934959614,
+      "F_ws_nT": 0.27552432934959614,
+      "F_sg_nT": 0.38030860180886683,
+      "F_sw_nT": 0.30984569909556658,
+      "F_gs_T": 0.32036815920398021,
+      "F_gt_T": 0.097393034825870653,
+      "F_gw_T": 0.29111940298507455,
+      "F_ww_T": 0.36136505931879059,
+      "F_wt_T": 0.1503432835820897,
+      "F_wg_T": 0.25887233065442017,
+      "F_ws_T": 0.22941932644469951,
+      "F_sg_T": 0.32036815920398021,
+      "F_sw_T": 0.25799751243781083,
+      "F_st_T": 0.16363681592039817,
+      "F_tg_T": 0.15500582915258426,
+      "F_tw_T": 0.26908511907943788,
+      "F_ts_T": 0.26043608125549922,
+      "F_tt_T": 0.04638785143304075
+    },
+    "egbare": 0.95,
+    "egimp": 0.95,
+    "egveg": 0.91799704534590321,
+    "ew": 0.95,
+    "fgbare": 0,
+    "fgimp": 0.455,
+    "fgveg": 0.545,
+    "h_can": 1.1245674740484428,
+    "w_can": 1
+  },
+  "w": [
+    {
+      "name": "LWR",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsorbedNoTree",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "LWREB_nT",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1408,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsorbedNoTree",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "LWRabs_nT",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1408,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsorbedNoTree",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "LWRin_nT",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1408,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsorbedNoTree",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "LWRout_nT",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1408,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsorbedNoTree",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Tgbare",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsorbedNoTree",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Tgimp",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsorbedNoTree",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Tgveg",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsorbedNoTree",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Twshade",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsorbedNoTree",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Twsun",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsorbedNoTree",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ViewFactor",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 3696,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsorbedNoTree",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "a",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsorbedNoTree",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "egbare",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsorbedNoTree",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "egimp",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsorbedNoTree",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "egveg",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsorbedNoTree",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ew",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsorbedNoTree",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "fgbare",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsorbedNoTree",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "fgimp",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsorbedNoTree",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "fgveg",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsorbedNoTree",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "h_can",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsorbedNoTree",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "inputs",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 6504,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsorbedNoTree",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "w",
+      "size": [
+        16,
+        1
+      ],
+      "bytes": 22410,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsorbedNoTree",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "w_can",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "LWRabsorbedNoTree",
+        "level": 1
+      },
+      "persistent": false
+    }
+  ],
+  "w_can": 1
+}

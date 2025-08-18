@@ -1,0 +1,390 @@
+{
+  "AC_on": 0,
+  "AC_onCool": 0,
+  "AC_onDehum": 0,
+  "H_AC_Heat": 0,
+  "HbuildIn": 0,
+  "Heat_on": 1,
+  "Hequip": 0,
+  "Hpeople": 0,
+  "Hvent": 0,
+  "LE_AC_Heat": 0,
+  "LEequip": 0,
+  "LEpeople": 0,
+  "LEvent": 0,
+  "ParHVAC": {
+    "ACon": 0,
+    "Heatingon": 1,
+    "TsetpointCooling": 298.15,
+    "TsetpointHeating": 293.15,
+    "RHsetpointCooling": 60,
+    "RHsetpointHeating": null,
+    "ACH": 0.5,
+    "COPAC": 3.26,
+    "COPHeat": 0.9,
+    "f_ACLatentToQ": 1,
+    "AC_onCool": 0,
+    "AC_onDehum": 0,
+    "q_RHspCooling": 0.012552804283250864,
+    "MasterOn": 0
+  },
+  "a": 15,
+  "dSH_air": 0,
+  "dSLE_air": 0,
+  "inputs": {
+    "AC_on": 0,
+    "AC_onCool": 0,
+    "AC_onDehum": 0,
+    "HbuildIn": 0,
+    "Heat_on": 1,
+    "Hequip": 0,
+    "Hpeople": 0,
+    "Hvent": 0,
+    "LEequip": 0,
+    "LEpeople": 0,
+    "LEvent": 0,
+    "ParHVAC": {
+      "ACon": 0,
+      "Heatingon": 1,
+      "TsetpointCooling": 298.15,
+      "TsetpointHeating": 293.15,
+      "RHsetpointCooling": 60,
+      "RHsetpointHeating": null,
+      "ACH": 0.5,
+      "COPAC": 3.26,
+      "COPHeat": 0.9,
+      "f_ACLatentToQ": 1,
+      "AC_onCool": 0,
+      "AC_onDehum": 0,
+      "q_RHspCooling": 0.012552804283250864,
+      "MasterOn": 0
+    },
+    "dSH_air": 0,
+    "dSLE_air": 0
+  },
+  "w": [
+    {
+      "name": "AC_on",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "AC_HeatingModule",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "AC_onCool",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "AC_HeatingModule",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "AC_onDehum",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "AC_HeatingModule",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "H_AC_Heat",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "AC_HeatingModule",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "HbuildIn",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "AC_HeatingModule",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Heat_on",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "AC_HeatingModule",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Hequip",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "AC_HeatingModule",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Hpeople",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "AC_HeatingModule",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Hvent",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "AC_HeatingModule",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "LE_AC_Heat",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "AC_HeatingModule",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "LEequip",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "AC_HeatingModule",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "LEpeople",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "AC_HeatingModule",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "LEvent",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "AC_HeatingModule",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ParHVAC",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 2464,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "AC_HeatingModule",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "a",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "AC_HeatingModule",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "dSH_air",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "AC_HeatingModule",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "dSLE_air",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "AC_HeatingModule",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "inputs",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 4920,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "AC_HeatingModule",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "w",
+      "size": [
+        14,
+        1
+      ],
+      "bytes": 19704,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "AC_HeatingModule",
+        "level": 1
+      },
+      "persistent": false
+    }
+  ]
+}

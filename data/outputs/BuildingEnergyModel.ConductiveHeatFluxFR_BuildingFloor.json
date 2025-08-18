@@ -1,0 +1,223 @@
+{
+  "G": -0.77665036502245288,
+  "ParCalculation": {
+    "dts": 3600,
+    "dth": 1,
+    "row": 1000,
+    "cp_atm": 1005.2175096611177,
+    "rho_atm": 1.1893660307070875
+  },
+  "ParThermalBulidFloor": {
+    "IntMassOn": 0,
+    "FloorHeight": 3,
+    "dzFloor": 0.2,
+    "dzWall": 0.2,
+    "lan_ground_floor": 1.2,
+    "cv_ground_floor": 1.5E+6,
+    "lan_floor_IntMass": 0.67,
+    "cv_floor_IntMass": 1.0E+6,
+    "lan_wall_IntMass": 0.67,
+    "cv_wall_IntMass": 1.0E+6
+  },
+  "Tdp": 277.14599999999996,
+  "Tinground": 277.04999999999995,
+  "TingroundDamptm1": 277.15,
+  "Tingroundtm1": 277.04999999999995,
+  "a": 8,
+  "inputs": {
+    "ParCalculation": {
+      "dts": 3600,
+      "dth": 1,
+      "row": 1000,
+      "cp_atm": 1005.2175096611177,
+      "rho_atm": 1.1893660307070875
+    },
+    "ParThermalBulidFloor": {
+      "IntMassOn": 0,
+      "FloorHeight": 3,
+      "dzFloor": 0.2,
+      "dzWall": 0.2,
+      "lan_ground_floor": 1.2,
+      "cv_ground_floor": 1.5E+6,
+      "lan_floor_IntMass": 0.67,
+      "cv_floor_IntMass": 1.0E+6,
+      "lan_wall_IntMass": 0.67,
+      "cv_wall_IntMass": 1.0E+6
+    },
+    "Tinground": 277.04999999999995,
+    "TingroundDamptm1": 277.15,
+    "Tingroundtm1": 277.04999999999995
+  },
+  "w": [
+    {
+      "name": "G",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ConductiveHeatFluxFR_BuildingFloor",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ParCalculation",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 880,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ConductiveHeatFluxFR_BuildingFloor",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ParThermalBulidFloor",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1760,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ConductiveHeatFluxFR_BuildingFloor",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Tdp",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ConductiveHeatFluxFR_BuildingFloor",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Tinground",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ConductiveHeatFluxFR_BuildingFloor",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "TingroundDamptm1",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ConductiveHeatFluxFR_BuildingFloor",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Tingroundtm1",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ConductiveHeatFluxFR_BuildingFloor",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "a",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ConductiveHeatFluxFR_BuildingFloor",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "inputs",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 3504,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ConductiveHeatFluxFR_BuildingFloor",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "w",
+      "size": [
+        5,
+        1
+      ],
+      "bytes": 7658,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ConductiveHeatFluxFR_BuildingFloor",
+        "level": 1
+      },
+      "persistent": false
+    }
+  ]
+}

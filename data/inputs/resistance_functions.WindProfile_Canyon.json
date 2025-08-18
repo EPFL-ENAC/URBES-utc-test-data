@@ -1,0 +1,17 @@
+{
+  "Hcan": 6.5,
+  "Hcan_max": "NaN",
+  "Hcan_std": "NaN",
+  "Htree": 4.711,
+  "Kopt": 0.5,
+  "LAI_t": 5,
+  "R_tree": 0.289,
+  "Wcan": 5.78,
+  "Wroof": 4.73,
+  "Zatm": 25,
+  "Zp": 6.5,
+  "Zref_und": 1.5,
+  "trees": 1,
+  "uatm": 0.4,
+  "zom_und": 0.01
+}

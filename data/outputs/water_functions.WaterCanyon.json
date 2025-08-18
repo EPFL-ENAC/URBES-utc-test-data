@@ -1,0 +1,3368 @@
+{
+  "Anthropogenic": {
+    "Tb": 291.15,
+    "Qf_canyon": 10,
+    "Qf_roof": 0,
+    "Waterf_canyonVeg": 0,
+    "Waterf_canyonBare": 0,
+    "Waterf_roof": 0
+  },
+  "DeepGLk": 0.017134579640331167,
+  "EB_TEgveg": 0,
+  "EB_TEtree": 0,
+  "Egbare_Pond": -0,
+  "Egbare_Soil": 0,
+  "Egbare_soil": 0,
+  "Egimp_Pond": 0,
+  "Egimp_soil": 0,
+  "Egveg_In": 0,
+  "Egveg_Pond": 0,
+  "Egveg_Soil": 1.0702652955529675E-8,
+  "Egveg_soil": 1.0702652955529675E-8,
+  "Etot": 2.0998605098749225E-5,
+  "Etree_In": 0,
+  "Exwat_H": [
+    2292.21423296269,
+    2388.99028105874,
+    12167.604323759439,
+    18296.585775524472,
+    15787.357575280083,
+    13593.142335764976,
+    21770.252068517591,
+    16127.805542370839,
+    20798.899648650542,
+    11414.678145349106,
+    6264.5081884361289,
+    208.52523331614881,
+    0
+  ],
+  "Exwat_H_gbare": [
+    4206.3225247176761,
+    4383.213981676713,
+    11841.098378378501,
+    17815.793000383917,
+    15359.732439306548,
+    13221.397007515105,
+    21174.501164843423,
+    15686.457269173623,
+    20229.723655944668,
+    11102.307737380313,
+    6093.0756737711054,
+    0,
+    0
+  ],
+  "Exwat_H_gimp": [
+    0,
+    0,
+    12559.37014603529,
+    18872.828414279982,
+    16299.630321025334,
+    14038.423053666525,
+    22483.843904534922,
+    16656.4534748593,
+    21480.659903654381,
+    11788.836106542496,
+    6469.8504312766509,
+    458.29721607944794,
+    0
+  ],
+  "Exwat_H_gveg": [
+    4205.8976751608989,
+    4383.468405612367,
+    11840.533774886939,
+    17815.502471609318,
+    15359.680328832208,
+    13221.394213480195,
+    21174.501086154491,
+    15686.457268458453,
+    20229.723655940918,
+    11102.307737380313,
+    6093.0756737711054,
+    0,
+    0
+  ],
+  "Exwat_L": [
+    15287.740668406972,
+    14561.830841611649,
+    33002.604422852986,
+    34955.925674503633,
+    19216.415994600797,
+    10547.145864759019,
+    5788.421498175604,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Exwat_L_gbare": [
+    15289.284926101456,
+    14560.985648269252,
+    33004.178117590243,
+    34956.495723104119,
+    19216.481189743616,
+    10547.148093653586,
+    5788.4215196866053,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Exwat_L_gimp": [
+    0,
+    0,
+    41910.013399292366,
+    44333.572553720122,
+    24414.114440569305,
+    13407.537811484728,
+    9268.3463166499914,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Exwat_L_gveg": [
+    15287.740668406972,
+    14561.830841611649,
+    33002.604422852986,
+    34955.925674503633,
+    19216.415994600797,
+    10547.145864759019,
+    5788.421498175604,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "FractionsGround": {
+    "fveg": 0.545,
+    "fbare": 0,
+    "fimp": 0.455,
+    "Per_runoff": 0.9
+  },
+  "Gemeotry_m": {
+    "Height_canyon": 6.5,
+    "Width_canyon": 5.78,
+    "Width_roof": 4.73,
+    "Height_tree": 4.711,
+    "Radius_tree": 0.289,
+    "Distance_tree": 0.78899999999999992,
+    "Hcan_max": null,
+    "Hcan_std": null
+  },
+  "In_gbare": 0,
+  "In_gimp": 0,
+  "In_gveg": 0,
+  "In_gveg_pond": 0,
+  "In_tree": 0,
+  "Int_ittm": {
+    "IntRoofImp": 0,
+    "IntRoofVegPlant": 0,
+    "IntRoofVegGround": 0,
+    "IntRooftot": 0,
+    "IntGroundImp": 0,
+    "IntGroundBare": 0,
+    "IntGroundVegPlant": 0,
+    "IntGroundVegGround": 0,
+    "IntTree": 0
+  },
+  "Kf_gbare": [
+    0.016384155927962222,
+    0.017590491216411628,
+    0.016815720336786272,
+    0.017104614600119507,
+    0.017133018279108986,
+    0.017134507949104691,
+    0.017134578547058864,
+    0.017134579627967914,
+    0.017134579640282893,
+    0.017134579640331042,
+    0.017134579640331167,
+    0.017134579640331167,
+    0.017134579640331167
+  ],
+  "Kf_gimp": [
+    null,
+    null,
+    0.016797129647599832,
+    0.017064376008749965,
+    0.017122653638785269,
+    0.01713385140320486,
+    0.017134566930478157,
+    0.017134579485008308,
+    0.017134579639693621,
+    0.017134579640329241,
+    0.017134579640331167,
+    0.017134579640331167,
+    0.017134579640331167
+  ],
+  "Kf_gveg": [
+    0.016382505930227182,
+    0.017591511502406797,
+    0.016814920858557184,
+    0.017104336471757828,
+    0.017132960319685735,
+    0.017134504338541405,
+    0.017134578483566313,
+    0.017134579627188971,
+    0.017134579640279726,
+    0.017134579640331042,
+    0.017134579640331167,
+    0.017134579640331167,
+    0.017134579640331167
+  ],
+  "Lk": 0.017134579640331167,
+  "Lk_gbare": 0.017134579640331167,
+  "Lk_gimp": 0.017134579640331167,
+  "Lk_gveg": 0.017134579640331167,
+  "MeteoData": {
+    "SW_dir": 0,
+    "SW_diff": 0,
+    "LWR": 320.44956203280935,
+    "Zatm": 25,
+    "Tatm": 277.04999999999995,
+    "Uatm": 0.4,
+    "esat_Tatm": 807.25031297942337,
+    "rel_hum": 0.946,
+    "ea": 763.65879607853446,
+    "Pre": 94872.321056993358,
+    "q_atm": 0.0050219644814304557,
+    "Catm_CO2": 400,
+    "Catm_O2": 210000,
+    "Rain": 0,
+    "Time": "01-Jan-2010 01:00:00",
+    "SunDSM_MRT": null
+  },
+  "O": [
+    0.27869575330547164,
+    0.28014772071695804,
+    0.27921633018394454,
+    0.27955240594805525,
+    0.27960264946522762,
+    0.27960972144961738,
+    0.27961015730293193,
+    0.27961016484810552,
+    0.27961016494042118,
+    0.27961016494079893,
+    0.27961016494080004,
+    0.27961016494080004,
+    0.27961016494080004
+  ],
+  "OS": 0.27892726656370104,
+  "OS_gbare": 0.27869780171095476,
+  "OS_gimp": 0.27920457365322848,
+  "OS_gveg": 0.27869575330547164,
+  "O_gbare": [
+    0.27869780171095476,
+    0.28014653489257679,
+    0.27922711412952472,
+    0.27957445003646031,
+    0.27960830540702042,
+    0.2796100795621681,
+    0.27961016363880087,
+    0.27961016492607638,
+    0.27961016494074253,
+    0.27961016494079988,
+    0.27961016494080004,
+    0.27961016494080004,
+    0.27961016494080004
+  ],
+  "O_gimp": [
+    0,
+    0,
+    0.27920457365322848,
+    0.27952639888394293,
+    0.27959595745112464,
+    0.27960929765205467,
+    0.27961014980438537,
+    0.279610164755823,
+    0.27961016494004076,
+    0.27961016494079771,
+    0.27961016494080004,
+    0.27961016494080004,
+    0.27961016494080004
+  ],
+  "O_gveg": [
+    0.27869575330547164,
+    0.28014772071695804,
+    0.27922614526922124,
+    0.27957411826763523,
+    0.27960823637608423,
+    0.27961007526226145,
+    0.27961016356318635,
+    0.27961016492514873,
+    0.27961016494073876,
+    0.27961016494079988,
+    0.27961016494080004,
+    0.27961016494080004,
+    0.27961016494080004
+  ],
+  "Owater_ittm": {
+    "OwRoofSoilVeg": [
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004
+    ],
+    "OwGroundSoilImp": [
+      null,
+      null,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004
+    ],
+    "OwGroundSoilBare": [
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004
+    ],
+    "OwGroundSoilVeg": [
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004
+    ],
+    "OwGroundSoilTot": [
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004,
+      0.27961016494080004
+    ]
+  },
+  "ParCalculation": {
+    "dts": 3600,
+    "dth": 1,
+    "row": 1000,
+    "cp_atm": 1005.2175096611177,
+    "rho_atm": 1.1893660307070875
+  },
+  "ParInterceptionTree": {
+    "Sp_In": 0.2
+  },
+  "ParSoilGround": {
+    "Zs": [
+      0,
+      10,
+      20,
+      50,
+      100,
+      150,
+      200,
+      300,
+      400,
+      600,
+      800,
+      1000,
+      1500,
+      2000
+    ],
+    "ms": 13,
+    "In_max_imp": 0.5,
+    "FixSM_G": 1,
+    "FixSM_LayerStart_G": 6,
+    "FixSM_LayerEnd_G": 13,
+    "In_max_underveg": 10,
+    "In_max_bare": 10,
+    "Sp_In": 0.2,
+    "Kimp": 0.001,
+    "Kfc": 0.2,
+    "Phy": 10000,
+    "SPAR": 2,
+    "Kbot": null,
+    "Pcla": 0.2,
+    "Psan": 0.4,
+    "Porg": 0.025
+  },
+  "ParTree": {
+    "trees": 1,
+    "ftree": 1
+  },
+  "ParVegGround": {
+    "LAI": 2.5,
+    "SAI": 0.001,
+    "hc": 0.15,
+    "h_disp": 0.099999999999999992,
+    "d_leaf": 0.8,
+    "CASE_ROOT": 1,
+    "ZR95": 250,
+    "ZR50": null,
+    "ZRmax": null,
+    "Rrootl": 3800,
+    "PsiL50": -4,
+    "PsiX50": -4.5,
+    "FI": 0.081,
+    "Do": 1000,
+    "a1": 6,
+    "go": 0.01,
+    "CT": 3,
+    "DSE": 0.656,
+    "Ha": 55,
+    "gmes": null,
+    "rjv": 2.4,
+    "Kopt": 0.5,
+    "Knit": 0.15,
+    "Vmax": 68,
+    "mSl": 0,
+    "e_rel": 1,
+    "e_relN": 1,
+    "Psi_sto_00": -0.5,
+    "Psi_sto_50": -3,
+    "Sl": 0.035
+  },
+  "ParVegTree": {
+    "LAI": 5,
+    "SAI": 0.2,
+    "d_leaf": 4,
+    "CASE_ROOT": 1,
+    "ZR95": 1000,
+    "ZR50": null,
+    "ZRmax": null,
+    "Rrootl": 4000,
+    "PsiL50": -3,
+    "PsiX50": -4.5,
+    "FI": 0.081,
+    "Do": 1000,
+    "a1": 9,
+    "go": 0.01,
+    "CT": 3,
+    "DSE": 0.649,
+    "Ha": 76,
+    "gmes": null,
+    "rjv": 2.4,
+    "Kopt": 0.5,
+    "Knit": 0.35,
+    "Vmax": 66,
+    "mSl": 0,
+    "e_rel": 1,
+    "e_relN": 1,
+    "Psi_sto_00": -0.5,
+    "Psi_sto_50": -2.2,
+    "Sl": 0.024,
+    "SPARTREE": 2
+  },
+  "Psi_s_H_gbare": -0.033031329503991839,
+  "Psi_s_H_gimp": -0.03303139751944504,
+  "Psi_s_H_gveg": -0.03303143087815609,
+  "Psi_s_H_tot": -0.03303143087815609,
+  "Psi_s_L": -0.033099880966921666,
+  "Psi_s_L_gbare": -0.033099590831053155,
+  "Psi_s_L_gimp": -0.033100892560003051,
+  "Psi_s_L_gveg": -0.033099880966921666,
+  "Psi_soil_gbare": [
+    3423.2648802917029,
+    3355.0723145119114,
+    3388.6824225095311,
+    3366.2145937347896,
+    3364.0340904319823,
+    3363.9198696799021,
+    3363.9144569100158,
+    3363.9143740365816,
+    3363.9143730923888,
+    3363.9143730886981,
+    3363.9143730886849,
+    3363.9143730886849,
+    3363.9143730886849
+  ],
+  "Psi_soil_gimp": [
+    null,
+    null,
+    3390.1466196671745,
+    3369.3122772916818,
+    3364.8291838310133,
+    3363.9702087693977,
+    3363.915347555198,
+    3363.9143849973125,
+    3363.9143731375693,
+    3363.9143730888372,
+    3363.9143730886849,
+    3363.9143730886849,
+    3363.9143730886849
+  ],
+  "Psi_soil_gveg": [
+    3423.3995236321184,
+    3355.0527661971591,
+    3388.7453428522467,
+    3366.2359700763636,
+    3364.0385347617334,
+    3363.9201465038877,
+    3363.9144617779984,
+    3363.9143740963018,
+    3363.9143730926326,
+    3363.9143730886981,
+    3363.9143730886849,
+    3363.9143730886849,
+    3363.9143730886849
+  ],
+  "Qin_bare": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Qin_bare2imp": [
+    null,
+    null,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Qin_bare2veg": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Qin_imp": [
+    null,
+    null,
+    4.0527309481674934E-6,
+    1.5075018866994583E-5,
+    3.8843521323883579E-6,
+    2.4604093873392685E-7,
+    8.7068556808844733E-9,
+    1.0715339726630191E-10,
+    8.8107299234252423E-13,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Qin_imp2bare": [
+    null,
+    null,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Qin_imp2veg": [
+    null,
+    null,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Qin_veg": [
+    0,
+    0,
+    -3.3834726265169479E-6,
+    -1.2585566208755949E-5,
+    -3.2428994867217398E-6,
+    -2.0541032519361124E-7,
+    -7.2690262697960861E-9,
+    -8.9457330432196613E-11,
+    -7.3896444519050419E-13,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Qin_veg2bare": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Qin_veg2imp": [
+    null,
+    null,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Qinlat_ittm": {
+    "Qin_bare2imp": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qin_veg2imp": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qin_veg2bare": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qin_imp2bare": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qin_bare2veg": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qin_imp2veg": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qin_imp": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qin_bare": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qin_veg": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "Rd": -0,
+  "Rd_gbare": -0,
+  "Rd_gimp": -0,
+  "Rd_gveg": -0,
+  "Runoff": -0,
+  "Runon_ittm": -0,
+  "StorageTot": -0.017155578245397578,
+  "TEgveg": 0,
+  "TEgveg_bare": 0,
+  "TEgveg_imp": 0,
+  "TEgveg_tot": 0,
+  "TEgveg_veg": 0,
+  "TEtree": 0,
+  "TEtree_bare": 0,
+  "TEtree_imp": 0,
+  "TEtree_tot": 0,
+  "TEtree_veg": 0,
+  "V": [
+    1.8257248901684278,
+    1.8402445642832923,
+    5.49279197685947,
+    9.1714570829713189,
+    9.1739692588299384,
+    9.1743228580494254,
+    18.348689301430305,
+    18.348690055947671,
+    36.697380130358468,
+    36.697380130434006,
+    36.69738013043424,
+    91.7434503260856,
+    91.7434503260856
+  ],
+  "V_gbare": [
+    1.825745374223259,
+    1.8402327060394794,
+    5.4931154952268768,
+    9.1725592873915733,
+    9.1742520559195775,
+    9.1743407636769643,
+    18.3486899350172,
+    18.348690063744751,
+    36.697380130422736,
+    36.697380130434205,
+    36.69738013043424,
+    91.7434503260856,
+    91.7434503260856
+  ],
+  "V_gimp": [
+    0,
+    0,
+    5.4924392809379876,
+    9.1701567297657043,
+    9.17363465812479,
+    9.17430166817129,
+    18.348688551575648,
+    18.348690046719419,
+    36.697380130282383,
+    36.697380130433764,
+    36.69738013043424,
+    91.7434503260856,
+    91.7434503260856
+  ],
+  "V_gveg": [
+    1.8257248901684278,
+    1.8402445642832921,
+    5.4930864294177715,
+    9.172542698950318,
+    9.1742486043727673,
+    9.174340548681629,
+    18.348689927455748,
+    18.348690063651986,
+    36.697380130421976,
+    36.697380130434205,
+    36.69738013043424,
+    91.7434503260856,
+    91.7434503260856
+  ],
+  "WBIndv": {
+    "WB_In_tree": 0,
+    "WB_In_gveg": 0,
+    "WB_In_gimp": 0,
+    "WB_In_gbare": 0,
+    "WB_Pond_gveg": 0,
+    "WB_Soil_gimp": 2.4528989950312052E-14,
+    "WB_Soil_gbare": -8.9157847771303977E-14,
+    "WB_Soil_gveg": -3.6009389914326562E-14
+  },
+  "WBTot": {
+    "WBsurf_tree": 0,
+    "WBsurf_imp": 0,
+    "WBsurf_bare": 0,
+    "WBsurf_veg": 0,
+    "WBsoil_imp": 1.8311741012411176E-14,
+    "WBsoil_bare": -8.9157847771303977E-14,
+    "WBsoil_veg": -7.59774188008322E-14,
+    "WBimp_tot": 1.8311741012411176E-14,
+    "WBbare_tot": -8.9157847771303977E-14,
+    "WBveg_tot": -7.59774188008322E-14,
+    "WBcanyon_flux": -3.2338715039159638E-14,
+    "WBtree_level": 0,
+    "WBground_level": 0,
+    "WBsoil_level": -3.2338662523116908E-14,
+    "WBcanyon_level": -3.2338662523116908E-14
+  },
+  "a": 99,
+  "dIn_gbare_dt": 0,
+  "dIn_gimp_dt": 0,
+  "dIn_gveg_dt": 0,
+  "dIn_gveg_pond_dt": 0,
+  "dIn_tree_dt": 0,
+  "dV_dt": -0.017155578245397578,
+  "dV_dt_gbare": -0.017134579640242009,
+  "dV_dt_gimp": -0.017111312682573043,
+  "dV_dt_gveg": -0.01719253389876485,
+  "f_inf_gbare": 0,
+  "f_inf_gimp": 0,
+  "f_inf_gveg": 0,
+  "geometry": {
+    "hcanyon": 1.1245674740484428,
+    "wcanyon": 1,
+    "wroof": 0.81833910034602075,
+    "htree": 0.81505190311418685,
+    "radius_tree": 0.049999999999999996,
+    "distance_tree": 0.13650519031141867,
+    "ratio": 1.1245674740484428,
+    "wcanyon_norm": 0.54995242626070406,
+    "wroof_norm": 0.45004757373929588
+  },
+  "inputs": {
+    "Anthropogenic": {
+      "Tb": 291.15,
+      "Qf_canyon": 10,
+      "Qf_roof": 0,
+      "Waterf_canyonVeg": 0,
+      "Waterf_canyonBare": 0,
+      "Waterf_roof": 0
+    },
+    "Egbare_Pond": -0,
+    "Egbare_soil": 0,
+    "Egimp_Pond": 0,
+    "Egveg_In": 0,
+    "Egveg_Pond": 0,
+    "Egveg_soil": 1.0702652955529675E-8,
+    "Etree_In": 0,
+    "FractionsGround": {
+      "fveg": 0.545,
+      "fbare": 0,
+      "fimp": 0.455,
+      "Per_runoff": 0.9
+    },
+    "Gemeotry_m": {
+      "Height_canyon": 6.5,
+      "Width_canyon": 5.78,
+      "Width_roof": 4.73,
+      "Height_tree": 4.711,
+      "Radius_tree": 0.289,
+      "Distance_tree": 0.78899999999999992,
+      "Hcan_max": null,
+      "Hcan_std": null
+    },
+    "Int_ittm": {
+      "IntRoofImp": 0,
+      "IntRoofVegPlant": 0,
+      "IntRoofVegGround": 0,
+      "IntRooftot": 0,
+      "IntGroundImp": 0,
+      "IntGroundBare": 0,
+      "IntGroundVegPlant": 0,
+      "IntGroundVegGround": 0,
+      "IntTree": 0
+    },
+    "MeteoData": {
+      "SW_dir": 0,
+      "SW_diff": 0,
+      "LWR": 320.44956203280935,
+      "Zatm": 25,
+      "Tatm": 277.04999999999995,
+      "Uatm": 0.4,
+      "esat_Tatm": 807.25031297942337,
+      "rel_hum": 0.946,
+      "ea": 763.65879607853446,
+      "Pre": 94872.321056993358,
+      "q_atm": 0.0050219644814304557,
+      "Catm_CO2": 400,
+      "Catm_O2": 210000,
+      "Rain": 0,
+      "Time": "01-Jan-2010 01:00:00",
+      "SunDSM_MRT": null
+    },
+    "Owater_ittm": {
+      "OwRoofSoilVeg": [
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004
+      ],
+      "OwGroundSoilImp": [
+        null,
+        null,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004
+      ],
+      "OwGroundSoilBare": [
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004
+      ],
+      "OwGroundSoilVeg": [
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004
+      ],
+      "OwGroundSoilTot": [
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004,
+        0.27961016494080004
+      ]
+    },
+    "ParCalculation": {
+      "dts": 3600,
+      "dth": 1,
+      "row": 1000,
+      "cp_atm": 1005.2175096611177,
+      "rho_atm": 1.1893660307070875
+    },
+    "ParInterceptionTree": {
+      "Sp_In": 0.2
+    },
+    "ParSoilGround": {
+      "Zs": [
+        0,
+        10,
+        20,
+        50,
+        100,
+        150,
+        200,
+        300,
+        400,
+        600,
+        800,
+        1000,
+        1500,
+        2000
+      ],
+      "ms": 13,
+      "In_max_imp": 0.5,
+      "FixSM_G": 1,
+      "FixSM_LayerStart_G": 6,
+      "FixSM_LayerEnd_G": 13,
+      "In_max_underveg": 10,
+      "In_max_bare": 10,
+      "Sp_In": 0.2,
+      "Kimp": 0.001,
+      "Kfc": 0.2,
+      "Phy": 10000,
+      "SPAR": 2,
+      "Kbot": null,
+      "Pcla": 0.2,
+      "Psan": 0.4,
+      "Porg": 0.025
+    },
+    "ParTree": {
+      "trees": 1,
+      "ftree": 1
+    },
+    "ParVegGround": {
+      "LAI": 2.5,
+      "SAI": 0.001,
+      "hc": 0.15,
+      "h_disp": 0.099999999999999992,
+      "d_leaf": 0.8,
+      "CASE_ROOT": 1,
+      "ZR95": 250,
+      "ZR50": null,
+      "ZRmax": null,
+      "Rrootl": 3800,
+      "PsiL50": -4,
+      "PsiX50": -4.5,
+      "FI": 0.081,
+      "Do": 1000,
+      "a1": 6,
+      "go": 0.01,
+      "CT": 3,
+      "DSE": 0.656,
+      "Ha": 55,
+      "gmes": null,
+      "rjv": 2.4,
+      "Kopt": 0.5,
+      "Knit": 0.15,
+      "Vmax": 68,
+      "mSl": 0,
+      "e_rel": 1,
+      "e_relN": 1,
+      "Psi_sto_00": -0.5,
+      "Psi_sto_50": -3,
+      "Sl": 0.035
+    },
+    "ParVegTree": {
+      "LAI": 5,
+      "SAI": 0.2,
+      "d_leaf": 4,
+      "CASE_ROOT": 1,
+      "ZR95": 1000,
+      "ZR50": null,
+      "ZRmax": null,
+      "Rrootl": 4000,
+      "PsiL50": -3,
+      "PsiX50": -4.5,
+      "FI": 0.081,
+      "Do": 1000,
+      "a1": 9,
+      "go": 0.01,
+      "CT": 3,
+      "DSE": 0.649,
+      "Ha": 76,
+      "gmes": null,
+      "rjv": 2.4,
+      "Kopt": 0.5,
+      "Knit": 0.35,
+      "Vmax": 66,
+      "mSl": 0,
+      "e_rel": 1,
+      "e_relN": 1,
+      "Psi_sto_00": -0.5,
+      "Psi_sto_50": -2.2,
+      "Sl": 0.024,
+      "SPARTREE": 2
+    },
+    "Qinlat_ittm": {
+      "Qin_bare2imp": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Qin_veg2imp": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Qin_veg2bare": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Qin_imp2bare": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Qin_bare2veg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Qin_imp2veg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Qin_imp": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Qin_bare": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Qin_veg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "Runon_ittm": {
+      "RunonRoofTot": 0,
+      "RunoffRoofTot": 0,
+      "RunonGroundTot": 0,
+      "RunoffGroundTot": 0,
+      "RunonUrban": 0,
+      "RunoffUrban": 0
+    },
+    "TEgveg": 0,
+    "TEtree": 0,
+    "geometry": {
+      "hcanyon": 1.1245674740484428,
+      "wcanyon": 1,
+      "wroof": 0.81833910034602075,
+      "htree": 0.81505190311418685,
+      "radius_tree": 0.049999999999999996,
+      "distance_tree": 0.13650519031141867,
+      "ratio": 1.1245674740484428,
+      "wcanyon_norm": 0.54995242626070406,
+      "wroof_norm": 0.45004757373929588
+    }
+  },
+  "q_gbare_runoff": -0,
+  "q_gimp_runoff": -0,
+  "q_gveg_dwn": 0,
+  "q_gveg_runoff": -0,
+  "q_tree_dwn": 0,
+  "w": [
+    {
+      "name": "Anthropogenic",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1056,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "DeepGLk",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "EB_TEgveg",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "EB_TEtree",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Egbare_Pond",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Egbare_Soil",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Egbare_soil",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Egimp_Pond",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Egimp_soil",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Egveg_In",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Egveg_Pond",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Egveg_Soil",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Egveg_soil",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Etot",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Etree_In",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Exwat_H",
+      "size": [
+        1,
+        13
+      ],
+      "bytes": 104,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Exwat_H_gbare",
+      "size": [
+        1,
+        13
+      ],
+      "bytes": 104,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Exwat_H_gimp",
+      "size": [
+        1,
+        13
+      ],
+      "bytes": 104,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Exwat_H_gveg",
+      "size": [
+        1,
+        13
+      ],
+      "bytes": 104,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Exwat_L",
+      "size": [
+        1,
+        13
+      ],
+      "bytes": 104,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Exwat_L_gbare",
+      "size": [
+        1,
+        13
+      ],
+      "bytes": 104,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Exwat_L_gimp",
+      "size": [
+        1,
+        13
+      ],
+      "bytes": 104,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Exwat_L_gveg",
+      "size": [
+        1,
+        13
+      ],
+      "bytes": 104,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "FractionsGround",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 704,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Gemeotry_m",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1408,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "In_gbare",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "In_gimp",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "In_gveg",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "In_gveg_pond",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "In_tree",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Int_ittm",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1584,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Kf_gbare",
+      "size": [
+        1,
+        13
+      ],
+      "bytes": 104,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Kf_gimp",
+      "size": [
+        1,
+        13
+      ],
+      "bytes": 104,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Kf_gveg",
+      "size": [
+        1,
+        13
+      ],
+      "bytes": 104,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Lk",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Lk_gbare",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Lk_gimp",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Lk_gveg",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "MeteoData",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 2816,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "O",
+      "size": [
+        1,
+        13
+      ],
+      "bytes": 104,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "OS",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "OS_gbare",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "OS_gimp",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "OS_gveg",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "O_gbare",
+      "size": [
+        1,
+        13
+      ],
+      "bytes": 104,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "O_gimp",
+      "size": [
+        1,
+        13
+      ],
+      "bytes": 104,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "O_gveg",
+      "size": [
+        1,
+        13
+      ],
+      "bytes": 104,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Owater_ittm",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1288,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ParCalculation",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 880,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ParInterceptionTree",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 176,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ParSoilGround",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 3096,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ParTree",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 352,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ParVegGround",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 5280,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ParVegTree",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 5104,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Psi_s_H_gbare",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Psi_s_H_gimp",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Psi_s_H_gveg",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Psi_s_H_tot",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Psi_s_L",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Psi_s_L_gbare",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Psi_s_L_gimp",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Psi_s_L_gveg",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Psi_soil_gbare",
+      "size": [
+        1,
+        13
+      ],
+      "bytes": 104,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Psi_soil_gimp",
+      "size": [
+        1,
+        13
+      ],
+      "bytes": 104,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Psi_soil_gveg",
+      "size": [
+        1,
+        13
+      ],
+      "bytes": 104,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Qin_bare",
+      "size": [
+        1,
+        13
+      ],
+      "bytes": 104,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Qin_bare2imp",
+      "size": [
+        1,
+        13
+      ],
+      "bytes": 104,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Qin_bare2veg",
+      "size": [
+        1,
+        13
+      ],
+      "bytes": 104,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Qin_imp",
+      "size": [
+        1,
+        13
+      ],
+      "bytes": 104,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Qin_imp2bare",
+      "size": [
+        1,
+        13
+      ],
+      "bytes": 104,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Qin_imp2veg",
+      "size": [
+        1,
+        13
+      ],
+      "bytes": 104,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Qin_veg",
+      "size": [
+        1,
+        13
+      ],
+      "bytes": 104,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Qin_veg2bare",
+      "size": [
+        1,
+        13
+      ],
+      "bytes": 104,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Qin_veg2imp",
+      "size": [
+        1,
+        13
+      ],
+      "bytes": 104,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Qinlat_ittm",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 2448,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Rd",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Rd_gbare",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Rd_gimp",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Rd_gveg",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Runoff",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Runon_ittm",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "StorageTot",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "TEgveg",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "TEgveg_bare",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "TEgveg_imp",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "TEgveg_tot",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "TEgveg_veg",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "TEtree",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "TEtree_bare",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "TEtree_imp",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "TEtree_tot",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "TEtree_veg",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "V",
+      "size": [
+        1,
+        13
+      ],
+      "bytes": 104,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "V_gbare",
+      "size": [
+        1,
+        13
+      ],
+      "bytes": 104,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "V_gimp",
+      "size": [
+        1,
+        13
+      ],
+      "bytes": 104,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "V_gveg",
+      "size": [
+        1,
+        13
+      ],
+      "bytes": 104,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "WBIndv",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1408,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "WBTot",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 2640,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "a",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "dIn_gbare_dt",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "dIn_gimp_dt",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "dIn_gveg_dt",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "dIn_gveg_pond_dt",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "dIn_tree_dt",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "dV_dt",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "dV_dt_gbare",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "dV_dt_gimp",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "dV_dt_gveg",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "f_inf_gbare",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "f_inf_gimp",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "f_inf_gveg",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "geometry",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1584,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "inputs",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 32936,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "q_gbare_runoff",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "q_gimp_runoff",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "q_gveg_dwn",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "q_gveg_runoff",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "q_tree_dwn",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "w",
+      "size": [
+        24,
+        1
+      ],
+      "bytes": 33284,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WaterCanyon",
+        "level": 1
+      },
+      "persistent": false
+    }
+  ]
+}

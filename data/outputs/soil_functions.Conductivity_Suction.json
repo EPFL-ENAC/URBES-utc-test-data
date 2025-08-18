@@ -1,0 +1,284 @@
+{
+  "Ko": 0.017134579640331167,
+  "Ks": 15.475656399419266,
+  "L": 0.18687368524040304,
+  "O": 0.27961016494080004,
+  "O33": 0.27961016494080004,
+  "Ohy": 0.096123264288628857,
+  "Osat": 0.45947824494080003,
+  "Pe": 3.9121210762443326,
+  "Po": 3363.9143730886849,
+  "SPAR": 2,
+  "a": 11,
+  "alpVG": -9.634329919190001E-5,
+  "inputs": {
+    "Ks": 15.475656399419266,
+    "L": 0.18687368524040304,
+    "O": 0.27961016494080004,
+    "O33": 0.27961016494080004,
+    "Ohy": 0.096123264288628857,
+    "Osat": 0.45947824494080003,
+    "Pe": 3.9121210762443326,
+    "SPAR": 2,
+    "alpVG": -9.634329919190001E-5,
+    "nVG": 1.1868736852404029
+  },
+  "nVG": 1.1868736852404029,
+  "w": [
+    {
+      "name": "Ko",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Conductivity_Suction",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Ks",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Conductivity_Suction",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "L",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Conductivity_Suction",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "O",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Conductivity_Suction",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "O33",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Conductivity_Suction",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Ohy",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Conductivity_Suction",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Osat",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Conductivity_Suction",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Pe",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Conductivity_Suction",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Po",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Conductivity_Suction",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "SPAR",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Conductivity_Suction",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "a",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Conductivity_Suction",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "alpVG",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Conductivity_Suction",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "inputs",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1760,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Conductivity_Suction",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "nVG",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Conductivity_Suction",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "w",
+      "size": [
+        10,
+        1
+      ],
+      "bytes": 14232,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Conductivity_Suction",
+        "level": 1
+      },
+      "persistent": false
+    }
+  ]
+}

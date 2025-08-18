@@ -1,0 +1,843 @@
+{
+  "BEM_on": 1,
+  "G2Roof": 0,
+  "G2WallShade": 0,
+  "G2WallSun": 0,
+  "Gemeotry_m": {
+    "Height_canyon": 6.5,
+    "Width_canyon": 5.78,
+    "Width_roof": 4.73,
+    "Height_tree": 4.711,
+    "Radius_tree": 0.289,
+    "Distance_tree": 0.78899999999999992,
+    "Hcan_max": null,
+    "Hcan_std": null
+  },
+  "HVACSchedule": {
+    "Hequip": 0,
+    "Hpeople": 0,
+    "LEequip": 0,
+    "LEpeople": 0,
+    "AirConRoomFraction": 1
+  },
+  "Humidity_ittm": {
+    "CanyonRelative": 0,
+    "CanyonSpecific": 0.0050219644814304557,
+    "CanyonVapourPre": 0,
+    "CanyonRelativeSat": 0,
+    "CanyonSpecificSat": 0,
+    "CanyonVapourPreSat": 0,
+    "AtmRelative": 0,
+    "AtmSpecific": 0,
+    "AtmVapourPre": 0,
+    "AtmRelativeSat": 0,
+    "AtmSpecificSat": 0,
+    "AtmVapourPreSat": 0,
+    "q2m": 0.0050219644814304557
+  },
+  "MeteoData": {
+    "SW_dir": 0,
+    "SW_diff": 0,
+    "LWR": 320.44956203280935,
+    "Zatm": 25,
+    "Tatm": 277.04999999999995,
+    "Uatm": 0.4,
+    "esat_Tatm": 807.25031297942337,
+    "rel_hum": 0.946,
+    "ea": 763.65879607853446,
+    "Pre": 94872.321056993358,
+    "q_atm": 0.0050219644814304557,
+    "Catm_CO2": 400,
+    "Catm_O2": 210000,
+    "Rain": 0,
+    "Time": "01-Jan-2010 01:00:00",
+    "SunDSM_MRT": null
+  },
+  "ParCalculation": {
+    "dts": 3600,
+    "dth": 1,
+    "row": 1000,
+    "cp_atm": 1005.2175096611177,
+    "rho_atm": 1.1893660307070875
+  },
+  "ParHVAC": {
+    "ACon": 0,
+    "Heatingon": 1,
+    "TsetpointCooling": 298.15,
+    "TsetpointHeating": 293.15,
+    "RHsetpointCooling": 60,
+    "RHsetpointHeating": null,
+    "ACH": 0.5,
+    "COPAC": 3.26,
+    "COPHeat": 0.9,
+    "f_ACLatentToQ": 1,
+    "AC_onCool": 0,
+    "AC_onDehum": 0,
+    "q_RHspCooling": 0.012552804283250864,
+    "MasterOn": 0
+  },
+  "ParThermalBulidingInt": {
+    "IntMassOn": 0,
+    "FloorHeight": 3,
+    "dzFloor": 0.2,
+    "dzWall": 0.2,
+    "lan_ground_floor": 1.2,
+    "cv_ground_floor": 1.5E+6,
+    "lan_floor_IntMass": 0.67,
+    "cv_floor_IntMass": 1.0E+6,
+    "lan_wall_IntMass": 0.67,
+    "cv_wall_IntMass": 1.0E+6
+  },
+  "ParWindows": {
+    "WindowsOn": 1,
+    "GlazingRatio": 0.15,
+    "Uvalue": 4.95,
+    "lan_windows": null,
+    "cv_glass": 2.1E+6,
+    "dztot": 0.02,
+    "SHGC": 0.8,
+    "SolarTransmittance": 0.60000000000000009,
+    "SolarAbsorptivity": 0,
+    "SolarAlbedo": 0.39999999999999991
+  },
+  "PropOpticalIndoors": {
+    "abc": 0.3,
+    "abw": 0.3,
+    "abg": 0.3,
+    "abm": 0.3,
+    "ec": 0.95,
+    "eg": 0.95,
+    "ew": 0.95,
+    "em": 0.95
+  },
+  "SWRabs_t": {
+    "SWRabsGroundImp": 0,
+    "SWRabsGroundBare": 0,
+    "SWRabsGroundVeg": 0,
+    "SWRabsTree": 0,
+    "SWRabsWallSun": 0,
+    "SWRabsWallShade": 0,
+    "SWRabsTotalGround": 0,
+    "SWRabsTotalCanyon": 0,
+    "SWRabsWindowSun": 0,
+    "SWRtransWindowSun": 0,
+    "SWRabsWallSunExt": 0,
+    "SWRabsWallSunTransmitted": 0,
+    "SWRabsWindowShade": 0,
+    "SWRtransWindowShade": 0,
+    "SWRabsWallShadeExt": 0,
+    "SWRabsWallShadeTransmitted": 0
+  },
+  "SWRinWshd": 0,
+  "SWRinWsun": 0,
+  "TempDamp_ittm": {
+    "TDampGroundImp": 277.15,
+    "TDampGroundBare": 277.15,
+    "TDampGroundVeg": 277.15,
+    "TDampTree": 277.15,
+    "TDampGroundBuild": 277.15
+  },
+  "TempVecB_ittm": {
+    "Tceiling": 277.04999999999995,
+    "Tinwallsun": 277.04999999999995,
+    "Tinwallshd": 277.04999999999995,
+    "Twindows": 277.04999999999995,
+    "Tinground": 277.04999999999995,
+    "Tintmass": 277.04999999999995,
+    "Tbin": 277.04999999999995,
+    "qbin": 0.0050219644814304557
+  },
+  "TempVec_ittm": {
+    "TRoofImp": 277.04999999999995,
+    "TRoofVeg": 277.04999999999995,
+    "TRoofIntImp": 277.04999999999995,
+    "TRoofIntVeg": 277.04999999999995,
+    "TGroundImp": 277.04999999999995,
+    "TGroundBare": 277.04999999999995,
+    "TGroundVeg": 277.04999999999995,
+    "TTree": 277.04999999999995,
+    "TWallSun": 277.04999999999995,
+    "TWallShade": 277.04999999999995,
+    "TWallIntSun": 277.04999999999995,
+    "TWallIntShade": 277.04999999999995,
+    "TCanyon": 277.04999999999995,
+    "Tatm": 277.04999999999995,
+    "T2m": 277.04999999999995
+  },
+  "TemperatureB": [
+    277.04999999999995,
+    277.04999999999995,
+    277.04999999999995,
+    277.04999999999995,
+    277.04999999999995,
+    277.04999999999995,
+    277.04999999999995,
+    0.0050219644814304557
+  ],
+  "TemperatureC": [
+    277.04999999999995,
+    277.04999999999995,
+    277.04999999999995,
+    277.04999999999995,
+    277.04999999999995,
+    277.04999999999995,
+    277.04999999999995,
+    277.04999999999995,
+    277.04999999999995,
+    0.0050219644814304557
+  ],
+  "WasteHeat": {
+    "SensibleFromAC_Can": 0,
+    "LatentFromAC_Can": 0,
+    "WaterFromAC_Can": 0,
+    "SensibleFromHeat_Can": 0,
+    "LatentFromHeat_Can": 0,
+    "SensibleFromVent_Can": -0,
+    "LatentFromVent_Can": -0,
+    "TotAnthInput_URB": 0
+  },
+  "YBuildInt": [
+    -1.1368683772161593E-12,
+    0,
+    1.1368683772161593E-12,
+    3.8999999999999773,
+    0.776650365021316,
+    3.8999999999999773,
+    -16100.000000000022,
+    0
+  ],
+  "a": 24,
+  "inputs": {
+    "BEM_on": 1,
+    "G2Roof": 0,
+    "G2WallShade": 0,
+    "G2WallSun": 0,
+    "Gemeotry_m": {
+      "Height_canyon": 6.5,
+      "Width_canyon": 5.78,
+      "Width_roof": 4.73,
+      "Height_tree": 4.711,
+      "Radius_tree": 0.289,
+      "Distance_tree": 0.78899999999999992,
+      "Hcan_max": null,
+      "Hcan_std": null
+    },
+    "HVACSchedule": {
+      "Hequip": 0,
+      "Hpeople": 0,
+      "LEequip": 0,
+      "LEpeople": 0,
+      "AirConRoomFraction": 1
+    },
+    "Humidity_ittm": {
+      "CanyonRelative": 0,
+      "CanyonSpecific": 0.0050219644814304557,
+      "CanyonVapourPre": 0,
+      "CanyonRelativeSat": 0,
+      "CanyonSpecificSat": 0,
+      "CanyonVapourPreSat": 0,
+      "AtmRelative": 0,
+      "AtmSpecific": 0,
+      "AtmVapourPre": 0,
+      "AtmRelativeSat": 0,
+      "AtmSpecificSat": 0,
+      "AtmVapourPreSat": 0,
+      "q2m": 0.0050219644814304557
+    },
+    "MeteoData": {
+      "SW_dir": 0,
+      "SW_diff": 0,
+      "LWR": 320.44956203280935,
+      "Zatm": 25,
+      "Tatm": 277.04999999999995,
+      "Uatm": 0.4,
+      "esat_Tatm": 807.25031297942337,
+      "rel_hum": 0.946,
+      "ea": 763.65879607853446,
+      "Pre": 94872.321056993358,
+      "q_atm": 0.0050219644814304557,
+      "Catm_CO2": 400,
+      "Catm_O2": 210000,
+      "Rain": 0,
+      "Time": "01-Jan-2010 01:00:00",
+      "SunDSM_MRT": null
+    },
+    "ParCalculation": {
+      "dts": 3600,
+      "dth": 1,
+      "row": 1000,
+      "cp_atm": 1005.2175096611177,
+      "rho_atm": 1.1893660307070875
+    },
+    "ParHVAC": {
+      "ACon": 0,
+      "Heatingon": 1,
+      "TsetpointCooling": 298.15,
+      "TsetpointHeating": 293.15,
+      "RHsetpointCooling": 60,
+      "RHsetpointHeating": null,
+      "ACH": 0.5,
+      "COPAC": 3.26,
+      "COPHeat": 0.9,
+      "f_ACLatentToQ": 1,
+      "AC_onCool": 0,
+      "AC_onDehum": 0,
+      "q_RHspCooling": 0.012552804283250864,
+      "MasterOn": 0
+    },
+    "ParThermalBulidingInt": {
+      "IntMassOn": 0,
+      "FloorHeight": 3,
+      "dzFloor": 0.2,
+      "dzWall": 0.2,
+      "lan_ground_floor": 1.2,
+      "cv_ground_floor": 1.5E+6,
+      "lan_floor_IntMass": 0.67,
+      "cv_floor_IntMass": 1.0E+6,
+      "lan_wall_IntMass": 0.67,
+      "cv_wall_IntMass": 1.0E+6
+    },
+    "ParWindows": {
+      "WindowsOn": 1,
+      "GlazingRatio": 0.15,
+      "Uvalue": 4.95,
+      "lan_windows": null,
+      "cv_glass": 2.1E+6,
+      "dztot": 0.02,
+      "SHGC": 0.8,
+      "SolarTransmittance": 0.60000000000000009,
+      "SolarAbsorptivity": 0,
+      "SolarAlbedo": 0.39999999999999991
+    },
+    "PropOpticalIndoors": {
+      "abc": 0.3,
+      "abw": 0.3,
+      "abg": 0.3,
+      "abm": 0.3,
+      "ec": 0.95,
+      "eg": 0.95,
+      "ew": 0.95,
+      "em": 0.95
+    },
+    "SWRabs_t": {
+      "SWRabsGroundImp": 0,
+      "SWRabsGroundBare": 0,
+      "SWRabsGroundVeg": 0,
+      "SWRabsTree": 0,
+      "SWRabsWallSun": 0,
+      "SWRabsWallShade": 0,
+      "SWRabsTotalGround": 0,
+      "SWRabsTotalCanyon": 0,
+      "SWRabsWindowSun": 0,
+      "SWRtransWindowSun": 0,
+      "SWRabsWallSunExt": 0,
+      "SWRabsWallSunTransmitted": 0,
+      "SWRabsWindowShade": 0,
+      "SWRtransWindowShade": 0,
+      "SWRabsWallShadeExt": 0,
+      "SWRabsWallShadeTransmitted": 0
+    },
+    "SWRinWshd": 0,
+    "SWRinWsun": 0,
+    "TempDamp_ittm": {
+      "TDampGroundImp": 277.15,
+      "TDampGroundBare": 277.15,
+      "TDampGroundVeg": 277.15,
+      "TDampTree": 277.15,
+      "TDampGroundBuild": 277.15
+    },
+    "TempVecB_ittm": {
+      "Tceiling": 277.04999999999995,
+      "Tinwallsun": 277.04999999999995,
+      "Tinwallshd": 277.04999999999995,
+      "Twindows": 277.04999999999995,
+      "Tinground": 277.04999999999995,
+      "Tintmass": 277.04999999999995,
+      "Tbin": 277.04999999999995,
+      "qbin": 0.0050219644814304557
+    },
+    "TempVec_ittm": {
+      "TRoofImp": 277.04999999999995,
+      "TRoofVeg": 277.04999999999995,
+      "TRoofIntImp": 277.04999999999995,
+      "TRoofIntVeg": 277.04999999999995,
+      "TGroundImp": 277.04999999999995,
+      "TGroundBare": 277.04999999999995,
+      "TGroundVeg": 277.04999999999995,
+      "TTree": 277.04999999999995,
+      "TWallSun": 277.04999999999995,
+      "TWallShade": 277.04999999999995,
+      "TWallIntSun": 277.04999999999995,
+      "TWallIntShade": 277.04999999999995,
+      "TCanyon": 277.04999999999995,
+      "Tatm": 277.04999999999995,
+      "T2m": 277.04999999999995
+    },
+    "TemperatureB": [
+      277.04999999999995,
+      277.04999999999995,
+      277.04999999999995,
+      277.04999999999995,
+      277.04999999999995,
+      277.04999999999995,
+      277.04999999999995,
+      0.0050219644814304557
+    ],
+    "TemperatureC": [
+      277.04999999999995,
+      277.04999999999995,
+      277.04999999999995,
+      277.04999999999995,
+      277.04999999999995,
+      277.04999999999995,
+      277.04999999999995,
+      277.04999999999995,
+      277.04999999999995,
+      0.0050219644814304557
+    ]
+  },
+  "w": [
+    {
+      "name": "BEM_on",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "EBSolver_Building",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "G2Roof",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "EBSolver_Building",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "G2WallShade",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "EBSolver_Building",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "G2WallSun",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "EBSolver_Building",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Gemeotry_m",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1408,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "EBSolver_Building",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "HVACSchedule",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 880,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "EBSolver_Building",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Humidity_ittm",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 2288,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "EBSolver_Building",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "MeteoData",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 2816,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "EBSolver_Building",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ParCalculation",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 880,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "EBSolver_Building",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ParHVAC",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 2464,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "EBSolver_Building",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ParThermalBulidingInt",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1760,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "EBSolver_Building",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ParWindows",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1760,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "EBSolver_Building",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "PropOpticalIndoors",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1408,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "EBSolver_Building",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "SWRabs_t",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 2816,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "EBSolver_Building",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "SWRinWshd",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "EBSolver_Building",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "SWRinWsun",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "EBSolver_Building",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "TempDamp_ittm",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 880,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "EBSolver_Building",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "TempVecB_ittm",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1408,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "EBSolver_Building",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "TempVec_ittm",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 2640,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "EBSolver_Building",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "TemperatureB",
+      "size": [
+        1,
+        8
+      ],
+      "bytes": 64,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "EBSolver_Building",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "TemperatureC",
+      "size": [
+        1,
+        10
+      ],
+      "bytes": 80,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "EBSolver_Building",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "WasteHeat",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1408,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "EBSolver_Building",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "YBuildInt",
+      "size": [
+        1,
+        8
+      ],
+      "bytes": 64,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "EBSolver_Building",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "a",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "EBSolver_Building",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "inputs",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 27128,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "EBSolver_Building",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "w",
+      "size": [
+        21,
+        1
+      ],
+      "bytes": 29478,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "EBSolver_Building",
+        "level": 1
+      },
+      "persistent": false
+    }
+  ]
+}

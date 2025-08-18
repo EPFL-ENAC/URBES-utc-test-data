@@ -1,0 +1,247 @@
+{
+  "LAI": 2.5,
+  "Ta": 4.0499999999999545,
+  "Ts": 3.8999999999999773,
+  "Ws": 0.057707208970655809,
+  "a": 5,
+  "d_leaf": 0.8,
+  "disp_h": 0.099999999999999992,
+  "hc": 0.15,
+  "inputs": {
+    "LAI": 2.5,
+    "Ta": 4.0499999999999545,
+    "Ts": 3.8999999999999773,
+    "Ws": 0.057707208970655809,
+    "d_leaf": 0.8,
+    "disp_h": 0.099999999999999992,
+    "hc": 0.15,
+    "zatm": 25,
+    "zom": 0.018449999999999998
+  },
+  "rb": 200.59749493149459,
+  "w": [
+    {
+      "name": "LAI",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Leaf_Boundary_Resistence",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Ta",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Leaf_Boundary_Resistence",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Ts",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Leaf_Boundary_Resistence",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Ws",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Leaf_Boundary_Resistence",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "a",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Leaf_Boundary_Resistence",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "d_leaf",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Leaf_Boundary_Resistence",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "disp_h",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Leaf_Boundary_Resistence",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "hc",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Leaf_Boundary_Resistence",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "inputs",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1584,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Leaf_Boundary_Resistence",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "rb",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Leaf_Boundary_Resistence",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "w",
+      "size": [
+        9,
+        1
+      ],
+      "bytes": 12948,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Leaf_Boundary_Resistence",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "zatm",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Leaf_Boundary_Resistence",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "zom",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Leaf_Boundary_Resistence",
+        "level": 1
+      },
+      "persistent": false
+    }
+  ],
+  "zatm": 25,
+  "zom": 0.018449999999999998
+}

@@ -1,0 +1,471 @@
+{
+  "Hcan": 6.5,
+  "Hcan_max": "NaN",
+  "Hcan_std": "NaN",
+  "Htree": 4.711,
+  "Kopt": 0.5,
+  "LAI_t": 5,
+  "R_tree": 0.289,
+  "RoughnessParameter": [
+    "MacD"
+  ],
+  "Wcan": 5.78,
+  "Wroof": 4.73,
+  "Zatm": 25,
+  "Zp": 6.5,
+  "Zref_und": 1.5,
+  "a": 14,
+  "alpha": 0.35064518296922109,
+  "dcan": 4.9027109348181961,
+  "inputs": {
+    "Hcan": 6.5,
+    "Hcan_max": null,
+    "Hcan_std": null,
+    "Htree": 4.711,
+    "Kopt": 0.5,
+    "LAI_t": 5,
+    "R_tree": 0.289,
+    "Wcan": 5.78,
+    "Wroof": 4.73,
+    "Zatm": 25,
+    "Zp": 6.5,
+    "Zref_und": 1.5,
+    "trees": 1,
+    "uatm": 0.4,
+    "zom_und": 0.01
+  },
+  "trees": 1,
+  "u_Hcan_max": 0.14744782891846922,
+  "u_Zp": 0.14744782891846922,
+  "uatm": 0.4,
+  "w": [
+    {
+      "name": "Hcan",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WindProfile_Canyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Hcan_max",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WindProfile_Canyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Hcan_std",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WindProfile_Canyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Htree",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WindProfile_Canyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Kopt",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WindProfile_Canyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "LAI_t",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WindProfile_Canyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "R_tree",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WindProfile_Canyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "RoughnessParameter",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 112,
+      "class": "cell",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WindProfile_Canyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Wcan",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WindProfile_Canyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Wroof",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WindProfile_Canyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Zatm",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WindProfile_Canyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Zp",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WindProfile_Canyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Zref_und",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WindProfile_Canyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "a",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WindProfile_Canyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "alpha",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WindProfile_Canyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "dcan",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WindProfile_Canyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "inputs",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 2640,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WindProfile_Canyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "trees",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WindProfile_Canyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "u_Hcan_max",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WindProfile_Canyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "u_Zp",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WindProfile_Canyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "uatm",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WindProfile_Canyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "w",
+      "size": [
+        15,
+        1
+      ],
+      "bytes": 21074,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WindProfile_Canyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "w_Zp",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WindProfile_Canyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "zom_und",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WindProfile_Canyon",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "zomcan",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "WindProfile_Canyon",
+        "level": 1
+      },
+      "persistent": false
+    }
+  ],
+  "w_Zp": 0,
+  "zom_und": 0.01,
+  "zomcan": 0.36417730666322035
+}

@@ -1,0 +1,722 @@
+{
+  "BEM_on": 1,
+  "FractionsGround": {
+    "fveg": 0.545,
+    "fbare": 0,
+    "fimp": 0.455,
+    "Per_runoff": 0.9
+  },
+  "MeteoData": {
+    "SW_dir": 0,
+    "SW_diff": 0,
+    "LWR": 320.44956203280935,
+    "Zatm": 25,
+    "Tatm": 277.04999999999995,
+    "Uatm": 0.4,
+    "esat_Tatm": 807.25031297942337,
+    "rel_hum": 0.946,
+    "ea": 763.65879607853446,
+    "Pre": 94872.321056993358,
+    "q_atm": 0.0050219644814304557,
+    "Catm_CO2": 400,
+    "Catm_O2": 210000,
+    "Rain": 0,
+    "Time": "01-Jan-2010 01:00:00",
+    "SunDSM_MRT": null
+  },
+  "ParTree": {
+    "trees": 1,
+    "ftree": 1
+  },
+  "ParVegTree": {
+    "LAI": 5,
+    "SAI": 0.2,
+    "d_leaf": 4,
+    "CASE_ROOT": 1,
+    "ZR95": 1000,
+    "ZR50": null,
+    "ZRmax": null,
+    "Rrootl": 4000,
+    "PsiL50": -3,
+    "PsiX50": -4.5,
+    "FI": 0.081,
+    "Do": 1000,
+    "a1": 9,
+    "go": 0.01,
+    "CT": 3,
+    "DSE": 0.649,
+    "Ha": 76,
+    "gmes": null,
+    "rjv": 2.4,
+    "Kopt": 0.5,
+    "Knit": 0.35,
+    "Vmax": 66,
+    "mSl": 0,
+    "e_rel": 1,
+    "e_relN": 1,
+    "Psi_sto_00": -0.5,
+    "Psi_sto_50": -2.2,
+    "Sl": 0.024,
+    "SPARTREE": 2
+  },
+  "ParWindows": {
+    "WindowsOn": 1,
+    "GlazingRatio": 0.15,
+    "Uvalue": 4.95,
+    "lan_windows": null,
+    "cv_glass": 2.1E+6,
+    "dztot": 0.02,
+    "SHGC": 0.8,
+    "SolarTransmittance": 0.60000000000000009,
+    "SolarAbsorptivity": 0,
+    "SolarAlbedo": 0.39999999999999991
+  },
+  "PropOpticalGround": {
+    "aveg": 0.2,
+    "abare": 0.15,
+    "aimp": 0.1,
+    "albedo": 0.15450000000000003,
+    "eveg": 0.91799704534590321,
+    "ebare": 0.95,
+    "eimp": 0.95,
+    "emissivity": 0.93255838971351723
+  },
+  "PropOpticalTree": {
+    "albedo": 0.2,
+    "emissivity": 0.99448343557923924
+  },
+  "PropOpticalWall": {
+    "albedo": 0.4,
+    "emissivity": 0.95
+  },
+  "SWREB_t": {
+    "SWREBGroundImp": 0,
+    "SWREBGroundBare": 0,
+    "SWREBGroundVeg": 0,
+    "SWREBTree": 0,
+    "SWREBWallSun": 0,
+    "SWREBWallShade": 0,
+    "SWREBTotalGround": 0,
+    "SWREBTotalCanyon": 0
+  },
+  "SWRabsDiff_t": {
+    "SWRabsGroundImp": 0,
+    "SWRabsGroundBare": 0,
+    "SWRabsGroundVeg": 0,
+    "SWRabsTree": 0,
+    "SWRabsWallSun": 0,
+    "SWRabsWallShade": 0,
+    "SWRabsTotalGround": 0,
+    "SWRabsTotalCanyon": 0
+  },
+  "SWRabsDir_t": {
+    "SWRabsGroundImp": 0,
+    "SWRabsGroundBare": 0,
+    "SWRabsGroundVeg": 0,
+    "SWRabsTree": 0,
+    "SWRabsWallSun": 0,
+    "SWRabsWallShade": 0,
+    "SWRabsTotalGround": 0,
+    "SWRabsTotalCanyon": 0
+  },
+  "SWRabs_t": {
+    "SWRabsGroundImp": 0,
+    "SWRabsGroundBare": 0,
+    "SWRabsGroundVeg": 0,
+    "SWRabsTree": 0,
+    "SWRabsWallSun": 0,
+    "SWRabsWallShade": 0,
+    "SWRabsTotalGround": 0,
+    "SWRabsTotalCanyon": 0
+  },
+  "SWRin_t": {
+    "SWRinGroundImp": 0,
+    "SWRinGroundBare": 0,
+    "SWRinGroundVeg": 0,
+    "SWRinTree": 0,
+    "SWRinWallSun": 0,
+    "SWRinWallShade": 0,
+    "SWRinTotalGround": 0,
+    "SWRinTotalCanyon": 0
+  },
+  "SWRout_t": {
+    "SWRoutGroundImp": 0,
+    "SWRoutGroundBare": 0,
+    "SWRoutGroundVeg": 0,
+    "SWRoutTree": 0,
+    "SWRoutWallSun": 0,
+    "SWRoutWallShade": 0,
+    "SWRoutTotalGround": 0,
+    "SWRoutTotalCanyon": 0
+  },
+  "SunPosition": {
+    "Datam": [
+      2010,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "t_bef": 0.5,
+    "t_aft": 0.5,
+    "theta_Z": 1.5707963267948966,
+    "theta_n": -2.8205538881820811,
+    "zeta_S": 0.32103876540771181,
+    "TimeOfMaxSolAlt": 12.000000000000002
+  },
+  "ViewFactor": {
+    "F_gs_nT": 0.38030860180886683,
+    "F_gw_nT": 0.30984569909556658,
+    "F_ww_nT": 0.44895134130080772,
+    "F_wg_nT": 0.27552432934959614,
+    "F_ws_nT": 0.27552432934959614,
+    "F_sg_nT": 0.38030860180886683,
+    "F_sw_nT": 0.30984569909556658,
+    "F_gs_T": 0.32036815920398021,
+    "F_gt_T": 0.097393034825870653,
+    "F_gw_T": 0.29111940298507455,
+    "F_ww_T": 0.36136505931879059,
+    "F_wt_T": 0.1503432835820897,
+    "F_wg_T": 0.25887233065442017,
+    "F_ws_T": 0.22941932644469951,
+    "F_sg_T": 0.32036815920398021,
+    "F_sw_T": 0.25799751243781083,
+    "F_st_T": 0.16363681592039817,
+    "F_tg_T": 0.15500582915258426,
+    "F_tw_T": 0.26908511907943788,
+    "F_ts_T": 0.26043608125549922,
+    "F_tt_T": 0.04638785143304075
+  },
+  "a": 18,
+  "albedo_canyon": "NaN",
+  "geometry": {
+    "hcanyon": 1.1245674740484428,
+    "wcanyon": 1,
+    "wroof": 0.81833910034602075,
+    "htree": 0.81505190311418685,
+    "radius_tree": 0.049999999999999996,
+    "distance_tree": 0.13650519031141867,
+    "ratio": 1.1245674740484428,
+    "wcanyon_norm": 0.54995242626070406,
+    "wroof_norm": 0.45004757373929588
+  },
+  "inputs": {
+    "BEM_on": 1,
+    "FractionsGround": {
+      "fveg": 0.545,
+      "fbare": 0,
+      "fimp": 0.455,
+      "Per_runoff": 0.9
+    },
+    "MeteoData": {
+      "SW_dir": 0,
+      "SW_diff": 0,
+      "LWR": 320.44956203280935,
+      "Zatm": 25,
+      "Tatm": 277.04999999999995,
+      "Uatm": 0.4,
+      "esat_Tatm": 807.25031297942337,
+      "rel_hum": 0.946,
+      "ea": 763.65879607853446,
+      "Pre": 94872.321056993358,
+      "q_atm": 0.0050219644814304557,
+      "Catm_CO2": 400,
+      "Catm_O2": 210000,
+      "Rain": 0,
+      "Time": "01-Jan-2010 01:00:00",
+      "SunDSM_MRT": null
+    },
+    "ParTree": {
+      "trees": 1,
+      "ftree": 1
+    },
+    "ParVegTree": {
+      "LAI": 5,
+      "SAI": 0.2,
+      "d_leaf": 4,
+      "CASE_ROOT": 1,
+      "ZR95": 1000,
+      "ZR50": null,
+      "ZRmax": null,
+      "Rrootl": 4000,
+      "PsiL50": -3,
+      "PsiX50": -4.5,
+      "FI": 0.081,
+      "Do": 1000,
+      "a1": 9,
+      "go": 0.01,
+      "CT": 3,
+      "DSE": 0.649,
+      "Ha": 76,
+      "gmes": null,
+      "rjv": 2.4,
+      "Kopt": 0.5,
+      "Knit": 0.35,
+      "Vmax": 66,
+      "mSl": 0,
+      "e_rel": 1,
+      "e_relN": 1,
+      "Psi_sto_00": -0.5,
+      "Psi_sto_50": -2.2,
+      "Sl": 0.024,
+      "SPARTREE": 2
+    },
+    "ParWindows": {
+      "WindowsOn": 1,
+      "GlazingRatio": 0.15,
+      "Uvalue": 4.95,
+      "lan_windows": null,
+      "cv_glass": 2.1E+6,
+      "dztot": 0.02,
+      "SHGC": 0.8,
+      "SolarTransmittance": 0.60000000000000009,
+      "SolarAbsorptivity": 0,
+      "SolarAlbedo": 0.39999999999999991
+    },
+    "PropOpticalGround": {
+      "aveg": 0.2,
+      "abare": 0.15,
+      "aimp": 0.1,
+      "albedo": 0.15450000000000003,
+      "eveg": 0.91799704534590321,
+      "ebare": 0.95,
+      "eimp": 0.95,
+      "emissivity": 0.93255838971351723
+    },
+    "PropOpticalTree": {
+      "albedo": 0.2,
+      "emissivity": 0.99448343557923924
+    },
+    "PropOpticalWall": {
+      "albedo": 0.4,
+      "emissivity": 0.95
+    },
+    "SunPosition": {
+      "Datam": [
+        2010,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "t_bef": 0.5,
+      "t_aft": 0.5,
+      "theta_Z": 1.5707963267948966,
+      "theta_n": -2.8205538881820811,
+      "zeta_S": 0.32103876540771181,
+      "TimeOfMaxSolAlt": 12.000000000000002
+    },
+    "ViewFactor": {
+      "F_gs_nT": 0.38030860180886683,
+      "F_gw_nT": 0.30984569909556658,
+      "F_ww_nT": 0.44895134130080772,
+      "F_wg_nT": 0.27552432934959614,
+      "F_ws_nT": 0.27552432934959614,
+      "F_sg_nT": 0.38030860180886683,
+      "F_sw_nT": 0.30984569909556658,
+      "F_gs_T": 0.32036815920398021,
+      "F_gt_T": 0.097393034825870653,
+      "F_gw_T": 0.29111940298507455,
+      "F_ww_T": 0.36136505931879059,
+      "F_wt_T": 0.1503432835820897,
+      "F_wg_T": 0.25887233065442017,
+      "F_ws_T": 0.22941932644469951,
+      "F_sg_T": 0.32036815920398021,
+      "F_sw_T": 0.25799751243781083,
+      "F_st_T": 0.16363681592039817,
+      "F_tg_T": 0.15500582915258426,
+      "F_tw_T": 0.26908511907943788,
+      "F_ts_T": 0.26043608125549922,
+      "F_tt_T": 0.04638785143304075
+    },
+    "geometry": {
+      "hcanyon": 1.1245674740484428,
+      "wcanyon": 1,
+      "wroof": 0.81833910034602075,
+      "htree": 0.81505190311418685,
+      "radius_tree": 0.049999999999999996,
+      "distance_tree": 0.13650519031141867,
+      "ratio": 1.1245674740484428,
+      "wcanyon_norm": 0.54995242626070406,
+      "wroof_norm": 0.45004757373929588
+    }
+  },
+  "w": [
+    {
+      "name": "BEM_on",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "TotalSWRabsorbed",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "FractionsGround",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 704,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "TotalSWRabsorbed",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "MeteoData",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 2816,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "TotalSWRabsorbed",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ParTree",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 352,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "TotalSWRabsorbed",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ParVegTree",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 5104,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "TotalSWRabsorbed",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ParWindows",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1760,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "TotalSWRabsorbed",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "PropOpticalGround",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1408,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "TotalSWRabsorbed",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "PropOpticalTree",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 352,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "TotalSWRabsorbed",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "PropOpticalWall",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 352,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "TotalSWRabsorbed",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "SWREB_t",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1408,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "TotalSWRabsorbed",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "SWRabsDiff_t",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1408,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "TotalSWRabsorbed",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "SWRabsDir_t",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1408,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "TotalSWRabsorbed",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "SWRabs_t",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1408,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "TotalSWRabsorbed",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "SWRin_t",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1408,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "TotalSWRabsorbed",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "SWRout_t",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1408,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "TotalSWRabsorbed",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "SunPosition",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1272,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "TotalSWRabsorbed",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ViewFactor",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 3696,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "TotalSWRabsorbed",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "a",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "TotalSWRabsorbed",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "albedo_canyon",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "TotalSWRabsorbed",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "geometry",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1584,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "TotalSWRabsorbed",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "inputs",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 21424,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "TotalSWRabsorbed",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "w",
+      "size": [
+        12,
+        1
+      ],
+      "bytes": 17066,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "TotalSWRabsorbed",
+        "level": 1
+      },
+      "persistent": false
+    }
+  ]
+}

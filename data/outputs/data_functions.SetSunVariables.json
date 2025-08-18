@@ -1,0 +1,312 @@
+{
+  "Datam": [
+    2010,
+    1,
+    1,
+    1,
+    0,
+    0
+  ],
+  "DeltaGMT": 1,
+  "L_day": 8.3388273040217289,
+  "Lat": 47.38,
+  "Lon": 8.56,
+  "T_sunrise": 7.83058634798914,
+  "T_sunset": 16.169413652010864,
+  "a": 8,
+  "delta_S": -0.401286133217378,
+  "h_S": -1.1246941365680789,
+  "inputs": {
+    "Datam": [
+      2010,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "DeltaGMT": 1,
+    "Lat": 47.38,
+    "Lon": 8.56,
+    "t_aft": 0.5,
+    "t_bef": 0.5
+  },
+  "jDay": 1,
+  "t_aft": 0.5,
+  "t_bef": 0.5,
+  "w": [
+    {
+      "name": "Datam",
+      "size": [
+        1,
+        6
+      ],
+      "bytes": 48,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SetSunVariables",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "DeltaGMT",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SetSunVariables",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "L_day",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SetSunVariables",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Lat",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SetSunVariables",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Lon",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SetSunVariables",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "T_sunrise",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SetSunVariables",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "T_sunset",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SetSunVariables",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "a",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SetSunVariables",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "delta_S",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SetSunVariables",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "h_S",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SetSunVariables",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "inputs",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1096,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SetSunVariables",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "jDay",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SetSunVariables",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "t_aft",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SetSunVariables",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "t_bef",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SetSunVariables",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "w",
+      "size": [
+        6,
+        1
+      ],
+      "bytes": 8734,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SetSunVariables",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "zeta_S",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "SetSunVariables",
+        "level": 1
+      },
+      "persistent": false
+    }
+  ],
+  "zeta_S": 0.32103876540771181
+}

@@ -1,0 +1,471 @@
+{
+  "Anthropogenic": {
+    "Tb": 291.15,
+    "Qf_canyon": 10,
+    "Qf_roof": 0,
+    "Waterf_canyonVeg": 0,
+    "Waterf_canyonBare": 0,
+    "Waterf_roof": 0
+  },
+  "BEM_on": 1,
+  "G1": 0,
+  "G2": 0,
+  "ParCalculation": {
+    "dts": 3600,
+    "dth": 1,
+    "row": 1000,
+    "cp_atm": 1005.2175096611177,
+    "rho_atm": 1.1893660307070875
+  },
+  "ParThermalWall": {
+    "lan_dry": 0.67,
+    "cv_s": 1.0E+6
+  },
+  "ParWindows": {
+    "WindowsOn": 1,
+    "GlazingRatio": 0.15,
+    "Uvalue": 4.95,
+    "lan_windows": null,
+    "cv_glass": 2.1E+6,
+    "dztot": 0.02,
+    "SHGC": 0.8,
+    "SolarTransmittance": 0.60000000000000009,
+    "SolarAbsorptivity": 0,
+    "SolarAlbedo": 0.39999999999999991
+  },
+  "TempVecB_ittm": {
+    "Tceiling": 277.04999999999995,
+    "Tinwallsun": 277.04999999999995,
+    "Tinwallshd": 277.04999999999995,
+    "Twindows": 277.04999999999995,
+    "Tinground": 277.04999999999995,
+    "Tintmass": 277.04999999999995,
+    "Tbin": 277.04999999999995,
+    "qbin": 0.0050219644814304557
+  },
+  "TempVec_ittm": {
+    "TRoofImp": 277.04999999999995,
+    "TRoofVeg": 277.04999999999995,
+    "TRoofIntImp": 277.04999999999995,
+    "TRoofIntVeg": 277.04999999999995,
+    "TGroundImp": 277.04999999999995,
+    "TGroundBare": 277.04999999999995,
+    "TGroundVeg": 277.04999999999995,
+    "TTree": 277.04999999999995,
+    "TWallSun": 277.04999999999995,
+    "TWallShade": 277.04999999999995,
+    "TWallIntSun": 277.04999999999995,
+    "TWallIntShade": 277.04999999999995,
+    "TCanyon": 277.04999999999995,
+    "Tatm": 277.04999999999995,
+    "T2m": 277.04999999999995
+  },
+  "TemperatureB": [
+    277.04999999999995,
+    277.04999999999995,
+    277.04999999999995,
+    277.04999999999995,
+    277.04999999999995,
+    277.04999999999995,
+    277.04999999999995,
+    0.0050219644814304557
+  ],
+  "TemperatureC": [
+    277.04999999999995,
+    277.04999999999995,
+    277.04999999999995,
+    277.04999999999995,
+    277.04999999999995,
+    277.04999999999995,
+    277.04999999999995,
+    277.04999999999995,
+    277.04999999999995,
+    0.0050219644814304557
+  ],
+  "WallLayers": {
+    "dz1_wall": 0.1,
+    "dz2_wall": 0.1
+  },
+  "a": 13,
+  "dS": 0,
+  "inputs": {
+    "Anthropogenic": {
+      "Tb": 291.15,
+      "Qf_canyon": 10,
+      "Qf_roof": 0,
+      "Waterf_canyonVeg": 0,
+      "Waterf_canyonBare": 0,
+      "Waterf_roof": 0
+    },
+    "BEM_on": 1,
+    "ParCalculation": {
+      "dts": 3600,
+      "dth": 1,
+      "row": 1000,
+      "cp_atm": 1005.2175096611177,
+      "rho_atm": 1.1893660307070875
+    },
+    "ParThermalWall": {
+      "lan_dry": 0.67,
+      "cv_s": 1.0E+6
+    },
+    "ParWindows": {
+      "WindowsOn": 1,
+      "GlazingRatio": 0.15,
+      "Uvalue": 4.95,
+      "lan_windows": null,
+      "cv_glass": 2.1E+6,
+      "dztot": 0.02,
+      "SHGC": 0.8,
+      "SolarTransmittance": 0.60000000000000009,
+      "SolarAbsorptivity": 0,
+      "SolarAlbedo": 0.39999999999999991
+    },
+    "TempVecB_ittm": {
+      "Tceiling": 277.04999999999995,
+      "Tinwallsun": 277.04999999999995,
+      "Tinwallshd": 277.04999999999995,
+      "Twindows": 277.04999999999995,
+      "Tinground": 277.04999999999995,
+      "Tintmass": 277.04999999999995,
+      "Tbin": 277.04999999999995,
+      "qbin": 0.0050219644814304557
+    },
+    "TempVec_ittm": {
+      "TRoofImp": 277.04999999999995,
+      "TRoofVeg": 277.04999999999995,
+      "TRoofIntImp": 277.04999999999995,
+      "TRoofIntVeg": 277.04999999999995,
+      "TGroundImp": 277.04999999999995,
+      "TGroundBare": 277.04999999999995,
+      "TGroundVeg": 277.04999999999995,
+      "TTree": 277.04999999999995,
+      "TWallSun": 277.04999999999995,
+      "TWallShade": 277.04999999999995,
+      "TWallIntSun": 277.04999999999995,
+      "TWallIntShade": 277.04999999999995,
+      "TCanyon": 277.04999999999995,
+      "Tatm": 277.04999999999995,
+      "T2m": 277.04999999999995
+    },
+    "TemperatureB": [
+      277.04999999999995,
+      277.04999999999995,
+      277.04999999999995,
+      277.04999999999995,
+      277.04999999999995,
+      277.04999999999995,
+      277.04999999999995,
+      0.0050219644814304557
+    ],
+    "TemperatureC": [
+      277.04999999999995,
+      277.04999999999995,
+      277.04999999999995,
+      277.04999999999995,
+      277.04999999999995,
+      277.04999999999995,
+      277.04999999999995,
+      277.04999999999995,
+      277.04999999999995,
+      0.0050219644814304557
+    ],
+    "WallLayers": {
+      "dz1_wall": 0.1,
+      "dz2_wall": 0.1
+    },
+    "type": 1
+  },
+  "type": 1,
+  "w": [
+    {
+      "name": "Anthropogenic",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1056,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ConductiveHeatFlux_Walls",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "BEM_on",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ConductiveHeatFlux_Walls",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "G1",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ConductiveHeatFlux_Walls",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "G2",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ConductiveHeatFlux_Walls",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ParCalculation",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 880,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ConductiveHeatFlux_Walls",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ParThermalWall",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 352,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ConductiveHeatFlux_Walls",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ParWindows",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1760,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ConductiveHeatFlux_Walls",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "TempVecB_ittm",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1408,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ConductiveHeatFlux_Walls",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "TempVec_ittm",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 2640,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ConductiveHeatFlux_Walls",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "TemperatureB",
+      "size": [
+        1,
+        8
+      ],
+      "bytes": 64,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ConductiveHeatFlux_Walls",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "TemperatureC",
+      "size": [
+        1,
+        10
+      ],
+      "bytes": 80,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ConductiveHeatFlux_Walls",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "WallLayers",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 352,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ConductiveHeatFlux_Walls",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "a",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ConductiveHeatFlux_Walls",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "dS",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ConductiveHeatFlux_Walls",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "inputs",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 10456,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ConductiveHeatFlux_Walls",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "type",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ConductiveHeatFlux_Walls",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "w",
+      "size": [
+        11,
+        1
+      ],
+      "bytes": 15864,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ConductiveHeatFlux_Walls",
+        "level": 1
+      },
+      "persistent": false
+    }
+  ]
+}

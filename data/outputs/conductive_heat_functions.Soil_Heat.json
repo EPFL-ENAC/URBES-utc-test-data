@@ -1,0 +1,189 @@
+{
+  "CTt": 7.1497449505658546E-6,
+  "G": -0.97644280407881545,
+  "Tdp": 3.9959999999999987,
+  "Tdptm1": 4,
+  "Ts": 3.8999999999999773,
+  "Tstm1": 3.8999999999999773,
+  "a": 7,
+  "dt": 3600,
+  "inputs": {
+    "CTt": 7.1497449505658546E-6,
+    "Tdptm1": 4,
+    "Ts": 3.8999999999999773,
+    "Tstm1": 3.8999999999999773,
+    "dt": 3600
+  },
+  "w": [
+    {
+      "name": "CTt",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Heat",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "G",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Heat",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Tdp",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Heat",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Tdptm1",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Heat",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Ts",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Heat",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Tstm1",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Heat",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "a",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Heat",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "dt",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Heat",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "inputs",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 880,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Heat",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "w",
+      "size": [
+        5,
+        1
+      ],
+      "bytes": 7302,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Soil_Heat",
+        "level": 1
+      },
+      "persistent": false
+    }
+  ]
+}

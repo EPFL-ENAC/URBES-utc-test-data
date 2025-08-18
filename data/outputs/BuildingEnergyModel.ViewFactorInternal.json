@@ -1,0 +1,248 @@
+{
+  "F_cg": 0.3253355138602152,
+  "F_cw": 0.33733224306989246,
+  "F_gc": 0.3253355138602152,
+  "F_gw": 0.3373322430698924,
+  "F_wc": 0.24547407841855257,
+  "F_wg": 0.24547407841855257,
+  "F_ww": 0.50905184316289487,
+  "Hbuild": 6.5,
+  "ViewFactor": {
+    "F_gc": 0.3253355138602152,
+    "F_gw": 0.3373322430698924,
+    "F_ww": 0.50905184316289487,
+    "F_wg": 0.24547407841855257,
+    "F_wc": 0.24547407841855257,
+    "F_cg": 0.3253355138602152,
+    "F_cw": 0.33733224306989246
+  },
+  "Wroof": 4.73,
+  "a": 11,
+  "inputs": {
+    "Hbuild": 6.5,
+    "Wroof": 4.73
+  },
+  "w": [
+    {
+      "name": "F_cg",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ViewFactorInternal",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "F_cw",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ViewFactorInternal",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "F_gc",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ViewFactorInternal",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "F_gw",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ViewFactorInternal",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "F_wc",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ViewFactorInternal",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "F_wg",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ViewFactorInternal",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "F_ww",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ViewFactorInternal",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Hbuild",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ViewFactorInternal",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ViewFactor",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1232,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ViewFactorInternal",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Wroof",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ViewFactorInternal",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "a",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ViewFactorInternal",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "inputs",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 352,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ViewFactorInternal",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "w",
+      "size": [
+        2,
+        1
+      ],
+      "bytes": 3310,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "ViewFactorInternal",
+        "level": 1
+      },
+      "persistent": false
+    }
+  ]
+}

@@ -1,0 +1,871 @@
+{
+  "BEM_on": 1,
+  "FractionsGround": {
+    "fveg": 0.545,
+    "fbare": 0,
+    "fimp": 0.455,
+    "Per_runoff": 0.9
+  },
+  "FractionsRoof": {
+    "fveg": 0.5,
+    "fimp": 0.5,
+    "Per_runoff": 1
+  },
+  "Gemeotry_m": {
+    "Height_canyon": 6.5,
+    "Width_canyon": 5.78,
+    "Width_roof": 4.73,
+    "Height_tree": 4.711,
+    "Radius_tree": 0.289,
+    "Distance_tree": 0.78899999999999992,
+    "Hcan_max": null,
+    "Hcan_std": null
+  },
+  "MeteoData": {
+    "SW_dir": 0,
+    "SW_diff": 0,
+    "LWR": 320.44956203280935,
+    "Zatm": 25,
+    "Tatm": 277.04999999999995,
+    "Uatm": 0.4,
+    "esat_Tatm": 807.25031297942337,
+    "rel_hum": 0.946,
+    "ea": 763.65879607853446,
+    "Pre": 94872.321056993358,
+    "q_atm": 0.0050219644814304557,
+    "Catm_CO2": 400,
+    "Catm_O2": 210000,
+    "Rain": 0,
+    "Time": "01-Jan-2010 01:00:00",
+    "SunDSM_MRT": null
+  },
+  "ParHVAC": {
+    "ACon": 1,
+    "Heatingon": 1,
+    "TsetpointCooling": 298.15,
+    "TsetpointHeating": 293.15,
+    "RHsetpointCooling": 60,
+    "RHsetpointHeating": null,
+    "ACH": 0.5,
+    "COPAC": 3.26,
+    "COPHeat": 0.9,
+    "f_ACLatentToQ": 1
+  },
+  "ParInterceptionTree": {
+    "Sp_In": 0.2
+  },
+  "ParSoilGround": {
+    "Zs": [
+      0,
+      10,
+      20,
+      50,
+      100,
+      150,
+      200,
+      300,
+      400,
+      600,
+      800,
+      1000,
+      1500,
+      2000
+    ],
+    "ms": 13,
+    "In_max_imp": 0.5,
+    "FixSM_G": 1,
+    "FixSM_LayerStart_G": 6,
+    "FixSM_LayerEnd_G": 13,
+    "In_max_underveg": 10,
+    "In_max_bare": 10,
+    "Sp_In": 0.2,
+    "Kimp": 0.001,
+    "Kfc": 0.2,
+    "Phy": 10000,
+    "SPAR": 2,
+    "Kbot": null,
+    "Pcla": 0.2,
+    "Psan": 0.4,
+    "Porg": 0.025
+  },
+  "ParSoilRoof": {
+    "Zs": [
+      0,
+      10,
+      20,
+      50,
+      100
+    ],
+    "ms": 4,
+    "dz1": 0.1,
+    "dz2": 0.1,
+    "FixSM_R": 1,
+    "FixSM_LayerStart_R": 1,
+    "FixSM_LayerEnd_R": 4,
+    "In_max_imp": 0.25,
+    "In_max_ground": 10,
+    "Sp_In": 0.2,
+    "Kimp": 0,
+    "Kfc": 0.2,
+    "Phy": 10000,
+    "SPAR": 2,
+    "Kbot": null,
+    "Pcla": 0.2,
+    "Psan": 0.4,
+    "Porg": 0.025
+  },
+  "ParThermalBulidingInt": {
+    "IntMassOn": 0,
+    "FloorHeight": 3,
+    "dzFloor": 0.2,
+    "dzWall": 0.2,
+    "lan_ground_floor": 1.2,
+    "cv_ground_floor": 1.5E+6,
+    "lan_floor_IntMass": 0.67,
+    "cv_floor_IntMass": 1.0E+6,
+    "lan_wall_IntMass": 0.67,
+    "cv_wall_IntMass": 1.0E+6
+  },
+  "ParThermalGround": {
+    "lan_dry_imp": 1.2,
+    "cv_s_imp": 1.5E+6
+  },
+  "ParThermalRoof": {
+    "lan_dry_imp": 0.67,
+    "cv_s_imp": 1.0E+6
+  },
+  "ParThermalTree": {
+    "Cthermal_leaf": 640
+  },
+  "ParThermalWall": {
+    "lan_dry": 0.67,
+    "cv_s": 1.0E+6
+  },
+  "ParTree": {
+    "trees": 1,
+    "ftree": 1
+  },
+  "ParVegGround": {
+    "LAI": 2.5,
+    "SAI": 0.001,
+    "hc": 0.15,
+    "h_disp": 0.099999999999999992,
+    "d_leaf": 0.8,
+    "CASE_ROOT": 1,
+    "ZR95": 250,
+    "ZR50": null,
+    "ZRmax": null,
+    "Rrootl": 3800,
+    "PsiL50": -4,
+    "PsiX50": -4.5,
+    "FI": 0.081,
+    "Do": 1000,
+    "a1": 6,
+    "go": 0.01,
+    "CT": 3,
+    "DSE": 0.656,
+    "Ha": 55,
+    "gmes": null,
+    "rjv": 2.4,
+    "Kopt": 0.5,
+    "Knit": 0.15,
+    "Vmax": 68,
+    "mSl": 0,
+    "e_rel": 1,
+    "e_relN": 1,
+    "Psi_sto_00": -0.5,
+    "Psi_sto_50": -3,
+    "Sl": 0.035
+  },
+  "ParVegRoof": {
+    "LAI": 2.5,
+    "SAI": 0.001,
+    "hc": 0.15,
+    "h_disp": 0.099999999999999992,
+    "d_leaf": 0.8,
+    "CASE_ROOT": 1,
+    "ZR95": 70,
+    "ZR50": null,
+    "ZRmax": null,
+    "Rrootl": 3800,
+    "PsiL50": -4,
+    "PsiX50": -4.5,
+    "FI": 0.081,
+    "Do": 1000,
+    "a1": 6,
+    "go": 0.01,
+    "CT": 3,
+    "DSE": 0.656,
+    "Ha": 55,
+    "gmes": null,
+    "rjv": 2.4,
+    "Kopt": 0.5,
+    "Knit": 0.15,
+    "Vmax": 68,
+    "mSl": 0,
+    "e_rel": 1,
+    "e_relN": 1,
+    "Psi_sto_00": -0.5,
+    "Psi_sto_50": -3,
+    "Sl": 0.035
+  },
+  "ParVegTree": {
+    "LAI": 5,
+    "SAI": 0.2,
+    "d_leaf": 4,
+    "CASE_ROOT": 1,
+    "ZR95": 1000,
+    "ZR50": null,
+    "ZRmax": null,
+    "Rrootl": 4000,
+    "PsiL50": -3,
+    "PsiX50": -4.5,
+    "FI": 0.081,
+    "Do": 1000,
+    "a1": 9,
+    "go": 0.01,
+    "CT": 3,
+    "DSE": 0.649,
+    "Ha": 76,
+    "gmes": null,
+    "rjv": 2.4,
+    "Kopt": 0.5,
+    "Knit": 0.35,
+    "Vmax": 66,
+    "mSl": 0,
+    "e_rel": 1,
+    "e_relN": 1,
+    "Psi_sto_00": -0.5,
+    "Psi_sto_50": -2.2,
+    "Sl": 0.024,
+    "SPARTREE": 2
+  },
+  "ParWindows": {
+    "WindowsOn": 1,
+    "GlazingRatio": 0.15,
+    "Uvalue": 4.95,
+    "lan_windows": null,
+    "cv_glass": 2.1E+6,
+    "dztot": 0.02,
+    "SHGC": 0.8,
+    "SolarTransmittance": 0.60000000000000009,
+    "SolarAbsorptivity": 0,
+    "SolarAlbedo": 0.39999999999999991
+  },
+  "Person": {
+    "PositionPx": 2.89,
+    "PositionPz": 1.1,
+    "PersonWidth": 0.03,
+    "PersonHeight": 0.11,
+    "HeightWind": 1.1
+  },
+  "PropOpticalGround": {
+    "aveg": 0.2,
+    "abare": 0.15,
+    "aimp": 0.1,
+    "albedo": 0.15450000000000003,
+    "eveg": 0.91799704534590321,
+    "ebare": 0.95,
+    "eimp": 0.95,
+    "emissivity": 0.93255838971351723
+  },
+  "PropOpticalIndoors": {
+    "abc": 0.3,
+    "abw": 0.3,
+    "abg": 0.3,
+    "abm": 0.3,
+    "ec": 0.95,
+    "eg": 0.95,
+    "ew": 0.95,
+    "em": 0.95
+  },
+  "PropOpticalRoof": {
+    "aveg": 0.2,
+    "aimp": 0.15,
+    "albedo": 0.175,
+    "eveg": 0.91799704534590321,
+    "eimp": 0.95,
+    "emissivity": 0.93399852267295158
+  },
+  "PropOpticalTree": {
+    "albedo": 0.2,
+    "emissivity": 0.99448343557923924
+  },
+  "PropOpticalWall": {
+    "albedo": 0.4,
+    "emissivity": 0.95
+  },
+  "WallLayers": {
+    "dz1_wall": 0.1,
+    "dz2_wall": 0.1
+  },
+  "a": 27,
+  "geometry": {
+    "hcanyon": 1.1245674740484428,
+    "wcanyon": 1,
+    "wroof": 0.81833910034602075,
+    "htree": 0.81505190311418685,
+    "radius_tree": 0.049999999999999996,
+    "distance_tree": 0.13650519031141867,
+    "ratio": 1.1245674740484428,
+    "wcanyon_norm": 0.54995242626070406,
+    "wroof_norm": 0.45004757373929588
+  },
+  "inputs": {
+    "MeteoData": {
+      "SW_dir": 0,
+      "SW_diff": 0,
+      "LWR": 320.44956203280935,
+      "Zatm": 25,
+      "Tatm": 277.04999999999995,
+      "Uatm": 0.4,
+      "esat_Tatm": 807.25031297942337,
+      "rel_hum": 0.946,
+      "ea": 763.65879607853446,
+      "Pre": 94872.321056993358,
+      "q_atm": 0.0050219644814304557,
+      "Catm_CO2": 400,
+      "Catm_O2": 210000,
+      "Rain": 0,
+      "Time": "01-Jan-2010 01:00:00",
+      "SunDSM_MRT": null
+    },
+    "varargin": [
+      1,
+      null
+    ]
+  },
+  "varargin": [
+    1,
+    null
+  ],
+  "w": [
+    {
+      "name": "BEM_on",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Data_UEHM_site_ZH",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "FractionsGround",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 704,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Data_UEHM_site_ZH",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "FractionsRoof",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 528,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Data_UEHM_site_ZH",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Gemeotry_m",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1408,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Data_UEHM_site_ZH",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "MeteoData",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 2816,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Data_UEHM_site_ZH",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ParHVAC",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1760,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Data_UEHM_site_ZH",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ParInterceptionTree",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 176,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Data_UEHM_site_ZH",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ParSoilGround",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 3096,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Data_UEHM_site_ZH",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ParSoilRoof",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 3200,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Data_UEHM_site_ZH",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ParThermalBulidingInt",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1760,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Data_UEHM_site_ZH",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ParThermalGround",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 352,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Data_UEHM_site_ZH",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ParThermalRoof",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 352,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Data_UEHM_site_ZH",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ParThermalTree",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 176,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Data_UEHM_site_ZH",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ParThermalWall",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 352,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Data_UEHM_site_ZH",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ParTree",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 352,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Data_UEHM_site_ZH",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ParVegGround",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 5280,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Data_UEHM_site_ZH",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ParVegRoof",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 5280,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Data_UEHM_site_ZH",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ParVegTree",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 5104,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Data_UEHM_site_ZH",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ParWindows",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1760,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Data_UEHM_site_ZH",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Person",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 880,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Data_UEHM_site_ZH",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "PropOpticalGround",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1408,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Data_UEHM_site_ZH",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "PropOpticalIndoors",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1408,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Data_UEHM_site_ZH",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "PropOpticalRoof",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1056,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Data_UEHM_site_ZH",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "PropOpticalTree",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 352,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Data_UEHM_site_ZH",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "PropOpticalWall",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 352,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Data_UEHM_site_ZH",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "WallLayers",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 352,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Data_UEHM_site_ZH",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "a",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Data_UEHM_site_ZH",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "geometry",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1584,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Data_UEHM_site_ZH",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "inputs",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 3376,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Data_UEHM_site_ZH",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "varargin",
+      "size": [
+        1,
+        2
+      ],
+      "bytes": 224,
+      "class": "cell",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Data_UEHM_site_ZH",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "w",
+      "size": [
+        2,
+        1
+      ],
+      "bytes": 3314,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "Data_UEHM_site_ZH",
+        "level": 1
+      },
+      "persistent": false
+    }
+  ]
+}

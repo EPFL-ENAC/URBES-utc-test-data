@@ -1,0 +1,24 @@
+{
+  "ParCalculation": {
+    "dts": 3600,
+    "dth": 1,
+    "row": 1000,
+    "cp_atm": 1005.2175096611177,
+    "rho_atm": 1.1893660307070875
+  },
+  "ParThermalBulidFloor": {
+    "IntMassOn": 0,
+    "FloorHeight": 3,
+    "dzFloor": 0.2,
+    "dzWall": 0.2,
+    "lan_ground_floor": 1.2,
+    "cv_ground_floor": 1.5E+6,
+    "lan_floor_IntMass": 0.67,
+    "cv_floor_IntMass": 1.0E+6,
+    "lan_wall_IntMass": 0.67,
+    "cv_wall_IntMass": 1.0E+6
+  },
+  "Tinground": 277.04999999999995,
+  "TingroundDamptm1": 277.15,
+  "Tingroundtm1": 277.04999999999995
+}

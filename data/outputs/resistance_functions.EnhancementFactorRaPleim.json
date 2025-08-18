@@ -1,0 +1,245 @@
+{
+  "LAN": -3.9804173823123978,
+  "Ws": 0.4,
+  "a": 3,
+  "disp_h": 4.9027109348181961,
+  "fconv": 0.71151600623098477,
+  "hPBL": 1000,
+  "inputs": {
+    "Ws": 0.4,
+    "disp_h": 4.9027109348181961,
+    "hPBL": 1000,
+    "ra": 108.50684094990599,
+    "zatm": 25,
+    "zoh": 0.036417730666322035,
+    "zom": 0.36417730666322035
+  },
+  "ra": 108.50684094990599,
+  "ra_enhanced": 31.302486828488206,
+  "w": [
+    {
+      "name": "LAN",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "EnhancementFactorRaPleim",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "Ws",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "EnhancementFactorRaPleim",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "a",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "EnhancementFactorRaPleim",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "disp_h",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "EnhancementFactorRaPleim",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "fconv",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "EnhancementFactorRaPleim",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "hPBL",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "EnhancementFactorRaPleim",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "inputs",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1232,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "EnhancementFactorRaPleim",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ra",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "EnhancementFactorRaPleim",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "ra_enhanced",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "EnhancementFactorRaPleim",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "w",
+      "size": [
+        7,
+        1
+      ],
+      "bytes": 10200,
+      "class": "struct",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "EnhancementFactorRaPleim",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "zatm",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "EnhancementFactorRaPleim",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "zoh",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "EnhancementFactorRaPleim",
+        "level": 1
+      },
+      "persistent": false
+    },
+    {
+      "name": "zom",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 8,
+      "class": "double",
+      "global": false,
+      "sparse": false,
+      "complex": false,
+      "nesting": {
+        "function": "EnhancementFactorRaPleim",
+        "level": 1
+      },
+      "persistent": false
+    }
+  ],
+  "zatm": 25,
+  "zoh": 0.036417730666322035,
+  "zom": 0.36417730666322035
+}
