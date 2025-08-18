@@ -1,0 +1,30 @@
+name: Compress Data
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  compress:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
+
+      - name: Compress data folder
+        run: tar -czf utcdata.tar.gz -C data .
+
+      - name: Commit and push compressed file
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add utcdata.tar.gz
+          git commit -m "chore: update compressed data folder"
+          git push origin ${{ github.head_ref || github.ref_name }}
