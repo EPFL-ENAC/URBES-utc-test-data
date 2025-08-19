@@ -1,6 +1,6 @@
 {
   "LAIVarying": 0,
-  "LAI_TimeSeries": "NaN",
+  "LAI_TimeSeries": null,
   "Name": "LAI_Zurich_Area",
   "a": 4,
   "inputs": {

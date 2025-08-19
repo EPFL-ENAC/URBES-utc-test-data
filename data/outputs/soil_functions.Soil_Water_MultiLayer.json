@@ -79,7 +79,7 @@
   "PsiL50_L": -4,
   "PsiX50_H": 0,
   "PsiX50_L": -4.5,
-  "Psi_s_H": "NaN",
+  "Psi_s_H": null,
   "Psi_s_L": -0.033211136464945841,
   "Rd": -0,
   "RfH_Zs": [

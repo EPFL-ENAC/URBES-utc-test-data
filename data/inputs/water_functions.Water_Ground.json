@@ -4,7 +4,7 @@
   "E_ground": 0,
   "In_ground_tm1": 0,
   "In_max_ground": 10,
-  "Kbot": "NaN",
+  "Kbot": null,
   "Kfc": 0.2,
   "Otm1": [
     0.27961016494080004,
@@ -19,11 +19,11 @@
   "Runon_tm1": 0,
   "SPAR": 2,
   "ZR50_H": 0,
-  "ZR50_L": "NaN",
+  "ZR50_L": null,
   "ZR95_H": 0,
   "ZR95_L": 70,
   "ZRmax_H": 0,
-  "ZRmax_L": "NaN",
+  "ZRmax_L": null,
   "Zs": [
     0,
     10,

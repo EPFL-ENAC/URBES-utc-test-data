@@ -15,7 +15,7 @@
     "Catm_O2": 210000,
     "Rain": 0,
     "Time": "01-Jan-2010 01:00:00",
-    "SunDSM_MRT": "NaN"
+    "SunDSM_MRT": null
   },
   "varargin": [
     1,

@@ -23,7 +23,7 @@
     "WindowsOn": 1,
     "GlazingRatio": 0.15,
     "Uvalue": 4.95,
-    "lan_windows": "NaN",
+    "lan_windows": null,
     "cv_glass": 2.1E+6,
     "dztot": 0.02,
     "SHGC": 0.8,

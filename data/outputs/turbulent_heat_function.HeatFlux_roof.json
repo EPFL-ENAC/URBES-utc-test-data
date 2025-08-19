@@ -159,8 +159,8 @@
     "Height_tree": 4.711,
     "Radius_tree": 0.289,
     "Distance_tree": 0.78899999999999992,
-    "Hcan_max": "NaN",
-    "Hcan_std": "NaN"
+    "Hcan_max": null,
+    "Hcan_std": null
   },
   "Hroof_imp": 0,
   "Hroof_veg": 0,
@@ -204,7 +204,7 @@
     "Catm_O2": 210000,
     "Rain": 0,
     "Time": "01-Jan-2010 01:00:00",
-    "SunDSM_MRT": "NaN"
+    "SunDSM_MRT": null
   },
   "Owater_ittm": {
     "OwRoofSoilVeg": [
@@ -302,7 +302,7 @@
     "Kfc": 0.2,
     "Phy": 10000,
     "SPAR": 2,
-    "Kbot": "NaN",
+    "Kbot": null,
     "Pcla": 0.2,
     "Psan": 0.4,
     "Porg": 0.025
@@ -315,8 +315,8 @@
     "d_leaf": 0.8,
     "CASE_ROOT": 1,
     "ZR95": 70,
-    "ZR50": "NaN",
-    "ZRmax": "NaN",
+    "ZR50": null,
+    "ZRmax": null,
     "Rrootl": 3800,
     "PsiL50": -4,
     "PsiX50": -4.5,
@@ -327,7 +327,7 @@
     "CT": 3,
     "DSE": 0.656,
     "Ha": 55,
-    "gmes": "Inf",
+    "gmes": 1.7976931348623157E+308,
     "rjv": 2.4,
     "Kopt": 0.5,
     "Knit": 0.15,
@@ -602,8 +602,8 @@
       "Height_tree": 4.711,
       "Radius_tree": 0.289,
       "Distance_tree": 0.78899999999999992,
-      "Hcan_max": "NaN",
-      "Hcan_std": "NaN"
+      "Hcan_max": null,
+      "Hcan_std": null
     },
     "HumidityAtm": {
       "AtmRelative": 0.946,
@@ -640,7 +640,7 @@
       "Catm_O2": 210000,
       "Rain": 0,
       "Time": "01-Jan-2010 01:00:00",
-      "SunDSM_MRT": "NaN"
+      "SunDSM_MRT": null
     },
     "Owater_ittm": {
       "OwRoofSoilVeg": [
@@ -738,7 +738,7 @@
       "Kfc": 0.2,
       "Phy": 10000,
       "SPAR": 2,
-      "Kbot": "NaN",
+      "Kbot": null,
       "Pcla": 0.2,
       "Psan": 0.4,
       "Porg": 0.025
@@ -751,8 +751,8 @@
       "d_leaf": 0.8,
       "CASE_ROOT": 1,
       "ZR95": 70,
-      "ZR50": "NaN",
-      "ZRmax": "NaN",
+      "ZR50": null,
+      "ZRmax": null,
       "Rrootl": 3800,
       "PsiL50": -4,
       "PsiX50": -4.5,
@@ -763,7 +763,7 @@
       "CT": 3,
       "DSE": 0.656,
       "Ha": 55,
-      "gmes": "Inf",
+      "gmes": 1.7976931348623157E+308,
       "rjv": 2.4,
       "Kopt": 0.5,
       "Knit": 0.15,
@@ -890,7 +890,7 @@
   },
   "r_soil": 233.318446945321,
   "ra": 725.17326198884746,
-  "rap_L": "NaN",
+  "rap_L": null,
   "rb": 200.59749493149459,
   "rsRoofPreCalc": {
     "rs_sun": 2512.8935830039468,

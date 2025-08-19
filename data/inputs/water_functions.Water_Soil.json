@@ -2,7 +2,7 @@
   "CASE_ROOT_H": 1,
   "CASE_ROOT_L": 1,
   "E_soil": 5.545272531209145E-10,
-  "Kbot": "NaN",
+  "Kbot": null,
   "Kfc": 0.2,
   "Otm1": [
     0.27961016494080004,
@@ -31,11 +31,11 @@
   "TE_H": 0,
   "TE_L": 0,
   "ZR50_H": 0,
-  "ZR50_L": "NaN",
+  "ZR50_L": null,
   "ZR95_H": 0,
   "ZR95_L": 70,
   "ZRmax_H": 0,
-  "ZRmax_L": "NaN",
+  "ZRmax_L": null,
   "Zs": [
     0,
     10,

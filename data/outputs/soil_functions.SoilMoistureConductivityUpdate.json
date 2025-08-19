@@ -27,7 +27,7 @@
     0,
     0
   ],
-  "Kbot": "NaN",
+  "Kbot": null,
   "Kfc": 0.2,
   "Ko": [
     0.016797129647599832,
@@ -95,12 +95,12 @@
     91.7434503260856,
     91.7434503260856
   ],
-  "ZR50_H": "NaN",
-  "ZR50_L": "NaN",
+  "ZR50_H": null,
+  "ZR50_L": null,
   "ZR95_H": 1000,
   "ZR95_L": 250,
-  "ZRmax_H": "NaN",
-  "ZRmax_L": "NaN",
+  "ZRmax_H": null,
+  "ZRmax_L": null,
   "Zs": [
     0,
     30,
@@ -119,7 +119,7 @@
   "inputs": {
     "CASE_ROOT_H": 1,
     "CASE_ROOT_L": 1,
-    "Kbot": "NaN",
+    "Kbot": null,
     "Kfc": 0.2,
     "Pcla": 0.2,
     "Phy": 10000,
@@ -145,12 +145,12 @@
       91.7434503260856,
       91.7434503260856
     ],
-    "ZR50_H": "NaN",
-    "ZR50_L": "NaN",
+    "ZR50_H": null,
+    "ZR50_L": null,
     "ZR95_H": 1000,
     "ZR95_L": 250,
-    "ZRmax_H": "NaN",
-    "ZRmax_L": "NaN",
+    "ZRmax_H": null,
+    "ZRmax_L": null,
     "Zs": [
       0,
       30,

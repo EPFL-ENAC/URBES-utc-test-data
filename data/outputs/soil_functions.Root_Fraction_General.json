@@ -12,12 +12,12 @@
     0.323146368746263,
     0.071071456247512974
   ],
-  "ZR50_H": "NaN",
-  "ZR50_L": "NaN",
+  "ZR50_H": null,
+  "ZR50_L": null,
   "ZR95_H": 70,
   "ZR95_L": 70,
-  "ZRmax_H": "NaN",
-  "ZRmax_L": "NaN",
+  "ZRmax_H": null,
+  "ZRmax_L": null,
   "Zs": [
     0,
     10,
@@ -28,12 +28,12 @@
   "a": 11,
   "inputs": {
     "CASE_ROOT": 1,
-    "ZR50_H": "NaN",
-    "ZR50_L": "NaN",
+    "ZR50_H": null,
+    "ZR50_L": null,
     "ZR95_H": 70,
     "ZR95_L": 70,
-    "ZRmax_H": "NaN",
-    "ZRmax_L": "NaN",
+    "ZRmax_H": null,
+    "ZRmax_L": null,
     "Zs": [
       0,
       10,

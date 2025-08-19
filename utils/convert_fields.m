@@ -5,14 +5,17 @@ function data = convert_fields(data)
         for k = 1:numel(fields)
             data.(fields{k}) = convert_fields(data.(fields{k}));
         end
-    elseif isnumeric(data) && isscalar(data)
-        if isnan(data)
-            data = 'NaN';
-        elseif isinf(data)
-            if data > 0
-                data = 'Inf';
-            else
-                data = '-Inf';
+    elseif isnumeric(data)
+        % Convert each element that is NaN or Inf to string
+        for i = 1:numel(data)
+            if isnan(data(i))
+                data(i) = NaN;  % Keep as NaN for JSON null conversion
+            elseif isinf(data(i))
+                if data(i) > 0
+                    data(i) = realmax;  % Replace Inf with largest finite number
+                else
+                    data(i) = -realmax;  % Replace -Inf with smallest finite number
+                end
             end
         end
     end

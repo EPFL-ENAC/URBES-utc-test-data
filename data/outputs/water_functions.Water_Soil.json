@@ -14,7 +14,7 @@
     42612.574748180377,
     9532.7300269975749
   ],
-  "Kbot": "NaN",
+  "Kbot": null,
   "Kfc": 0.2,
   "Ko": [
     0.016384062476074313,
@@ -44,7 +44,7 @@
   "PsiL50_L": -4,
   "PsiX50_H": 0,
   "PsiX50_L": -4.5,
-  "Psi_s_H": "NaN",
+  "Psi_s_H": null,
   "Psi_s_L": -0.033211136464945841,
   "Psi_soil": [
     3423.272505661701,
@@ -73,11 +73,11 @@
   ],
   "WBalance_soil": 1.9081958235744878E-15,
   "ZR50_H": 0,
-  "ZR50_L": "NaN",
+  "ZR50_L": null,
   "ZR95_H": 0,
   "ZR95_L": 70,
   "ZRmax_H": 0,
-  "ZRmax_L": "NaN",
+  "ZRmax_L": null,
   "Zs": [
     0,
     10,
@@ -93,7 +93,7 @@
     "CASE_ROOT_H": 1,
     "CASE_ROOT_L": 1,
     "E_soil": 5.545272531209145E-10,
-    "Kbot": "NaN",
+    "Kbot": null,
     "Kfc": 0.2,
     "Otm1": [
       0.27961016494080004,
@@ -122,11 +122,11 @@
     "TE_H": 0,
     "TE_L": 0,
     "ZR50_H": 0,
-    "ZR50_L": "NaN",
+    "ZR50_L": null,
     "ZR95_H": 0,
     "ZR95_L": 70,
     "ZRmax_H": 0,
-    "ZRmax_L": "NaN",
+    "ZRmax_L": null,
     "Zs": [
       0,
       10,

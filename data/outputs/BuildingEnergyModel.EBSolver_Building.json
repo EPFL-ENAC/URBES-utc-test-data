@@ -10,8 +10,8 @@
     "Height_tree": 4.711,
     "Radius_tree": 0.289,
     "Distance_tree": 0.78899999999999992,
-    "Hcan_max": "NaN",
-    "Hcan_std": "NaN"
+    "Hcan_max": null,
+    "Hcan_std": null
   },
   "HVACSchedule": {
     "Hequip": 0,
@@ -51,7 +51,7 @@
     "Catm_O2": 210000,
     "Rain": 0,
     "Time": "01-Jan-2010 01:00:00",
-    "SunDSM_MRT": "NaN"
+    "SunDSM_MRT": null
   },
   "ParCalculation": {
     "dts": 3600,
@@ -66,7 +66,7 @@
     "TsetpointCooling": 298.15,
     "TsetpointHeating": 293.15,
     "RHsetpointCooling": 60,
-    "RHsetpointHeating": "NaN",
+    "RHsetpointHeating": null,
     "ACH": 0.5,
     "COPAC": 3.26,
     "COPHeat": 0.9,
@@ -92,7 +92,7 @@
     "WindowsOn": 1,
     "GlazingRatio": 0.15,
     "Uvalue": 4.95,
-    "lan_windows": "NaN",
+    "lan_windows": null,
     "cv_glass": 2.1E+6,
     "dztot": 0.02,
     "SHGC": 0.8,
@@ -219,8 +219,8 @@
       "Height_tree": 4.711,
       "Radius_tree": 0.289,
       "Distance_tree": 0.78899999999999992,
-      "Hcan_max": "NaN",
-      "Hcan_std": "NaN"
+      "Hcan_max": null,
+      "Hcan_std": null
     },
     "HVACSchedule": {
       "Hequip": 0,
@@ -260,7 +260,7 @@
       "Catm_O2": 210000,
       "Rain": 0,
       "Time": "01-Jan-2010 01:00:00",
-      "SunDSM_MRT": "NaN"
+      "SunDSM_MRT": null
     },
     "ParCalculation": {
       "dts": 3600,
@@ -275,7 +275,7 @@
       "TsetpointCooling": 298.15,
       "TsetpointHeating": 293.15,
       "RHsetpointCooling": 60,
-      "RHsetpointHeating": "NaN",
+      "RHsetpointHeating": null,
       "ACH": 0.5,
       "COPAC": 3.26,
       "COPHeat": 0.9,
@@ -301,7 +301,7 @@
       "WindowsOn": 1,
       "GlazingRatio": 0.15,
       "Uvalue": 4.95,
-      "lan_windows": "NaN",
+      "lan_windows": null,
       "cv_glass": 2.1E+6,
       "dztot": 0.02,
       "SHGC": 0.8,

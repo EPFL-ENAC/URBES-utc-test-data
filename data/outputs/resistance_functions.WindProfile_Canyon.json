@@ -1,7 +1,7 @@
 {
   "Hcan": 6.5,
-  "Hcan_max": "NaN",
-  "Hcan_std": "NaN",
+  "Hcan_max": null,
+  "Hcan_std": null,
   "Htree": 4.711,
   "Kopt": 0.5,
   "LAI_t": 5,
@@ -19,8 +19,8 @@
   "dcan": 4.9027109348181961,
   "inputs": {
     "Hcan": 6.5,
-    "Hcan_max": "NaN",
-    "Hcan_std": "NaN",
+    "Hcan_max": null,
+    "Hcan_std": null,
     "Htree": 4.711,
     "Kopt": 0.5,
     "LAI_t": 5,

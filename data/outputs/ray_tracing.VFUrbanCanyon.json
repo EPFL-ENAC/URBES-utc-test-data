@@ -6,8 +6,8 @@
     "Height_tree": 4.711,
     "Radius_tree": 0.289,
     "Distance_tree": 0.78899999999999992,
-    "Hcan_max": "NaN",
-    "Hcan_std": "NaN"
+    "Hcan_max": null,
+    "Hcan_std": null
   },
   "Name_Ray": "ZH",
   "OPTION_RAY": 1,
@@ -72,8 +72,8 @@
       "Height_tree": 4.711,
       "Radius_tree": 0.289,
       "Distance_tree": 0.78899999999999992,
-      "Hcan_max": "NaN",
-      "Hcan_std": "NaN"
+      "Hcan_max": null,
+      "Hcan_std": null
     },
     "Name_Ray": "ZH",
     "OPTION_RAY": 1,
